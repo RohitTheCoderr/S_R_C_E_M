@@ -1,5 +1,5 @@
 export const users = [
     {
-        name: "Kiran"
+        name: "rohit"
     }
 ]
