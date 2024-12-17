@@ -1,2 +1,10 @@
-# S_R_C_E_M
-"The new website for Shri Ram College of Engineering &amp; Management has been created by our talented team."
+## React set Up
+* advance file structure
+* css --> have option tailwind, sass
+* custom hooks --> useFetch , useLocalStorage
+* global storage --> zustand
+* utils --> apiCall methods
+* lib --> loader,
+* router --> react router dom
+  
+
