@@ -1,9 +1,9 @@
 import React from "react";
-import dmImg1 from "../../../public/cources/bba/bbadb-img1.jpg"
-import dmImg2 from "../../../public/cources/bba/bbadb-img2.jpg"
-import dmImg3 from "../../../public/cources/bba/bbadb-img3.jpg"
-import JCBoseicon from "../../../public/cources/bba/JC bose icon.png";
-import swayamicon from "../../../public/cources/bba/swayam icon.png";
+import dmImg1 from "../../../public/cources/bbadb-img1.jpg"
+import dmImg2 from "../../../public/cources/bbadb-img2.jpg"
+import dmImg3 from "../../../public/cources/bbadb-img3.jpg"
+import JCBoseicon from "../../../public/cources/JC bose icon.png";
+import swayamicon from "../../../public/cources/swayam icon.png";
 
 const BBAdm = () => {
     return (

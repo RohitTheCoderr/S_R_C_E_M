@@ -1,9 +1,9 @@
 import React from "react";
-import Img1 from "../../../public/cources/bba/bba-img1.jpeg";
-import Img2 from "../../../public/cources/bba/bba-img2.png";
-import Img3 from "../../../public/cources/bba/bba-img3.jpg";
-import JCBoseicon from "../../../public/cources/bba/JC bose icon.png";
-import swayamicon from "../../../public/cources/bba/swayam icon.png";
+import Img1 from "../../../public/cources/bba-img1.jpeg";
+import Img2 from "../../../public/cources/bba-img2.png";
+import Img3 from "../../../public/cources/bba-img3.jpg";
+import JCBoseicon from "../../../public/cources/JC bose icon.png";
+import swayamicon from "../../../public/cources/swayam icon.png";
 
 const BBA = () => {
     return (
