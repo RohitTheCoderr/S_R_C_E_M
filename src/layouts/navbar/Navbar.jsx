@@ -10,8 +10,8 @@ const Navbar = () => {
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-[#071952] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300"
-              : " hover:border-b-[0.19rem] hover:text-[#088395] hover:border-[#37b7c3] transition-all duration-300"
+              ? "text-[#071952] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2"
+              : " hover:border-b-[0.19rem] hover:text-[#088395] hover:border-[#37b7c3] transition-all duration-300 pb-2"
           }
         >
           <li className="hover:text-[#088395]">Home</li>
@@ -19,7 +19,7 @@ const Navbar = () => {
 
         {/* About Us */}
         <li className="relative group/parent  cursor-pointer">
-          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300">
+          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             About Us
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
@@ -78,7 +78,6 @@ const Navbar = () => {
               </ul>
             </li>
 
-            {/* Other Items */}
             <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               Mandatory Disclosure
             </li>
@@ -90,13 +89,13 @@ const Navbar = () => {
 
         {/* Courses */}
         <li className="relative group/parent cursor-pointer">
-          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300">
+          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Courses
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
 
           {/* Main Dropdown */}
-          <ul className="absolute left-0 text-[#071952] text-start top-full hidden group-hover/parent:block text-sm  bg-[#ebf4f6] shadow-lg w-[200px]">
+          <ul className="absolute left-0 text-[#071952] text-start top-full hidden group-hover/parent:block group-hover/parent:border-t-[0.19rem] border-t-[#071952] text-sm  bg-[#ebf4f6] shadow-lg w-[200px]">
 
             {/* Co-Founder Principal Dropdown */}
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
@@ -169,7 +168,7 @@ const Navbar = () => {
 
         {/* Training & Placement */}
         <li className="relative group cursor-pointer">
-          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300">
+          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Training & Placement
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
@@ -186,7 +185,7 @@ const Navbar = () => {
 
         {/*Admission */}
         <li className="relative group cursor-pointer ">
-          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 ">
+          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2 ">
           Admission
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
@@ -210,7 +209,7 @@ const Navbar = () => {
         </li>
           {/* Life Here */}
         <li className="relative group cursor-pointer ">
-          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 ">
+          <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2 ">
             Life Here
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
@@ -235,8 +234,8 @@ const Navbar = () => {
           to="/contact"
           className={({ isActive }) =>
             isActive
-              ? "text-[#071952] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300"
-              : " hover:border-b-[0.19rem] hover:border-[#37b7c3] transition-all duration-300"
+              ? "text-[#071952] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2"
+              : " hover:border-b-[0.19rem] hover:border-[#37b7c3] transition-all duration-300 pb-2"
           }
         >
           <li className="hover:text-[#088395]">Contact</li>
