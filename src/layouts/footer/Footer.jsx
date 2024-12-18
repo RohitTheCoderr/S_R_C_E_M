@@ -13,7 +13,7 @@ import { FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <section className="bg-[#0b081c] py-8">
+    <section className="bg-[#0b081c] py-8 scrollbar-hide">
     {/* // <section id="footerSec" className="bg-[#071952] py-8"> */}
       {/* Footer Main Container */}
       <div  className="w-4/5 mx-auto">

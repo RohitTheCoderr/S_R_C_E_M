@@ -1,68 +1,37 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@keyframes scroll {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .scrolling-text {
+    animation: scroll 15s linear infinite;
+  }
+  
+html::-webkit-scrollbar {
+  display: none;
+}
+
+/* In your global CSS file, e.g., styles.css */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}
 *{
     margin: 0;
     padding: 0;
 }
 
-/* Custom Styles for Dropdown */
-.main-dropdown {
-    position: absolute;
-    left: 0;
-    top: 100%;
-    background-color: #f9f9f9;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    width: 250px;
-    display: none;
-    padding: 10px 0;
-  }
-  
-  .group:hover .main-dropdown {
-    display: block;
-  }
-  
-  .dropdown-item {
-    padding: 12px 20px;
-    font-size: 16px;
-    color: #071952;
-    cursor: pointer;
-    transition: all 0.3s ease;
-  }
-  
-  .dropdown-item:hover {
-    background-color: #37b7c3;
-    color: #fff;
-  }
-  
-  /* Nested Dropdown */
-  .nested-dropdown {
-    position: absolute;
-    left: 100%;
-    top: 0;
-    background-color: #ebf4f6;
-    width: 250px;
-    display: none;
-    padding: 10px 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Show Nested Dropdown on Hover */
-  .dropdown-item:hover .nested-dropdown {
-    display: block;
-  }
-  
-  .nested-dropdown .dropdown-item {
-    padding: 12px 20px;
-    font-size: 16px;
-    color: #071952;
-  }
-  
-  .nested-dropdown .dropdown-item:hover {
-    background-color: #37b7c3;
-    color: #fff;
-  }
-  
  
   
