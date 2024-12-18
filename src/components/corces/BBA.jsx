@@ -71,7 +71,7 @@ const BBA = () => {
             </p>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Note:</h1>
             <img src={swayamicon} alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
-            <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify">
+            <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify mb-5">
                 It is essential to note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose
                 University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire
                 essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated
