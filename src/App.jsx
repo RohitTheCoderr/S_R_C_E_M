@@ -1,17 +1,14 @@
-import APPTest from "@src/__TESTS__";
-import styles from './App.module.scss';
-import Loader from "./components/loader/Loader";
-import { Outlet } from "react-router-dom";
-import Header from "@src/layouts/header/Header"
-import Footer from "@src/layouts/footer/Footer"
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Header from './layouts/header/Header';
 
 export default function App() {
-  return (< div className={styles.container}>
-    <Loader />
-    <Header/>
-    {/* <APPTest /> */}
-    <Outlet/>
-    <Footer />
-  </div>
+  return (
+    <div className="App">
+      <Header />
+      <div className="px-4 py-2 md:py-4 md:px-8 lg-py-8 lg:px-16">
+        <Outlet />
+      </div>
+    </div>
   );
 }
