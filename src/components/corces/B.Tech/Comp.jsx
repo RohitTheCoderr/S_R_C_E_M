@@ -21,48 +21,38 @@ const Comp = () => {
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The Department equipped with following computer laboratories with latest software required for teaching and research.
             </p>
-            • Programming Languages: C, C++, JAVA and Oracle.
-
-            • MATLAB for Soft Computing and Image Processing.
-
-            • Rational Rose for Software Engineering.
-
-            • Laboratory for Networking, Multimedia.
-
-            • Laboratory for Computer Hardware.
-
-            • Computer Fundamental and Project Lab.
-
+            <ul className="text-zinc-600 list-disc mx-5 font-semibold">
+                <li className="my-2">Programming Languages: C, C++, JAVA and Oracle.</li>
+                <li className="my-2">MATLAB for Soft Computing and Image Processing.</li>
+                <li className="my-2">Rational Rose for Software Engineering.</li>
+                <li className="my-2">Laboratory for Networking, Multimedia.</li>
+                <li className="my-2">Laboratory for Computer Hardware.</li>
+                <li className="my-2">Computer Fundamental and Project Lab.</li>
+            </ul>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
             <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Objectives</h1>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The objectives for computer science & engineering are formed to produce capable engineers who will contribute effectively to the growth of computer science & engineering. The objectives are as follows:-
             </p>
-            • The ability to design, implement, and systems analyze computational.
-
-            • The capability to tackle complex computer science related problems in the real world.
-
-            • Contributed towards the advancement of computing science and technology.
-
-            • The capacity to work effectively with peers in computational tasks..
-
-            • Knowledge of ethical, social, and legal issues pertaining to computer science
-
-            • The department of computer science & engineering offers 4 year undergraduate programmes leading to bachelor of technology affiliated to J.C. Bose University of Science and Technology.
-
+            <ul className="text-zinc-600 list-disc mx-5">
+                <li>The ability to design, implement, and systems analyze computational.</li>
+                <li>The capability to tackle complex computer science related problems in the real world.</li>
+                <li>Contributed towards the advancement of computing science and technology.</li>
+                <li>The capacity to work effectively with peers in computational tasks..</li>
+                <li>Knowledge of ethical, social, and legal issues pertaining to computer science</li>
+                <li>The department of computer science & engineering offers 4 year undergraduate programmes leading to bachelor of technology affiliated to J.C. Bose University of Science and Technology.</li>
+            </ul>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Research and Development</h1>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 Students of computer science are exposed to the research culture through their projects with systematic literature review, methodology drafting, experimentation and assessment. Students also get an opportunity to undergo internship and work on various ongoing research topics with departmental faculty. Students of the department are involved in research through
             </p>
-            • Final Year project and Sponsored projects
-
-            • Mini Projects
-
-            • Paper publications
-
-            • Presentation at conferences/ inter-institute project competitions
-
+            <ul className="text-zinc-600 list-disc mx-5">
+                <li>Final Year project and Sponsored projects</li>
+                <li>Mini Projects</li>
+                <li>Paper publications</li>
+                <li>Presentation at conferences/ inter-institute project competitions</li>
+            </ul>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Career Options</h1>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 A career in Computer Science and Engineering (CSE) is widely regarded as one of the most lucrative and opportunity-rich fields, especially given India's esteemed position in the global information technology industry. The success of numerous talented computer engineers in IT companies underscores the potential for significant career advancement within this sector.
