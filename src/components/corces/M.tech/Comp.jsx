@@ -2,7 +2,7 @@ import React from "react";
 
 const CompEngg = () => {
     return (
-        <div className="Comp">
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             Master of Technology (M.Tech.) in Computer Science
             Welcome to the Master of Technology (M.Tech.) in Computer Science program at Shri Ram College of Engineering & Management. This advanced degree is tailored to equip students with cutting-edge knowledge and skills in computer science, preparing them for leadership roles and innovation-driven careers in the rapidly evolving tech industry.
 

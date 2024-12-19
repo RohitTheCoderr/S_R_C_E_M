@@ -2,7 +2,7 @@ import React from "react";
 
 const Mechanical = () => {
     return (
-        <div className="Mechanical">
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             Mechanical Engineering
             At Shri Ram College of Engineering & Management, Mechanical Engineering is recognized as the cornerstone of all engineering disciplines due to its extensive applicability and versatility. This field, the broadest among engineering branches, focuses on the design, production, and maintenance of tools, machines, and various mechanical systems utilized across diverse industries. Mechanical Engineering encompasses a wide range of interdisciplinary specialties, offering numerous career opportunities.
 

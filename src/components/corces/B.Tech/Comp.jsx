@@ -2,7 +2,7 @@ import React from "react";
 
 const Comp = () => {
     return (
-        <div className="Comp">
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             Computer Science & Engineering
             At Shri Ram College of Engineering & Management (SRCEM), we acknowledge the profound impact that computers have on our daily lives, permeating every aspect from offices to homes and personal devices. The evolution of computers, marked by groundbreaking ideas and technological advancements, has been driven by the relentless efforts of researchers and engineers. As computing technology continues to advance at an unprecedented pace, the demand for skilled computer engineers who can design, analyze, and implement innovative computational systems has never been greater.
 

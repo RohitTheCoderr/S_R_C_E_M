@@ -2,7 +2,7 @@ import React from "react";
 
 const Electronics = () => {
     return (
-        <div className="Electronics">
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             Electronics & Communication Engineering
             At Shri Ram College of Engineering & Management, the Department of Electronics and Communication Engineering is dedicated to striking an optimal balance between theoretical knowledge and practical application. Our focus is on engaging students with real-time, practical learning experiences that bridge classroom theory with industry practice. We encourage students to participate in project-based activities, fostering essential skills in engineering judgment, teamwork, meticulous planning, and successful execution.
 

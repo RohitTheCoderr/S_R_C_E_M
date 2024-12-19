@@ -2,7 +2,7 @@ import React from "react";
 
 const BBAdm = () => {
     return (
-        <div>
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl font-medium text-center">Bachelor of Business Administration (BBA) in Digital Marketing</h1>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 Welcome to the Bachelor of Business Administration (BBA) in Digital Marketing program at Shri Ram College
