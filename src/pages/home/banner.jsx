@@ -4,8 +4,8 @@ import libraryimg from "../../../public/images/Homepage/library.svg"
 import moneyimg from "../../../public/images/Homepage/money.svg"
 const Banner = ()=>{
     return(
-        <div>
-            <div className="bg-[#088395] lg:px-12 md:px-8 px-4 rounded-2xl flex flex-wrap m-4 lg:mx-16 md:mx-8 mx-4 justify-evenly">
+        <div className="relative mt-[-3rem] z-50">
+            <div className="bg-[#088395] lg:px-12 md:px-8 px-4 rounded-2xl flex flex-wrap lg:mx-16 md:mx-8 mx-4 justify-evenly ">
                 <div className="hover:bg-[#37B7C3] h-64 w-64 hover:rounded-3xl lg:p-3 md:p-2 p-1 hover:shadow-md hover:shadow-black">
                     <div className="flex justify-between">
                         <img src={scholarshipimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  "/>
