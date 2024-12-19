@@ -1,9 +1,4 @@
 import React from "react";
-import dmImg1 from "../../../public/cources/bbadb-img1.jpg"
-import dmImg2 from "../../../public/cources/bbadb-img2.jpg"
-import dmImg3 from "../../../public/cources/bbadb-img3.jpg"
-import JCBoseicon from "../../../public/cources/JC bose icon.png";
-import swayamicon from "../../../public/cources/swayam icon.png";
 
 const BBAdm = () => {
     return (
@@ -15,9 +10,9 @@ const BBAdm = () => {
                 cutting-edge skills and knowledge in the rapidly evolving field of digital marketing.
             </p>
             <div className="flex flex-wrap gap-4 justify-center my-10">
-                <img src={dmImg1} alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={dmImg3} alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={dmImg2} alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bbadb-img1.jpg" alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bbadb-img2.jpg" alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bbadb-img3.jpg" alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
             </div>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The Bachelor of Business Administration (BBA) in Digital Marketing is a full-time three-year Undergraduate
@@ -42,7 +37,7 @@ const BBAdm = () => {
                 in today’s tech-driven marketplace.
             </p>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
-            <img src={JCBoseicon} alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Curriculum Highlights</h1>
             <ul className="text-zinc-600">
                 <li className="text-sm md:text-base lg:text-lg my-1">
@@ -97,7 +92,7 @@ const BBAdm = () => {
                 <li className="text-sm md:text-base lg:text-lg my-1">Enhanced Career Opportunities</li>
             </ol>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
-            <img src={swayamicon} alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg mb-5">
                 It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University
                 of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills

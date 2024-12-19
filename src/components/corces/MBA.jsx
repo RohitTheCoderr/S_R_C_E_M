@@ -1,9 +1,4 @@
 import React from "react";
-import MbaImg1 from "../../../public/cources/mba-img1.jpg";
-import MbaImg2 from "../../../public/cources/mba-img2.jpg";
-import MbaImg3 from "../../../public/cources/mba-img3.jpeg";
-import JCBoseicon from "../../../public/cources/JC bose icon.png";
-import swayamicon from "../../../public/cources/swayam icon.png";
 
 const MBA = () => {
     return (
@@ -17,9 +12,9 @@ const MBA = () => {
                 curriculum, practical learning experiences, and a focus on strategic management skills.
             </p>
             <div className="flex flex-wrap gap-4 justify-center my-10">
-                <img src={MbaImg1} alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={MbaImg2} alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={MbaImg3} alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/mba-img1.jpg" alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/mba-img2.jpg" alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/mba-img3.jpeg" alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
             </div>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
                 Program Overview
@@ -33,7 +28,7 @@ const MBA = () => {
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
                 Approved University : J.C. Bose University of Science and Technology
             </h1>
-            <img src={JCBoseicon} alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Why Choose Our MBA Program?</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1">
@@ -72,7 +67,7 @@ const MBA = () => {
                 skills, knowledge, and network needed to advance your career and make a significant impact in the business world.
             </p>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
-            <img src={swayamicon} alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C.
                 Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure

@@ -1,9 +1,4 @@
 import React from "react";
-import Img1 from "../../../public/cources/bba-img1.jpeg";
-import Img2 from "../../../public/cources/bba-img2.png";
-import Img3 from "../../../public/cources/bba-img3.jpg";
-import JCBoseicon from "../../../public/cources/JC bose icon.png";
-import swayamicon from "../../../public/cources/swayam icon.png";
 
 const BBA = () => {
     return (
@@ -17,9 +12,9 @@ const BBA = () => {
                 three-year curriculum designed to provide students with a solid foundation in business principles and practices.
             </p>
             <div className="flex flex-wrap gap-4 justify-center my-10">
-                <img src={Img1} alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={Img2} alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={Img3} alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bba-img1.jpeg" alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bba-img2.png" alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bba-img3.jpg" alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
             </div>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 Shri Ram College of Engineering and Management offers a comprehensive three-year Bachelor of Business Administration
@@ -39,7 +34,7 @@ const BBA = () => {
                 a comprehensive understanding of how different business components interact and contribute to organizational success.
             </p>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Approved University : J.C. Bose University of Science and Technology</h1>
-            <img src={JCBoseicon} alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3">Curriculum Highlights</h1>
             <ul className="text-zinc-600">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Learning:</span> Gain in-depth knowledge of business operations and their applications through a blend of theoretical and practical approaches.</li>
@@ -70,7 +65,7 @@ const BBA = () => {
                 towards a promising future in the world of business.
             </p>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Note:</h1>
-            <img src={swayamicon} alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify mb-5">
                 It is essential to note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose
                 University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire

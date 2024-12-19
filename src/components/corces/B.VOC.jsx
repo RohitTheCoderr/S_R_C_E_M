@@ -1,8 +1,4 @@
 import React from "react";
-import JCBoseicon from "../../../public/cources/JC bose icon.png";
-import bvocImg1 from "../../../public/cources/bvoc-img1.jpeg";
-import bvocImg2 from "../../../public/cources/bvoc-img2.jpg";
-import bvocImg3 from "../../../public/cources/bvoc-img3.jpg";
 
 const BVOC = () => {
     return (
@@ -15,9 +11,9 @@ const BVOC = () => {
                 handson training to equip students with the skills required to excel in the field of medical laboratory technology.
             </p>
             <div className="flex flex-wrap gap-4 justify-center my-10">
-                <img src={bvocImg1} alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={bvocImg3} alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={bvocImg2} alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bvoc-img1.jpeg" alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bvoc-img2.jpg" alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bvoc-img3.jpg" alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
             </div>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The department is fully devoted to provide quality healthcare education with fully devoted practical approach and
@@ -73,7 +69,7 @@ const BVOC = () => {
                 <li className="text-sm md:text-base lg:text-lg my-1">Approved University</li>
             </ul>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approval</h1>
-            <img src={JCBoseicon} alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 We are pleased to inform you that BMLT has received official approval from Shri Vishwakarma Skill University.
                 This accreditation underscores the quality and relevance of the course, ensuring it meets the rigorous standards

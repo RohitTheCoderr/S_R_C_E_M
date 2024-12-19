@@ -1,9 +1,4 @@
 import React from "react";
-import McaImg1 from "../../../public/cources/mca-img1.jpg";
-import McaImg2 from "../../../public/cources/mca-img2.jpg";
-import McaImg3 from "../../../public/cources/mca-img3.jpg";
-import JCBoseicon from "../../../public/cources/JC bose icon.png";
-import swayamicon from "../../../public/cources/swayam icon.png";
 
 const MCA = () => {
     return (
@@ -16,9 +11,9 @@ const MCA = () => {
                 Our MCA program is a comprehensive two-year curriculum designed to provide students with a robust foundation in computer science, application development, and cutting-edge technologies.
             </p>
             <div className="flex flex-wrap gap-4 justify-center my-10">
-                <img src={McaImg1} alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={McaImg2} alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={McaImg3} alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/mca-img1.jpg" alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/mca-img2.jpg" alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources//mca-img3.jpg" alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
             </div>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The Master of Computer Applications (MCA) is a full-time two-year Postgraduate program divided into four semesters that provides students with a deep understanding of advanced computer science concepts and application development.
@@ -80,7 +75,7 @@ const MCA = () => {
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
                 Approved University : J.C. Bose University of Science and Technology
             </h1>
-            <img src={JCBoseicon} alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
 
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
                 Benefits of Pursuing an MCA at Shri Ram College of Engineering and Management
@@ -109,7 +104,7 @@ const MCA = () => {
             </ol>
 
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
-            <img src={swayamicon} alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of
                 Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant

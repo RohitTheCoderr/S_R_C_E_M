@@ -1,9 +1,4 @@
 import React from "react";
-import BcaImg1 from "../../../public/cources/bca-img1.jpg";
-import BcaImg2 from "../../../public/cources/bca-img2.png";
-import BcaImg3 from "../../../public/cources/bca-img3.jpg";
-import JCBoseicon from "../../../public/cources/JC bose icon.png";
-import swayamicon from "../../../public/cources/swayam icon.png";
 
 const BCA = () => {
     return (
@@ -18,9 +13,9 @@ const BCA = () => {
                 needed for a successful career in the IT industry.
             </p>
             <div className="flex flex-wrap gap-4 justify-center my-10">
-                <img src={BcaImg3} alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={BcaImg2} alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
-                <img src={BcaImg1} alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bca-img1.jpg" alt="BBA Program Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bca-img2.png" alt="BBA Program Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                <img src="cources/bca-img3.jpg" alt="BBA Program Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
             </div>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The Bachelor of Computer Applications (BCA) is a full time three-year Undergraduate program divided into six semesters
@@ -78,7 +73,7 @@ const BCA = () => {
                 to the BCA graduates.
             </p>
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
-            <img src={JCBoseicon} alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 This extensive curriculum ensures that students gain a thorough understanding of key concepts and technologies in computer
                 applications, preparing them for various roles in the IT industry..
@@ -116,7 +111,7 @@ const BCA = () => {
             </ul>
 
             <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
-            <img src={swayamicon} alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+            <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C.
                 Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure
