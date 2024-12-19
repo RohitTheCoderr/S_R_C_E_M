@@ -145,24 +145,24 @@ const Navbar = () => {
             </li>
 
             {/* Other Items */}
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            <Link to={'/BBA'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               BBA
-            </li>
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            </li></Link>
+            <Link to={'/BBAdm'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               BBA digital marketing
-            </li>
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            </li></Link>
+            <Link to={'/BCA'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               BCA
-            </li>
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            </li></Link>
+            <Link to={'/BVOC'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               MCA
-            </li>
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            </li></Link>
+            <Link to={'/MBA'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               B.VOC
-            </li>
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            </li></Link>
+            <Link to={'/MCA'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               MBA
-            </li>
+            </li></Link>
           </ul>
         </li>
 
