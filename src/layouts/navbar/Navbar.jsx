@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="w-[60%]  h-auto">
+    <div className="w-[60%]  h-auto z-50">
       <ul className="capitalize flex justify-center items-center h-[4rem] space-x-6 text-[17px] font-medium">
         {/* Home */}
         <NavLink

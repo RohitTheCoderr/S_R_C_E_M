@@ -1,7 +1,12 @@
+import Banner from "./banner"
+import { IntroPage } from "./intro"
 
 const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <div className="w-full">
+      <IntroPage /> 
+      <Banner />
+    </div>
   )
 }
 
