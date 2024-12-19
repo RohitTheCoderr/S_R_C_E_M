@@ -107,10 +107,10 @@ const Navbar = () => {
 
               {/* Nested Dropdown for Co-Founder Principal */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electronics & commonication engineering</li></Link>
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil engineering</li></Link>
+                <Link to={'/Mechanical'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
+                <Link to={'/Comp'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
+                <Link to={'/Electronics'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electronics & commonication engineering</li></Link>
+                <Link to={'/CivilEngg'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil engineering</li></Link>
               </ul>
             </li>
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
@@ -121,10 +121,10 @@ const Navbar = () => {
 
               {/* Nested Dropdown for Co-Founder Principal */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electronics & commonication engineering</li></Link>
-                <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil engineering</li></Link>
+                <Link to={'/mechanical'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
+                <Link to={'/comp'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
+                <Link to={'/electronics'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electronics & commonication engineering</li></Link>
+                <Link to={'/civil'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil engineering</li></Link>
               </ul>
             </li>
 
