@@ -2,7 +2,7 @@ import React from "react";
 
 const BVOC = () => {
     return (
-        <div>
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl font-medium text-center">Bachelor of Vocation (B.Voc.) in Medical Laboratory Technology (MLT)</h1>
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 The Bachelor of Vocation (B.Voc.) in Medical Laboratory Technology (MLT) is a specialized undergraduate

@@ -2,7 +2,7 @@ import React from "react";
 
 const MCA = () => {
     return (
-        <div>
+        <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
             <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl font-medium text-center">
                 Master of Computer Applications (MCA)
             </h1>
