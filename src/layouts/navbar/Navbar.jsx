@@ -70,9 +70,9 @@ const Navbar = () => {
               </div>
 
               {/* Nested Dropdown for Co-Founder Principal */}
-              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li>
-                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
               </ul>
             </li>
 
@@ -208,8 +208,8 @@ const Navbar = () => {
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
           <ul className="absolute z-20 left-0 text-[#071952] text-start top-full hidden group-hover:block group-hover:border-t-[0.19rem] text-sm border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-            <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">Agrements</li>
-            <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">Corporate Tie UPS</li>
+          <Link to="/agrement"> <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">Agrements</li></Link>
+          <Link to="/corporate"> <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">Corporate Tie UPS</li></Link>
             <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">MOU</li>
             <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">Job-Fair 2024</li>
             <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">TPO message</li>
@@ -263,6 +263,102 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
+
+          {/* Main Dropdown */}
+          <ul className="absolute left-0 text-[#071952] text-start top-full hidden group-hover/parent:block text-sm  bg-[#ebf4f6] shadow-lg w-[200px]">
+            {/* Co-Founder Principal Dropdown */}
+            <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
+              <div className="flex items-center">
+                B-tech
+                <RiArrowDropDownLine className="text-[18px] ml-2" />
+              </div>
+
+              {/* Nested Dropdown for Co-Founder Principal */}
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  mechanical engineering
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  computer science & engineering
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  Electronics & commonication engineering
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  civil engineering
+                </li>
+              </ul>
+            </li>
+            <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
+              <div className="flex items-center">
+                M-tech
+                <RiArrowDropDownLine className="text-[18px] ml-2" />
+              </div>
+
+              {/* Nested Dropdown for Co-Founder Principal */}
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  mechanical engineering
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  computer science & engineering
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  Electronics & commonication engineering
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  civil engineering
+                </li>
+              </ul>
+            </li>
+
+            {/* Infrastructure Dropdown */}
+            <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
+              <div className="flex items-center">
+                polytechnic diploma
+                <RiArrowDropDownLine className="text-[18px] ml-2" />
+              </div>
+
+              {/* Nested Dropdown for Infrastructure */}
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  civil polytechnic diploma
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  CSE polytechnic diploma
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  DMLT polytechnic diploma
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  ECE polytechnic diploma
+                </li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+                  Mechinical polytechnic diploma
+                </li>
+              </ul>
+            </li>
+
+            {/* Other Items */}
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              BBA
+            </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              BBA digital marketing
+            </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              BCA
+            </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              MCA
+            </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              B.VOC
+            </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              MBA
+            </li>
+          </ul>
 
         {/* Contact */}
         <NavLink
