@@ -5,7 +5,6 @@ const Navbar = () => {
   return (
     <div className="w-[60%]  h-auto z-50">
       <ul className="capitalize flex justify-center items-center h-[4rem] space-x-6 text-[17px] font-medium">
-        {/* Home */}
         <NavLink
           to="/"
           className={({ isActive }) =>
@@ -17,38 +16,32 @@ const Navbar = () => {
           <li className="hover:text-[#088395]">Home</li>
         </NavLink>
 
-        {/* About Us */}
         <li className="relative group/parent  cursor-pointer">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             About Us
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
 
-          {/* Main Dropdown */}
           <ul className="absolute left-0 text-[#071952] text-start top-full hidden group-hover/parent:block group-hover/parent:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
 
-            {/* Co-Founder Principal Dropdown */}
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
               <div className="flex items-center">
                 Co-Founder Principal
                 <RiArrowDropDownLine className="text-[18px] ml-2" />
               </div>
 
-              {/* Nested Dropdown for Co-Founder Principal */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
                 <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li>
                 <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
               </ul>
             </li>
 
-            {/* Infrastructure Dropdown */}
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
               <div className="flex items-center">
                 Infrastructure
                 <RiArrowDropDownLine className="text-[18px] ml-2" />
               </div>
 
-              {/* Nested Dropdown for Infrastructure */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
                 <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Smart Classroom</li>
                 <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Hostel</li>
@@ -59,14 +52,12 @@ const Navbar = () => {
               </ul>
             </li>
 
-            {/* Lab Dropdown */}
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
               <div className="flex items-center">
                 Lab
                 <RiArrowDropDownLine className="text-[18px] ml-2" />
               </div>
 
-              {/* Nested Dropdown for Lab */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
                 <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Physics Lab</li>
                 <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechanical Lab</li>
@@ -87,24 +78,20 @@ const Navbar = () => {
           </ul>
         </li>
 
-        {/* Courses */}
         <li className="relative group/parent cursor-pointer">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Courses
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
 
-          {/* Main Dropdown */}
           <ul className="absolute left-0 text-[#071952] text-start top-full hidden group-hover/parent:block group-hover/parent:border-t-[0.19rem] border-t-[#071952] text-sm  bg-[#ebf4f6] shadow-lg w-[200px]">
 
-            {/* Co-Founder Principal Dropdown */}
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
               <div className="flex items-center">
                 B-tech
                 <RiArrowDropDownLine className="text-[18px] ml-2" />
               </div>
 
-              {/* Nested Dropdown for Co-Founder Principal */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
                 <Link to={'/Mechanical'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
                 <Link to={'/Comp'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
@@ -118,7 +105,6 @@ const Navbar = () => {
                 <RiArrowDropDownLine className="text-[18px] ml-2" />
               </div>
 
-              {/* Nested Dropdown for Co-Founder Principal */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
                 <Link to={'/Mmechanical'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
                 <Link to={'/Mcomp'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
@@ -127,14 +113,12 @@ const Navbar = () => {
               </ul>
             </li>
 
-            {/* Infrastructure Dropdown */}
             <li className="px-4 py-2 relative group hover:bg-[#37b7c3]">
               <div className="flex items-center">
                 polytechnic diploma
                 <RiArrowDropDownLine className="text-[18px] ml-2" />
               </div>
 
-              {/* Nested Dropdown for Infrastructure */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
                 <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil polytechnic diploma</li></Link>
                 <Link to={'/'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">CSE polytechnic diploma</li></Link>
@@ -144,7 +128,6 @@ const Navbar = () => {
               </ul>
             </li>
 
-            {/* Other Items */}
             <Link to={'/BBA'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               BBA
             </li></Link>
@@ -166,7 +149,6 @@ const Navbar = () => {
           </ul>
         </li>
 
-        {/* Training & Placement */}
         <li className="relative group cursor-pointer">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300">
             Training & Placement
@@ -183,7 +165,6 @@ const Navbar = () => {
           </ul>
         </li>
 
-        {/*Admission */}
         <li className="relative group cursor-pointer ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 ">
             Admission
@@ -207,7 +188,6 @@ const Navbar = () => {
             </li>
           </ul>
         </li>
-        {/* Life Here */}
         <li className="relative group cursor-pointer ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 ">
             Life Here
@@ -229,7 +209,6 @@ const Navbar = () => {
           </ul>
         </li>
 
-        {/* Contact */}
         <NavLink
           to="/contact"
           className={({ isActive }) =>

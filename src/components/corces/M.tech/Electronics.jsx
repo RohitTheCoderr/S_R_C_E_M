@@ -31,9 +31,10 @@ const ElectronicsEngg = () => {
                 Degree Awarded: Master of Technology (M.Tech.) in Electronics and Electrical Engineering
 
 
-                Approved University : J.C. Bose University of Science and Technology
-
-                ELECTRONICS_COMMUNICATION_ENGINEERING
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 Program Objectives
 
                 gie - Advanced Knowledge: Provide indepth understanding and technical skills in electronics and electrical engineering to address complex engineering challenges.

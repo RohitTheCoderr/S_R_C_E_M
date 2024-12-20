@@ -16,6 +16,11 @@ const Comp = () => {
                     <br />
                     Recognizing this growing need, SRCEM, a leading institution in Palwal, has established state-of-the-art infrastructure for its Computer Science students. The Department of Computer Science & Engineering, founded in 2008, is dedicated to meeting the increasing demand for highly skilled engineers by providing top-notch computational education and technical training. Our objective is to cultivate engineers with exceptional capabilities, ready to contribute effectively to the industry.
                 </p>
+                <div className="flex flex-wrap gap-4 justify-center my-10">
+                    <img src="cources/Computer Science & Engineering img3.jpg" alt="Computer Science & Engineering Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Computer Science & Engineering img1.jpg" alt="Computer Science & Engineering Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Computer Science & Engineering img2.jpg" alt="Computer Science & Engineering Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     Our department is equipped with modern, air-conditioned computer labs featuring the latest hardware and software, aligned with industry standards. The curriculum is delivered by highly qualified and experienced faculty, who provide comprehensive lectures and hands-on laboratory sessions. A dedicated project lab fosters an innovative environment where students can bring their ideas to life under faculty supervision. Regular technical workshops conducted by leading organizations further enhance practical learning.
                     <br />
@@ -34,8 +39,10 @@ const Comp = () => {
                     <li className="my-2">Laboratory for Computer Hardware.</li>
                     <li className="my-2">Computer Fundamental and Project Lab.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Objectives</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The objectives for computer science & engineering are formed to produce capable engineers who will contribute effectively to the growth of computer science & engineering. The objectives are as follows:-

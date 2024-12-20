@@ -16,6 +16,11 @@ const Electronics = () => {
                     <br />
                     Our department boasts a team of highly qualified and experienced faculty members. The laboratories are well-equipped and modernized with the latest technology to provide a comprehensive learning environment. The Bachelor of Technology (B.Tech) in Electronics and Communication Engineering is a four-year program with an intake capacity of 120 students. The department is committed to enhancing professional skills through a combination of practical exercises, theoretical coursework, and technical industry visits.
                 </p>
+                <div className="flex flex-wrap gap-4 justify-center my-10">
+                    <img src="cources/Electronics & Communication Engineering img1.jpg" alt="Electronics & Communication Engineering Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Electronics & Communication Engineering img2.jpg" alt="Electronics & Communication Engineering Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Electronics & Communication Engineering img3.jpg" alt="Electronics & Communication Engineering Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     Electronics & Communication Engineering is one of the largest and most sophisticated branch of engineering. Electronics & Communication engineering course gives enormous job opportunities in electronics and software companies. It also gives great opportunities for research and development as everyday consumer needs new devices to support them in daily life. The aim of Electronics & Communication Engineering department is to provide technical education to rural areas students by giving them quality education at affordable cost. The department has fully qualified and experienced staff members who are ready to serve the students all time. Specializations for Higher Studies: Artificial Intelligence, Robotics,
                     <br />
@@ -28,8 +33,10 @@ const Electronics = () => {
                     <li>This course provides students with broad-based skills and knowledge in electronics engineering that includes the installation, maintenance and troubleshooting of faults in electronics equipments, systems and networks.</li>
                     <li>The objective of the ECE department is to provide education for those students who are able to compete nationally, able to produce creative solution to the society’s needs, conscious to the universal moral values, adherent to the professional ethical code and technologies required to the local and global needs in the field of ECE.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium"> Labs</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li>Basics Electrical Engineering Lab</li>

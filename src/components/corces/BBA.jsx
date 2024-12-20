@@ -37,8 +37,10 @@ const BBA = () => {
                     decision-making abilities. The curriculum is thoughtfully structured to cover a wide range of business functions, ensuring
                     a comprehensive understanding of how different business components interact and contribute to organizational success.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Approved University : J.C. Bose University of Science and Technology</h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3">Curriculum Highlights</h1>
                 <ul className="text-zinc-600">
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Learning:</span> Gain in-depth knowledge of business operations and their applications through a blend of theoretical and practical approaches.</li>

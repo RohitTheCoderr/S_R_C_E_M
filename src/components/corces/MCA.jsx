@@ -76,12 +76,10 @@ const MCA = () => {
                         <span className="font-bold">Research and Development:</span> Opportunities for involvement in research projects and development activities, fostering innovation and critical thinking.
                     </li>
                 </ul>
-
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
-                    Approved University : J.C. Bose University of Science and Technology
-                </h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
-
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
                     Benefits of Pursuing an MCA at Shri Ram College of Engineering and Management
                 </h1>

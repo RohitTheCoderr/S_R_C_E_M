@@ -17,9 +17,10 @@ const CompEngg = () => {
                 Duration: 2 Years Mode: Full-Time Degree Awarded: Master of Technology (M.Tech.) in Computer Science
 
 
-                Approved University : J.C. Bose University of Science and Technology
-
-                BBa
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 Program Objectives
                 - Advanced Knowledge: Provide an in-depth understanding of advanced computer science concepts and technologies.
 

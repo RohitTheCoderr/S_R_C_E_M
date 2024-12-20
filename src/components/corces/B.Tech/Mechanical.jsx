@@ -16,10 +16,15 @@ const Mechanical = () => {
                     <br />
                     Mechanical engineers are engaged in every facet of machinery within industrial settings. Their responsibilities include the design, development, construction, production, installation, operation, and maintenance of systems such as steam and gas turbines, thermal power station components, internal combustion engines, jet engines, machine tools, and HVAC systems. Beyond creating and refining products, mechanical engineers are also involved in material development and manufacturing processes.
                 </p>
+                <div className="flex flex-wrap gap-4 justify-center my-10">
+                    <img src="cources/Mechanical Engineering img1.jpeg" alt="Mechanical Engineering Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Mechanical Engineering img2.jpeg" alt="Mechanical Engineering Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Mechanical Engineering img3.jpeg" alt="Mechanical Engineering Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The profession is both demanding and rewarding, requiring a combination of design expertise, analytical skills, and effective teamwork. Mechanical engineers must analyze materials and their tolerances, evaluate various energy sources and their efficiencies, and address design challenges. When developing commercial products, they also consider business and marketing factors to ensure affordability and market viability. Mechanical engineers play a pivotal role in advancing technology and industrial processes, contributing to innovations such as mobile devices, personal computers, and digital versatile discs (DVDs).
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Program Highlights</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Program Highlights</h1>
                 <ul className="text-zinc-600 list-disc mx-5 font-semibold">
                     <li>Experienced & highly motivated faculties and staff with good academic and industry based oriented practical experience</li>
                     <li>Outcome base teaching-learning process</li>
@@ -32,7 +37,7 @@ const Mechanical = () => {
                     <li>Personality Development Program</li>
                     <li>Live project Lab for the students</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Industry Interface</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Industry Interface</h1>
                 <ul className="text-zinc-600 list-disc mx-5 font-semibold">
                     <li>Industry interface cell with industry Experts</li>
                     <li>Guest lectures on the real industry problems by industry professionals and leaders of the modern era environment</li>
@@ -41,10 +46,12 @@ const Mechanical = () => {
                     <li>Industrial Visits in various manufacturing and process industries to see the real work environment inside the plants</li>
                     <li>Department guide and support the students in choosing their career opportunities/jobs in various fields of Engineering and also helps in their placements</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Objectives</h1>
-                <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3">Objectives</h1>
+                <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify">
                     The department provides better facilities to the students for their excellence in career like:-
                 </p>
                 <ul className="text-zinc-600 list-disc mx-5">
@@ -53,7 +60,7 @@ const Mechanical = () => {
                     <li>To be trained and groomed for meet the technological challenges and diverse needs of industry and society in various areas of Mechanical Engineering and to excel it global leve.</li>
                     <li>To acquire fundamental technical knowledge and skill in mathematics, science and engineering for recognizing and solving problems in the areas of design, development and manufacturing.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Career Options</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Career Options</h1>
 
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     At Shri Ram College of Engineering & Management, we recognize that Mechanical Engineering has extensive applications across all technology sectors. As a result, mechanical engineers have diverse employment opportunities in private, public, and government sectors. The rapid expansion of the industrial sector has significantly increased the demand for mechanical engineers.
@@ -69,7 +76,7 @@ const Mechanical = () => {
                     <li>Opportunities with Govt., semi Govt, Public and Private</li>
                     <li>Students can also opt after B.Tech for bright future and specialisation in numerous upcoming fields like Artificial Intelligence, Robotics, Mechatronics, Automation, Simulation & Modelling, Composite Materials, Nanotechnology, Renewable Energy Technology, Recent Advances in Automobile Engineering, Refrigeration & Air-conditioning, HVAC , 3D Printing and CAD/CAM, etc.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Labs & Workshops</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Labs & Workshops</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li>Basics of Mechanical Engineering Lab</li>
                     <li>Automation Lab</li>

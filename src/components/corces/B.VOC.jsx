@@ -76,8 +76,10 @@ const BVOC = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1">Crime Laboratories</li>
                     <li className="text-sm md:text-base lg:text-lg my-1">Approved University</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approval</h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     We are pleased to inform you that BMLT has received official approval from Shri Vishwakarma Skill University.
                     This accreditation underscores the quality and relevance of the course, ensuring it meets the rigorous standards

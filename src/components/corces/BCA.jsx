@@ -78,8 +78,10 @@ const BCA = () => {
                     your own software if you have that much skill. There are many software MNCs (Multi National Companies) which provides job
                     to the BCA graduates.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
-                <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+                <div className="flex flex-wrap gap-2 my-2">
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
+                </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     This extensive curriculum ensures that students gain a thorough understanding of key concepts and technologies in computer
                     applications, preparing them for various roles in the IT industry..
