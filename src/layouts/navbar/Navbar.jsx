@@ -120,10 +120,10 @@ const Navbar = () => {
 
               {/* Nested Dropdown for Co-Founder Principal */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                <Link to={'/mechanical'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
-                <Link to={'/comp'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
-                <Link to={'/electronics'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electronics & commonication engineering</li></Link>
-                <Link to={'/civil'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil engineering</li></Link>
+                <Link to={'/Mmechanical'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">mechanical engineering</li></Link>
+                <Link to={'/Mcomp'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">computer science & engineering</li></Link>
+                <Link to={'/Melectronics'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electronics & commonication engineering</li></Link>
+                <Link to={'/Mcivil'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil engineering</li></Link>
               </ul>
             </li>
 
