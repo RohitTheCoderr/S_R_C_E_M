@@ -6,26 +6,24 @@ const Civil = () => {
             <div className="relative w-full h-96 bg-cover bg-center " style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?semt=ais_hybrid)' }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative z-10 text-center text-white py-22 sm:py-32">
-                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6] font-mono">Master of Computer Applications (MCA)</h1>
-                    <p className="text-lg sm:text-xl mt-4">Welcome to the Master of Computer Applications (MCA) program at Shri Ram College of Engineering and Management</p>
+                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6] font-mono">Master of Technology (M.Tech.) in Civil Engineering</h1>
+                    <p className="text-lg sm:text-xl mt-4">Welcome to the Master of Technology (M.Tech.) in Civil Engineering program at Shri Ram College of Engineering and Management</p>
                 </div>
             </div>
             <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-
-
-                Master of Technology (M.Tech.) in Civil Engineering
-
-
-                (Specialization – Transportation & Management)
-                Program Overview
-                Welcome to the Master of Technology (M.Tech.) in Civil Engineering program at Shri Ram College of Engineering & Management. Our M.Tech. course is designed to provide advanced expertise in civil engineering, preparing students for leadership roles and specialized careers in this critical field of engineering.
-
-
-
-                CIVIL
-
-                Duration: 2 Years Mode: Full-Time Degree Awarded: Master of Technology (M.Tech.) in Civil Engineering
-
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
+                <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                    Our M.Tech. course is designed to provide advanced expertise in civil engineering, preparing
+                    students for leadership roles and specialized careers in this critical field of engineering.
+                </p>
+                <div className="flex flex-wrap gap-4 justify-center my-10">
+                    <img src="cources/Civil Engineering img1.jpeg" alt="Civil Engineering Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Civil Engineering img2.jpeg" alt="Civil Engineering Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Civil Engineering img3.jpeg" alt="Civil Engineering Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                </div>
+                <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                    Duration: 2 Years Mode: Full-Time Degree Awarded: Master of Technology (M.Tech.) in Civil Engineering
+                </p>
 
                 <div className="flex flex-wrap gap-2 my-2">
                     <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
