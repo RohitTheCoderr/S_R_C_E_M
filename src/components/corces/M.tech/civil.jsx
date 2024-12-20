@@ -29,76 +29,70 @@ const Civil = () => {
                     <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                Program Objectives
-                • Advanced Technical Skills: Equip students with advanced knowledge and skills in civil engineering to tackle complex engineering challenges.
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Objectives</h1>
+                <ul className="text-zinc-600 list-disc mx-5">
+                    Advanced Technical Skills: Equip students with advanced knowledge and skills in civil engineering to tackle complex engineering challenges.
 
-                • Innovative Solutions: Foster a culture of innovation, encouraging students to develop cuttingedge solutions for realworld problems.
+                    • Innovative Solutions: Foster a culture of innovation, encouraging students to develop cuttingedge solutions for realworld problems.
 
-                • Research and Development: Enhance research capabilities and provide opportunities for contributing to advancements in civil engineering.
+                    • Research and Development: Enhance research capabilities and provide opportunities for contributing to advancements in civil engineering.
 
-                • Professional Development: Prepare graduates for senior technical positions, project management roles, and consulting opportunities.
+                    • Professional Development: Prepare graduates for senior technical positions, project management roles, and consulting opportunities.
+                </ul>
 
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Curriculum Highlights</h1>
+                <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                    The M.Tech. in Civil Engineering program offers a comprehensive curriculum that combines core courses, specialized electives, and practical research opportunities:
+                </p>
+                <ul className="text-zinc-600 list-disc mx-5">
+                    • Advanced Structural Analysis: Study the principles and techniques for analyzing complex structural systems.
 
-                Curriculum Highlights
-                The M.Tech. in Civil Engineering program offers a comprehensive curriculum that combines core courses, specialized electives, and practical research opportunities:
+                    • Geotechnical Engineering: Explore soil mechanics, foundation design, and ground improvement techniques.
 
-                • Advanced Structural Analysis: Study the principles and techniques for analyzing complex structural systems.
+                    • Hydraulics and Water Resources Engineering: Learn about the design and management of hydraulic systems and water resources.
 
-                • Geotechnical Engineering: Explore soil mechanics, foundation design, and ground improvement techniques.
+                    • Construction Management: Gain insights into project management, construction processes, and quality control.
 
-                • Hydraulics and Water Resources Engineering: Learn about the design and management of hydraulic systems and water resources.
-
-                • Construction Management: Gain insights into project management, construction processes, and quality control.
-
-                • Environmental Engineering: Understand the principles of environmental protection, waste management, and sustainable engineering practices.
-
-                Electives and Specializations:
-                • Earthquake Engineering: Delve into the design and analysis of structures to withstand seismic forces.
-
-                • Transportation Engineering: Study transportation systems, traffic engineering, and infrastructure planning.
-
-                • Building Information Modeling (BIM): Learn about digital modeling techniques and their applications in building design and construction.
-
-                • Sustainable Construction: Explore sustainable building practices and green technologies in construction.
-
-
-                Research and Project Work:
-                • Dissertation: Conduct original research on a topic of interest in civil engineering, contributing new knowledge to the field.
-
-                • Industry Projects: Collaborate with industry partners on practical projects to apply theoretical knowledge in realworld scenarios.
-
-                • Research Seminars: Present research findings and engage with peers and experts to discuss emerging trends and technologies.
-
-
-                Career Opportunities
-                • Structural Engineer
-
-                • Geotechnical Engineer
-
-                • Hydraulic Engineer
-
-                • Construction Project Manager
-
-                • Environmental Consultant
-
-                • Research and Development Engineer
-
-                Why Choose SRCEM?
-                • Esteemed Faculty: Learn from a team of highly qualified faculty members with extensive industry and research experience.
-
-                • Advanced Facilities: Access stateoftheart laboratories and research facilities to support your learning and innovation.
-
-                • Industry Connections: Benefit from strong ties with leading construction firms and engineering consultancies for practical exposure and career opportunities.
-
-                • Comprehensive Support: Receive tailored guidance and support throughout your studies to achieve academic and professional success.
-
-                For more information about the M.Tech. in Civil Engineering program at Shri Ram College of Engineering & Management, please visit our [website]() or contact our admissions office.
-
-                Advance your career in civil engineering with the M.Tech. program at SRCEM, where academic excellence and practical expertise combine to shape the future of engineering.
-
-                Note:-
-                CIVIL
-                It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.
+                    • Environmental Engineering: Understand the principles of environmental protection, waste management, and sustainable engineering practices.
+                    </ul>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Electives and Specializations:</h1>
+                    <ul className="text-zinc-600 list-disc mx-5">
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Earthquake Engineering:</span> Delve into the design and analysis of structures to withstand seismic forces.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Transportation Engineering:</span> Study transportation systems, traffic engineering, and infrastructure planning.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Building Information Modeling (BIM):</span> Learn about digital modeling techniques and their applications in building design and construction.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Sustainable Construction:</span> Explore sustainable building practices and green technologies in construction.</li>
+                    </ul>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Research and Project Work:</h1>
+                    <ul className="text-zinc-600 list-disc mx-5">
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Dissertation:</span> Conduct original research on a topic of interest in civil engineering, contributing new knowledge to the field.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Projects:</span> Collaborate with industry partners on practical projects to apply theoretical knowledge in realworld scenarios.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Seminars:</span> Present research findings and engage with peers and experts to discuss emerging trends and technologies.</li>
+                    </ul>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Opportunities</h1>
+                    <ul className="text-zinc-600 list-disc mx-5">
+                        <li className="text-sm md:text-base lg:text-lg my-1">Structural Engineer</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1">Geotechnical Engineer</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1">Hydraulic Engineer</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1">Construction Project Manager</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1">Environmental Consultant</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1">Research and Development Engineer</li>
+                    </ul>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose SRCEM?</h1>
+                    <ul className="text-zinc-600 list-disc mx-5">
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Esteemed Faculty:</span> Learn from a team of highly qualified faculty members with extensive industry and research experience.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Facilities:</span> Access stateoftheart laboratories and research facilities to support your learning and innovation.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Connections:</span> Benefit from strong ties with leading construction firms and engineering consultancies for practical exposure and career opportunities.</li>
+                        <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Support:</span> Receive tailored guidance and support throughout your studies to achieve academic and professional success.</li>
+                    </ul>
+                    <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                        For more information about the M.Tech. in Civil Engineering program at Shri Ram College of Engineering & Management, please visit our [website]() or contact our admissions office.
+                        Advance your career in civil engineering with the M.Tech. program at SRCEM, where academic excellence and practical expertise combine to shape the future of engineering.
+                    </p>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+                    <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
+                    <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                        It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.
+                    </p>
             </div>
 
         </div>
