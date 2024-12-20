@@ -217,9 +217,9 @@ const Navbar = () => {
             <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
               Shi Ram skill development center
             </li>
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
+            <Link to={'events'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
               Events
-            </li>
+            </li></Link>
             <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
               welfare Activities
             </li>

@@ -25,6 +25,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: '/', element: <IntroPag /> },
+      { path: '/events', element: <Event /> },
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
@@ -32,7 +33,7 @@ const router = createBrowserRouter([
       { path: '/mechanical', element: <MechanicalEngg /> },
       { path: '/comp', element: <CompEngg /> },
       { path: '/electronics', element: <ElectronicsEngg /> },
-      { path: '/civil', element: <Civil  /> },
+      { path: '/civil', element: <Civil /> },
       { path: '/BBA', element: <BBA /> },
       { path: '/BBAdm', element: <BBAdm /> },
       { path: '/BCA', element: <BCA /> },
