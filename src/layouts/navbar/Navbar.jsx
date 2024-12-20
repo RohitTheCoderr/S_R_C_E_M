@@ -264,7 +264,6 @@ const Navbar = () => {
           </ul>
         </li>
 
-        {/* Contact */}
         <NavLink
           to="/contact"
           className={({ isActive }) =>

@@ -18,6 +18,7 @@ import Civil from './components/corces/M.tech/civil.jsx';
 import MechanicalEngg from './components/corces/M.tech/Mechanical.jsx';
 import CompEngg from './components/corces/M.tech/Comp.jsx';
 import ElectronicsEngg from './components/corces/M.tech/Electronics.jsx';
+import Events from './components/life here/events.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,14 +26,15 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: '/', element: <IntroPag /> },
+      { path: '/events', element:  <Events /> },
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
       { path: '/CivilEngg', element: <CivilEngg /> },
-      { path: '/mechanical', element: <MechanicalEngg /> },
-      { path: '/comp', element: <CompEngg /> },
-      { path: '/electronics', element: <ElectronicsEngg /> },
-      { path: '/civil', element: <Civil  /> },
+      { path: '/Mmechanical', element: <MechanicalEngg /> },
+      { path: '/Mcomp', element: <CompEngg /> },
+      { path: '/Melectronics', element: <ElectronicsEngg /> },
+      { path: '/Mcivil', element: <Civil /> },
       { path: '/BBA', element: <BBA /> },
       { path: '/BBAdm', element: <BBAdm /> },
       { path: '/BCA', element: <BCA /> },

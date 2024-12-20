@@ -10,7 +10,7 @@ export function IntroPage() {
         <img
           src={schoolimgcover}
           alt="schoolimgcover"
-          className="w-full h-full z-10 relative -top-[36rem]"
+          className="w-full h-full z-10 relative -top-[36rem] opacity-80"
         />
         <p className="text-white z-20 lg:text-6xl md:text-4xl text-2xl font-mono flex justify-center relative -top-[64rem]">
           Find Your&nbsp;
