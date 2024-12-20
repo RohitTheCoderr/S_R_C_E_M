@@ -6,7 +6,7 @@ const BBA = () => {
             <div className="relative w-full h-96 bg-cover bg-center " style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?semt=ais_hybrid)' }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative z-10 text-center text-white py-22 sm:py-32">
-                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">Bachelor of Business Administration (BBA)</h1>
+                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6] font-mono">Bachelor of Business Administration (BBA)</h1>
                     <p className="text-lg sm:text-xl mt-4">Welcome to the Bachelor of Business Administration (BBA) program at Shri Ram College of Engineering and Management,</p>
                 </div>
             </div>
@@ -31,17 +31,17 @@ const BBA = () => {
                     prepare them for a dynamic, globalized environment. A key component of the BBA program is its focus on personality
                     development, facilitated through regular lectures by professional development trainers.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Program Overview</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg">
                     Our BBA program equips students with critical management techniques, effective communication skills, and strategic
                     decision-making abilities. The curriculum is thoughtfully structured to cover a wide range of business functions, ensuring
                     a comprehensive understanding of how different business components interact and contribute to organizational success.
                 </p>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3">Curriculum Highlights</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3 font-mono">Curriculum Highlights</h1>
                 <ul className="text-zinc-600">
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Learning:</span> Gain in-depth knowledge of business operations and their applications through a blend of theoretical and practical approaches.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Interactive Training:</span> Engage in hands-on training, real-world case studies, and project work to apply learned concepts in practical scenarios.</li>
@@ -49,19 +49,19 @@ const BBA = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industrial Exposure:</span> Benefit from organized industrial visits that provide firsthand insights into industry practices and trends.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Expert Interaction:</span> Interact with seasoned academicians and industry professionals, gaining valuable perspectives and guidance.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Technological Integration</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Technological Integration</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg">
                     Recognizing the importance of technology in today’s business environment, our program offers extensive computer training
                     in state-of-the-art labs. This integration of technology with business education prepares students to excel in a
                     fast-evolving global market.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3">Personal Development</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3 font-mono">Personal Development</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg">
                     We place a strong emphasis on holistic development. Our program includes dedicated sessions on personality development
                     conducted by professional development trainers. These sessions are designed to enhance leadership qualities, interpersonal
                     skills, and overall professional demeanor.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3">Career Prospects</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3 font-mono">Career Prospects</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg">
                     Graduates of our BBA program are well-prepared to enter the business world with confidence. Whether you aspire to become a
                     business manager, entrepreneur, or pursue further studies, our program provides the foundation needed for a successful career.
@@ -70,7 +70,7 @@ const BBA = () => {
                     Explore the opportunities that await you with a BBA from Shri Ram College of Engineering and Management, and take the first step
                     towards a promising future in the world of business.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4">Note:</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Note:</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify mb-5">
                     It is essential to note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose

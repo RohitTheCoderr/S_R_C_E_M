@@ -6,7 +6,7 @@ const Electronics = () => {
             <div className="relative w-full h-96 bg-cover bg-center " style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?semt=ais_hybrid)' }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative z-10 text-center text-white py-22 sm:py-32">
-                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">Electronics & Communication Engineering</h1>
+                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6] font-mono">Electronics & Communication Engineering</h1>
                     <p className="text-lg sm:text-xl mt-4">Welcome to the Electronics & Communication Engineering program at Shri Ram College of Engineering and Management</p>
                 </div>
             </div>
@@ -28,16 +28,16 @@ const Electronics = () => {
                     <br />
                     on developing strong links with the industry through joint programs, invited lectures and workshops. Students are constantly exposed to a host of activities with their technical and intellectual skills. We focus on Regular Seminar , Paper Presentations, Mini Projects, Industrial visits, Study tour , In-Plant Training etc.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Objectives</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Objectives</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li>This course provides students with broad-based skills and knowledge in electronics engineering that includes the installation, maintenance and troubleshooting of faults in electronics equipments, systems and networks.</li>
                     <li>The objective of the ECE department is to provide education for those students who are able to compete nationally, able to produce creative solution to the society’s needs, conscious to the universal moral values, adherent to the professional ethical code and technologies required to the local and global needs in the field of ECE.</li>
                 </ul>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium"> Labs</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono"> Labs</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li>Basics Electrical Engineering Lab</li>
                     <li>Electronics Devices Lab</li>
@@ -53,13 +53,13 @@ const Electronics = () => {
                     <li>Electronics measurement Lab</li>
                     <li>SDR Lab</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Career Options</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Options</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The field of Electronics and Communication Engineering (ECE) offers a diverse range of career opportunities. Among the highest-paying career options within ECE are roles such as electronic equipment repairers, electrical and electronic drafters, and electronics engineers. Professionals in these roles are involved in researching and testing a wide array of equipment across various domains, including systems engineering, broadcast systems, mechatronics (which integrates mechanical, electronic, and computer sciences), acoustics, and GPS technology.
                     <br />
                     ECE graduates also have the opportunity to specialize in various areas, including signal processing, control systems, microwave engineering, embedded systems, VLSI design, and wireless and optical communication. These specializations allow individuals to tailor their careers to their interests and expertise, contributing to the advancement of technology in their chosen fields.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.

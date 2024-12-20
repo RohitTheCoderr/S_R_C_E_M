@@ -6,7 +6,7 @@ const BCA = () => {
             <div className="relative w-full h-96 bg-cover bg-center " style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?semt=ais_hybrid)' }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative z-10 text-center text-white py-22 sm:py-32">
-                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">
+                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6] font-mono">
                         Bachelor of Computer Applications (BCA)
                     </h1>
                     <p className="text-lg sm:text-xl mt-4">Welcome to the Bachelor of Computer Applications (BCA) program at Shri Ram College of Engineering and Management</p>
@@ -34,7 +34,7 @@ const BCA = () => {
                     popular ones, especially in countries like USA, UK & other European Countries which offers students greater study and
                     career opportunities.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Program Overview</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The BCA program at Shri Ram College of Engineering and Management is a comprehensive threeyear undergraduate course that
                     integrates core computer science principles with practical applications. Our curriculum is designed to cover a broad range
@@ -69,7 +69,7 @@ const BCA = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1">Web Scripting and Development</li>
                 </ul>
 
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Career Opportunities :</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Opportunities :</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     There are many career prospects available after BCA, including ample job opportunities and professional courses in both
                     the private and public sectors along with their scope, earning potential and future career prospects as Software developer
@@ -79,14 +79,14 @@ const BCA = () => {
                     to the BCA graduates.
                 </p>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     This extensive curriculum ensures that students gain a thorough understanding of key concepts and technologies in computer
                     applications, preparing them for various roles in the IT industry..
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Why Choose Our BCA Program?</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose Our BCA Program?</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li className="text-sm md:text-base lg:text-lg my-1">
                         <span className="font-bold">Extensive Curriculum:</span>
@@ -118,7 +118,7 @@ const BCA = () => {
                     </li>
                 </ul>
 
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C.

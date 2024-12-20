@@ -6,7 +6,7 @@ const BBAdm = () => {
             <div className="relative w-full h-96 bg-cover bg-center " style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?semt=ais_hybrid)' }}>
                 <div className="absolute inset-0 bg-black opacity-50"></div>
                 <div className="relative z-10 text-center text-white py-22 sm:py-32">
-                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">Bachelor of Business Administration (BBA) in Digital Marketing</h1>
+                    <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6] font-mono">Bachelor of Business Administration (BBA) in Digital Marketing</h1>
                     <p className="text-lg sm:text-xl mt-4">Welcome to the Bachelor of Business Administration (BBA) in Digital Marketing program at Shri Ram College
                         of Engineering and Management. </p>
                 </div>
@@ -36,7 +36,7 @@ const BBAdm = () => {
                     opens doors to career opportunities globally, especially in regions like the USA, UK, and Europe, where
                     digital marketing is at the forefront of business success.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Program Overview</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     Our Bachelor of Business Administration (BBA) in Digital Marketing is tailored to meet the growing demand
                     for professionals who are adept at navigating the digital landscape. This program integrates traditional
@@ -44,10 +44,10 @@ const BBAdm = () => {
                     in today’s tech-driven marketplace.
                 </p>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Curriculum Highlights</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Curriculum Highlights</h1>
                 <ul className="text-zinc-600">
                     <li className="text-sm md:text-base lg:text-lg my-1">
                         <span className="font-bold">Digital Marketing Fundamentals: </span>
@@ -70,7 +70,7 @@ const BBAdm = () => {
                         Benefit from guest lectures, workshops, and interactions with industry experts to stay updated with the latest trends and practices.
                     </li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Program Benefits</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Benefits</h1>
                 <ul className="text-zinc-600">
                     <li className="text-sm md:text-base lg:text-lg my-1">
                         <span className="font-bold">Industry-Relevant Skills:</span>
@@ -85,14 +85,13 @@ const BBAdm = () => {
                         Enhance your career prospects with targeted personality development sessions conducted by professional development trainers.
                     </li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Career Opportunities</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Opportunities</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg">
                     Graduates of the BBA in Digital Marketing program are equipped to pursue diverse career paths in the digital marketing sphere.
                     Opportunities include roles such as Digital Marketing Manager, SEO Specialist, Social Media Manager, Content Strategist, and
                     more. The program also provides a solid foundation for those looking to start their own digital marketing ventures.
                 </p>
-
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Why Choose Digital Marketing?</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose Digital Marketing?</h1>
                 <ol className="list-decimal px-5">
                     <li className="text-sm md:text-base lg:text-lg my-1">Growing Demand for Digital Skills</li>
                     <li className="text-sm md:text-base lg:text-lg my-1">Comprehensive Understanding of Modern Marketing</li>
@@ -100,7 +99,7 @@ const BBAdm = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1">Stay Ahead with Cutting-Edge Tools</li>
                     <li className="text-sm md:text-base lg:text-lg my-1">Enhanced Career Opportunities</li>
                 </ol>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg mb-5">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University

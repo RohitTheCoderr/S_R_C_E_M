@@ -26,7 +26,7 @@ const MCA = () => {
                     With the rapid advancements in technology and digital transformation globally, the MCA program equips students with the skills required to excel in the IT industry. Graduates of the MCA program are highly sought after for roles such as Software Developer, Data Scientist, Systems Analyst, IT Consultant, Web Developer, and Database Administrator.
                     The MCA course is internationally recognized and considered equivalent to a Master’s in Computer Science in several countries like the USA, UK, and Canada, offering students vast career and study opportunities. For those aspiring to build a career in the ever-growing IT sector, MCA is a gateway to success.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Program Overview</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The Master of Computer Applications (MCA) program at Shri Ram College of Engineering and Management is a rigorous two year
                     course designed to provide advanced knowledge and skills in computer applications. This program prepares students for
@@ -41,12 +41,12 @@ const MCA = () => {
                     professionals who can successfully meet the demands of the information technology industry.
                 </p>
 
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Career Opportunities :</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Opportunities :</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     Software Developer, Programmer, System Engineer, System Analyst, System, Administrator Troubleshooter, Software Application
                     Architect, Web Designer and Developer, Software consultant, Technical Writer.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Why Choose Our MCA Program?</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose Our MCA Program?</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li className="text-sm md:text-base lg:text-lg my-1">
                         <span className="font-bold">Advanced Curriculum:</span>
@@ -77,10 +77,10 @@ const MCA = () => {
                     </li>
                 </ul>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">
                     Benefits of Pursuing an MCA at Shri Ram College of Engineering and Management
                 </h1>
                 <ol className="text-zinc-600 list-decimal font mx-5">
@@ -106,7 +106,7 @@ const MCA = () => {
                     </li>
                 </ol>
 
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of
