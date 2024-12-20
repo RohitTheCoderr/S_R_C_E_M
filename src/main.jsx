@@ -18,6 +18,7 @@ import Civil from './components/corces/M.tech/civil.jsx';
 import MechanicalEngg from './components/corces/M.tech/Mechanical.jsx';
 import CompEngg from './components/corces/M.tech/Comp.jsx';
 import ElectronicsEngg from './components/corces/M.tech/Electronics.jsx';
+import Events from './components/life here/events.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,7 +26,7 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: '/', element: <IntroPag /> },
-      { path: '/events', element: <Event /> },
+      { path: '/events', element:  <Events /> },
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
