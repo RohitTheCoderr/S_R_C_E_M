@@ -3,7 +3,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
-import IntroPag from '@src/pages/home/HomePage.jsx';
 import BBA from './components/corces/BBA.jsx';
 import BBAdm from './components/corces/BBA-DM.jsx';
 import BCA from './components/corces/BCA.jsx';
@@ -22,13 +21,14 @@ import Events from './components/life here/events.jsx';
 import Founder from './components/about/founder.jsx';
 import Agrements from './components/training&placement/agrements.jsx';
 import Corporate from './components/training&placement/corporate.jsx';
+import HomePage from './pages/home/HomePage.jsx';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     children: [
-      { path: '/', element: <IntroPag /> },
+      { path: '/', element: <HomePage /> },
       { path: '/events', element:  <Events /> },
       { path:'/founder', element:<Founder/>},
       { path: '/Mechanical', element: <Mechanical /> },
