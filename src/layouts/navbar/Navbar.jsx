@@ -24,12 +24,12 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className="w-[30%] sm:w-[85%] md:w-[85%] lg:w-[85%] h-auto relative z-50 ">
+    <div className="w-[30%] sm:w-[95%] md:w-[92%] lg:w-[85%] mt-[-4.2rem] sm:m-auto  h-auto relative z-50 ">
       {/* Mobile Hamburger Button */}
-      <div className="relative z-10 mt-2 flex justify-between items-center px-4 py-2 sm:hidden">
+      <div className="relative z-10 mt-2 flex justify-between items-center px-2 sm:px-4 py-2 sm:hidden">
       <button
           onClick={toggleMenu}
-          className="text-[#071952] text-2xl focus:outline-none"
+          className="text-[#071952] text-2xl focus:outline-none bg-gray-200 p-[0.59rem] rounded-full hover:bg-gray-300"
         >
           {isMenuOpen ? <span><HiX/></span> : <span><HiMenu/></span>}
         </button>
@@ -38,14 +38,14 @@ const Navbar = () => {
       <ul
         ref={menuRef}
         className={`${isMenuOpen ? "block relative" : "hidden"
-          } bg-slate-50 text-start sm:flex flex-col px-2 sm:flex-row sm:items-center flex sm:justify-between md:justify-around lg:justify-center h-auto sm:h-[4rem] md:gap-3 lg:gap-5 text-[10px] sm:text-[11px] md:text-[12px] lg:text-[16px] font-medium `}
+          } bg-slate-50 text-start sm:flex flex-col px-2 sm:flex-row sm:items-center flex sm:justify-between md:justify-around lg:justify-center h-auto sm:h-[3.5rem] mt-[-0.5px] sm:mt-1 md:gap-3 lg:gap-5 text-[10px] sm:text-[12px] md:text-[15px] lg:text-[16px] font-medium `}
       >
         {/* Home */}
         <NavLink
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "text-[#071952] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2"
+              ? "  text-[#071952] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2"
               : " hover:border-b-[0.19rem] hover:text-[#088395] hover:border-[#37b7c3] transition-all duration-300 pb-2"
           }
         >
@@ -53,7 +53,7 @@ const Navbar = () => {
         </NavLink>
 
         {/* About Us */}
-        <li className="relative group/parent cursor-pointer  ">
+        <li className=" relative group/parent cursor-pointer  ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             About Us
             <RiArrowDropDownLine className="text-[24px]" />
@@ -123,7 +123,7 @@ const Navbar = () => {
         </li>
 
         {/* Courses */}
-        <li className="relative group/parent cursor-pointer ">
+        <li className=" relative group/parent cursor-pointer ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Courses
             <RiArrowDropDownLine className="text-[24px]" />
@@ -202,7 +202,7 @@ const Navbar = () => {
         </li>
 
         {/* Training & Placement */}
-        <li className="relative group cursor-pointer ">
+        <li className=" relative group cursor-pointer ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Training & Placement
             <RiArrowDropDownLine className="text-[24px]" />
@@ -219,7 +219,7 @@ const Navbar = () => {
         </li>
 
         {/*Admission */}
-        <li className="relative group cursor-pointer  ">
+        <li className=" relative group cursor-pointer  ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Admission
             <RiArrowDropDownLine className="text-[24px]" />
@@ -243,7 +243,7 @@ const Navbar = () => {
           </ul>
         </li>
         {/* Life Here */}
-        <li className="relative group cursor-pointer  ">
+        <li className=" relative group cursor-pointer  ">
           <div className="flex items-center text-[#071952] hover:text-[#088395] hover:border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2">
             Life Here
             <RiArrowDropDownLine className="text-[24px]" />
@@ -365,7 +365,7 @@ const Navbar = () => {
           to="/contact"
           className={({ isActive }) =>
             isActive
-              ? "text-[#088395] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2 "
+              ? " text-[#088395] border-b-[0.19rem] border-[#37b7c3] transition-all duration-300 pb-2 "
               : " hover:border-b-[0.19rem] hover:border-[#37b7c3] transition-all duration-300 pb-2 "
           }
         >
