@@ -15,6 +15,9 @@ function Commite() {
           <h1 className="text-3xl sm:text-5xl font-bold text- text-sky-200">
             Admission Committee
           </h1>
+          <h1 className="text-3xl sm:text-5xl font-bold  text-sky-200">
+        Shri Ram College of Engineering & Management
+          </h1>
         </div>
       </div>
 

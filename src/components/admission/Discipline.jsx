@@ -19,6 +19,7 @@ function Discipline() {
           </h1>
         </div>
       </div>
+
       <div className=" lg:mt-5 ml-7">
         <p className="font-bold  text-sky-900">1. Punctuality and Attendance</p>
         <br />
@@ -151,8 +152,10 @@ function Discipline() {
           who furnishes particulars which are found to be false or suppressed
           material information, will not be considered for admission and if he /
           she has been admitted on such information, notwithstanding legal
-          action,<br/>his / her admission shall stand cancelled and all his / her
-          fees forfeited. A student seeking admission to the Institute should
+          action,
+          <br />
+          his / her admission shall stand cancelled and all his / her fees
+          forfeited. A student seeking admission to the Institute should
           exercise his / her option with due care. No change in stream will be
           allowed once the student has been admitted to the institute after the
           last date of admission notified by the competent authority.

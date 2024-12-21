@@ -24,6 +24,7 @@ import Founder from './components/about/founder.jsx';
 import Agrements from './components/training&placement/agrements.jsx';
 import Corporate from './components/training&placement/corporate.jsx';
 import Discipline from './components/admission/Discipline.jsx';
+import Ragging from './components/admission/Ragging.jsx';
 
 const router = createBrowserRouter([
   {
@@ -48,8 +49,9 @@ const router = createBrowserRouter([
       { path: '/MBA', element: <MBA /> },
       { path: '/MCA', element: <MCA /> },
 
-      { path: 'Commite', element: <Commite/>},
-      { path: 'Discipline', element: <Discipline/>},
+      { path: '/Commite', element: <Commite/>},
+      { path: '/Discipline', element: <Discipline/>},
+      {path: '/Ragging', element: <Ragging/>},
       { path:"/agrement", element:<Agrements/>},
       { path:"/corporate" , element:<Corporate/>},
    
