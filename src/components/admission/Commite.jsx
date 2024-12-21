@@ -13,103 +13,101 @@ function Commite() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center text-white py-22 sm:py-32">
           <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">
-          Admission Committee
+            Admission Committee
           </h1>
         </div>
       </div>
-      <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-      
-        {/* Members Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center items-center my-8">
-          {/* Member 1 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/sajid.png"
-              alt="Dr. Sajid Akhtar Khan"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">
-              Dr. Sajid Akhtar Khan
-            </p>
-          </div>
 
-          {/* Member 2 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/nisha.png"
-              alt="Ms. Nisha Madan"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">
-              Ms. Nisha Madan
-            </p>
-          </div>
+      {/* admission commmitee */}
 
-          {/* Member 3 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/ankita.png"
-              alt="Mr. Ankit Kumar"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">
-              Mr. Ankit Kumar
-            </p>
-          </div>
+      {/* <div class="container mx-auto p-4 px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16 mt-1"> */}
+      <div class="flex flex-wrap gap-8 justify-center my-10">
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/sajid.png"
+            alt="Dr. Sajid Akhtar Khan"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Dr. Sajid Akhtar Khan
+          </p>
+        </div>
 
-          {/* Member 4 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/anuj.png"
-              alt="Mr. Anuj Gehlout"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">
-              Mr. Anuj Gehlout
-            </p>
-          </div>
-          {/* Member 5 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/mahasingh.png"
-              alt="Dr. Sajid Akhtar Khan"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">Mr. Mahasingh</p>
-          </div>
-          {/* Member 6 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/anjali.png"
-              alt="Ms. Nisha Madan"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">Ms.Anjali</p>
-          </div>
-          {/* Member 7 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/subhash.png"
-              alt="Mr. Ankit Kumar"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">
-              Mr. Subhash Vashisht
-            </p>
-          </div>
-          {/* Member 8 */}
-          <div className="text-center">
-            <img
-              className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
-              src="/images/common/umesh.png"
-              alt="Mr. Anuj Gehlout"
-            />
-            <p className="mt-4 text-base sm:text-lg font-bold">Mr.Umesh Garg</p>
-          </div>
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/nisha.png"
+            alt="Ms. Nisha Madan"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Ms. Nisha Madan
+          </p>
+        </div>
+
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/ankita.png"
+            alt="Mr. Ankit Kumar"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Mr. Ankit Kumar
+          </p>
+        </div>
+
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/anuj.png"
+            alt="Mr. Anuj Gehlout"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Mr. Anuj Gehlout
+          </p>
         </div>
       </div>
+      {/* </div> */}
     </>
   );
 }
 
 export default Commite;
+
+// {/* Member 5 */}
+// <div className="text-center">
+// <img
+//   className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
+//   src="/images/common/mahasingh.png"
+//   alt="Dr. Sajid Akhtar Khan"
+// />
+// <p className="mt-4 text-base sm:text-lg font-bold">Mr. Mahasingh</p>
+// </div>
+// {/* Member 6 */}
+// <div className="text-center">
+// <img
+//   className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
+//   src="/images/common/anjali.png"
+//   alt="Ms. Nisha Madan"
+// />
+// <p className="mt-4 text-base sm:text-lg font-bold">Ms.Anjali</p>
+// </div>
+// {/* Member 7 */}
+// <div className="text-center">
+// <img
+//   className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
+//   src="/images/common/subhash.png"
+//   alt="Mr. Ankit Kumar"
+// />
+// <p className="mt-4 text-base sm:text-lg font-bold">
+//   Mr. Subhash Vashisht
+// </p>
+// </div>
+// {/* Member 8 */}
+// <div className="text-center">
+// <img
+//   className="w-40 h-40 sm:w-48 sm:h-48 object-cover rounded-md shadow-md"
+//   src="/images/common/umesh.png"
+//   alt="Mr. Anuj Gehlout"
+// />
+// <p className="mt-4 text-base sm:text-lg font-bold">Mr.Umesh Garg</p>
+// </div>
