@@ -19,6 +19,9 @@ import MechanicalEngg from './components/corces/M.tech/Mechanical.jsx';
 import CompEngg from './components/corces/M.tech/Comp.jsx';
 import ElectronicsEngg from './components/corces/M.tech/Electronics.jsx';
 import Events from './components/life here/events.jsx';
+import Founder from './components/about/founder.jsx';
+import Agrements from './components/training&placement/agrements.jsx';
+import Corporate from './components/training&placement/corporate.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,7 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <IntroPag /> },
       { path: '/events', element:  <Events /> },
+      { path:'/founder', element:<Founder/>},
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
@@ -41,6 +45,9 @@ const router = createBrowserRouter([
       { path: '/BVOC', element: <BVOC /> },
       { path: '/MBA', element: <MBA /> },
       { path: '/MCA', element: <MCA /> },
+      { path:"/agrement", element:<Agrements/>},
+      { path:"/corporate" , element:<Corporate/>},
+   
     ],
   },
 ]);
