@@ -70,9 +70,9 @@ const Navbar = () => {
               </div>
 
               {/* Nested Dropdown for Co-Founder Principal */}
-              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li>
-                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
               </ul>
             </li>
 
