@@ -65,6 +65,50 @@ function Commite() {
             Mr. Anuj Gehlout
           </p>
         </div>
+
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/mahasingh.png"
+            alt="Mr. Anuj Gehlout"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Mr. Mahasingh
+          </p>
+        </div>
+
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/anjali.png"
+            alt="Mr. Anuj Gehlout"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Ms. Anjali
+          </p>
+        </div>
+
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/subhash.png"
+            alt="Mr. Anuj Gehlout"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Mr. Subhash Vashisht
+          </p>
+        </div>
+
+        <div class="text-center">
+          <img
+            class="h-40 w-40 lg:h-72 lg:w-60 rounded-3xl shadow object-cover"
+            src="/images/common/umesh.png"
+            alt="Mr. Anuj Gehlout"
+          />
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+            Mr.Umesh Garg
+          </p>
+        </div>
       </div>
       {/* </div> */}
     </>
