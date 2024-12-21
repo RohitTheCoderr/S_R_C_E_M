@@ -8,15 +8,15 @@ const Banner = ()=>{
             <div className=" lg:px-24 md:px-12 px-6  rounded-2xl flex flex-wrap lg:mx-16 md:mx-8 mx-4 justify-evenly lg:my-0 md:my-20 my-16  ">
                 <div className="bg-[#37B7C3] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1 shadow-md shadow-black lg:my-2 md:my-2 my-4">
                     <div className="flex justify-between">
-                        <img src={scholarshipimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  "/>
+                        <img src={scholarshipimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10 mix-blend-plus-lighter "/>
                         <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">01</h1>
                     </div>
                     <h2 className="mt-3 lg:text-2xl font-semibold text-white">Scholarship Facility</h2>
                     <p className="mt-3 lg:text-[16px] font-semibold text-[#EBF4F6]">Explore our scholarship options avaliable at the college to help you achieve your academic goals!.</p>
                 </div>
-                <div className="bg-[#37B7C3] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4">
+                <div className="bg-[#37B7C3] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4 ">
                     <div className="flex justify-between">
-                        <img src={teacherimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  "/>
+                        <img src={teacherimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10 mix-blend-plus-lighter  "/>
                         <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">02</h1>
                     </div>
                     <h2 className="mt-3 lg:text-2xl font-semibold text-white">Skilled Lecturers</h2>
@@ -24,7 +24,7 @@ const Banner = ()=>{
                 </div>
                 <div className="bg-[#37B7C3] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4">
                     <div className="flex justify-between">
-                        <img src={libraryimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  "/>
+                        <img src={libraryimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  mix-blend-plus-lighter"/>
                         <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">03</h1>
                     </div>
                     <h2 className="mt-3 lg:text-2xl font-semibold text-white">Beti Bachao&Padhao</h2>
@@ -32,7 +32,7 @@ const Banner = ()=>{
                 </div>
                 <div className="bg-[#37B7C3] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4">
                     <div className="flex justify-between">
-                        <img src={moneyimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  "/>
+                        <img src={moneyimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10 mix-blend-plus-lighter "/>
                         <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">04</h1>
                     </div>
                     <h2 className="mt-3 lg:text-2xl font-semibold text-white">Affordable Price</h2>
