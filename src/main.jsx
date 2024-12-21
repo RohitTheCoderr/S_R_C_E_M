@@ -23,6 +23,7 @@ import Events from './components/life here/events.jsx';
 import Founder from './components/about/founder.jsx';
 import Agrements from './components/training&placement/agrements.jsx';
 import Corporate from './components/training&placement/corporate.jsx';
+import Discipline from './components/admission/Discipline.jsx';
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
       { path: '/MCA', element: <MCA /> },
 
       { path: 'Commite', element: <Commite/>},
+      { path: 'Discipline', element: <Discipline/>},
       { path:"/agrement", element:<Agrements/>},
       { path:"/corporate" , element:<Corporate/>},
    

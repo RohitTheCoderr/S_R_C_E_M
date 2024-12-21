@@ -190,13 +190,11 @@ const Navbar = () => {
             <RiArrowDropDownLine className="text-[24px]" />
           </div>
           <ul className="absolute left-0 text-[#071952] text-start top-full hidden group-hover:block group-hover:border-t-[0.19rem] text-sm border-t-[#071952] bg-[#ebf4f6] shadow-lg w-[200px] ">
-          <Link to={'/Commite'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">adimission commitee</li></Link>
+          <Link to={'/Commite'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Adimission Commitee</li></Link>
+          <Link to={'/Discipline'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]"> Discipline</li></Link>
             {/* <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
-              adimission commitee
-            </li> */}
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
               discipline
-            </li>
+            </li> */}
             <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
               ragging
             </li>
