@@ -12,7 +12,7 @@ function Commite() {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center text-white py-22 sm:py-32">
-          <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">
+          <h1 className="text-3xl sm:text-5xl font-bold text- text-sky-200">
             Admission Committee
           </h1>
         </div>
@@ -28,7 +28,7 @@ function Commite() {
             src="/images/common/sajid.png"
             alt="Dr. Sajid Akhtar Khan"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold  text-sky-800">
             Dr. Sajid Akhtar Khan
           </p>
         </div>
@@ -39,7 +39,7 @@ function Commite() {
             src="/images/common/nisha.png"
             alt="Ms. Nisha Madan"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold  text-sky-800">
             Ms. Nisha Madan
           </p>
         </div>
@@ -50,7 +50,7 @@ function Commite() {
             src="/images/common/ankita.png"
             alt="Mr. Ankit Kumar"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold text-sky-800">
             Mr. Ankit Kumar
           </p>
         </div>
@@ -61,7 +61,7 @@ function Commite() {
             src="/images/common/anuj.png"
             alt="Mr. Anuj Gehlout"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold  text-sky-800">
             Mr. Anuj Gehlout
           </p>
         </div>
@@ -72,7 +72,7 @@ function Commite() {
             src="/images/common/mahasingh.png"
             alt="Mr. Anuj Gehlout"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold  text-sky-800">
             Mr. Mahasingh
           </p>
         </div>
@@ -83,7 +83,7 @@ function Commite() {
             src="/images/common/anjali.png"
             alt="Mr. Anuj Gehlout"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold  text-sky-800">
             Ms. Anjali
           </p>
         </div>
@@ -94,7 +94,7 @@ function Commite() {
             src="/images/common/subhash.png"
             alt="Mr. Anuj Gehlout"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold  text-sky-800">
             Mr. Subhash Vashisht
           </p>
         </div>
@@ -105,7 +105,7 @@ function Commite() {
             src="/images/common/umesh.png"
             alt="Mr. Anuj Gehlout"
           />
-          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold">
+          <p class="mt-4 text-base sm:text-lg lg:text-xl font-bold text-sky-800">
             Mr.Umesh Garg
           </p>
         </div>

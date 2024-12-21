@@ -12,17 +12,17 @@ function Discipline() {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center text-white py-22 sm:py-32">
-          <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">
+          <h1 className="text-3xl sm:text-5xl font-bold  text-sky-200">
             General Discipline Rules
             <br />
             Shri Ram College of Engineering & Management
           </h1>
         </div>
       </div>
-      <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">1. Punctuality and Attendance</p>
+      <div className=" lg:mt-5 ml-7">
+        <p className="font-bold  text-sky-900">1. Punctuality and Attendance</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal  text-sky-800">
           Students are expected to attend all classes, labs, and scheduled
           activities punctually. Consistent attendance is crucial for academic
           success. Absences must <br />
@@ -31,10 +31,10 @@ function Discipline() {
         </p>
       </div>
 
-      <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">2. Academic Integrity</p>
+      <div className=" lg:mt-5 ml-7">
+        <p className="font-bold  text-sky-900">2. Academic Integrity</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Academic honesty is paramount. Plagiarism, cheating, and any form of
           dishonesty in exams, assignments, or projects are strictly prohibited.
           Students must
@@ -44,10 +44,10 @@ function Discipline() {
         </p>
       </div>
 
-      <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">3.No Smoking</p>
+      <div className=" lg:mt-5 ml-7">
+        <p className="font-bold  text-sky-900">3.No Smoking</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           As a measure of abundant caution, students are informed that smoking,
           consumption of alcohol, drugs or any other intoxicant by whatsoever
           name called
@@ -61,9 +61,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">4. Respectful Behavior</p>
+        <p className="font-bold  text-sky-900">4. Respectful Behavior</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           All students must conduct themselves respectfully towards peers,
           faculty, and staff. Disruptive behavior, harassment, and bullying are
           unacceptable. The college
@@ -73,9 +73,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">5. Dress Code</p>
+        <p className="font-bold  text-sky-900">5. Dress Code</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Students are required to adhere to a modest and professional dress
           code during academic and official events. Proper attire reflects a
           serious approach to
@@ -85,9 +85,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">6. Use of College Property</p>
+        <p className="font-bold  text-sky-900">6. Use of College Property</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Students must handle college property and resources with care. Any
           damage or misuse of property must be reported immediately. Students
           are responsible
@@ -97,9 +97,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">7. Prohibited Activities</p>
+        <p className="font-bold  text-sky-900">7. Prohibited Activities</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Activities that disrupt the learning environment, including the use of
           electronic devices in class without permission, are prohibited.
           Consumption of alcohol,
@@ -109,9 +109,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">8. Compliance with Rules</p>
+        <p className="font-bold  text-sky-900">8. Compliance with Rules</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Students are expected to comply with all college rules and
           regulations, including those related to examinations, library use, and
           campus conduct. Non- compliance may result in disciplinary action as
@@ -120,9 +120,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">9. Conflict Resolution</p>
+        <p className="font-bold  text-sky-900">9. Conflict Resolution</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Any conflicts or grievances should be addressed through appropriate
           channels. Students are encouraged to resolve issues amicably and seek
           assistance from faculty or the administration if needed.
@@ -130,9 +130,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold">10. Personal Responsibility</p>
+        <p className="font-bold  text-sky-900">10. Personal Responsibility</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           Students must take personal responsibility for their behavior and
           academic progress. They should seek guidance when necessary and strive
           to maintain a <br /> balance between academic responsibilities and
@@ -141,9 +141,9 @@ function Discipline() {
       </div>
 
       <div className="text-slate-500 lg:mt-5 ml-7">
-        <p className="font-bold"># Rules – General Information</p>
+        <p className="font-bold  text-sky-900"># Rules – General Information</p>
         <br />
-        <p className="font-normal">
+        <p className="font-normal text-sky-800">
           All students admitted to the Institute will be governed by the rules
           and regulations of the Institute from time to time. Accordingly
           students are advised to fully acquaint themselves with the rules and
