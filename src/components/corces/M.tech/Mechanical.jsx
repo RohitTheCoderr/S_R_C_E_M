@@ -28,13 +28,10 @@ const MechanicalEngg = () => {
                 </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Objectives</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
-                    Advanced Technical Expertise: Equip students with in-depth knowledge of advanced mechanical engineering concepts and technologies.
-
-                    • Research and Innovation: Foster a culture of research and innovation, enabling students to contribute to cutting-edge developments in the field.
-
-                    • Problem-Solving Skills: Develop advanced problem-solving skills to address complex engineering challenges.
-
-                    • Professional Development: Prepare students for high-level positions in industry, academia, and research institutions.
+                  <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Technical Expertise:</span> Equip students with in-depth knowledge of advanced mechanical engineering concepts and technologies.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research and Innovation:</span> Foster a culture of research and innovation, enabling students to contribute to cutting-edge developments in the field.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Problem-Solving Skills:</span> Develop advanced problem-solving skills to address complex engineering challenges.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Professional Development:</span> Prepare students for high-level positions in industry, academia, and research institutions.</li>
                 </ul>
 
 
@@ -45,49 +42,37 @@ const MechanicalEngg = () => {
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Core Courses:</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
-                    Advanced Thermodynamics: Study advanced concepts in thermodynamics and their applications in mechanical systems.
-
-                    • Finite Element Analysis: Learn about numerical methods and their applications in solving complex engineering problems.
-
-                    • Advanced Fluid Mechanics: Explore the principles of fluid dynamics and their applications in various engineering systems.
-
-                    • Machine Design: Gain expertise in the design and analysis of mechanical components and systems.
-
-                    • Heat and Mass Transfer: Understand the principles of heat and mass transfer and their applications in engineering processes.
+                  <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Thermodynamics:</span> Study advanced concepts in thermodynamics and their applications in mechanical systems.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Finite Element Analysis:</span> Learn about numerical methods and their applications in solving complex engineering problems.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Fluid Mechanics:</span> Explore the principles of fluid dynamics and their applications in various engineering systems.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Machine Design:</span> Gain expertise in the design and analysis of mechanical components and systems.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Heat and Mass Transfer:</span> Understand the principles of heat and mass transfer and their applications in engineering processes.</li>
                 </ul>
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Electives and Specializations:</h1>
-                <ul className="text-zinc-600 list-disc mx-5">
                     <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                         Robotics and Automation: Study the principles and applications of robotics and automated systems in manufacturing and industry.
                     </p>
-                    • Robotics and Automation: Study the principles and applications of robotics and automated systems in manufacturing and industry.
-
-                    • Advanced Manufacturing Processes: Learn about cutting-edge manufacturing techniques and their applications.
-
-                    • Computational Fluid Dynamics: Gain proficiency in the use of computational tools for analyzing fluid flow and heat transfer.
+                <ul className="text-zinc-600 list-disc mx-5">
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Robotics and Automation:</span> Study the principles and applications of robotics and automated systems in manufacturing and industry.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Manufacturing Processes:</span> Learn about cutting-edge manufacturing techniques and their applications.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Computational Fluid Dynamics:</span> Gain proficiency in the use of computational tools for analyzing fluid flow and heat transfer.</li>
                 </ul>
-
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Research and Project Work:</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
-                    • Dissertation: Conduct independent research on a topic of interest under the guidance of a faculty advisor.
-
-                    • Industry Projects: Collaborate with industry partners on real-world engineering problems and solutions.
-
-                    • Research Seminars: Present research findings and participate in seminars to discuss emerging trends and innovations.
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Dissertation:</span> Conduct independent research on a topic of interest under the guidance of a faculty advisor.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Projects:</span> Collaborate with industry partners on real-world engineering problems and solutions.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Seminars:</span> Present research findings and participate in seminars to discuss emerging trends and innovations.</li>
                 </ul>
 
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Learning Methodology</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
-                    • Lectures and Seminars: Engage with expert faculty through interactive lectures and specialized seminars.
-
-                    • Laboratory Work: Gain hands-on experience in well-equipped laboratories with state-of-the-art technology.
-
-                    • Project-Based Learning: Work on industry-relevant projects to apply theoretical knowledge to practical scenarios.
-
-                    • Research Opportunities: Participate in cutting-edge research and contribute to advancements in mechanical engineering.
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Lectures and Seminars:</span> Engage with expert faculty through interactive lectures and specialized seminars.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Laboratory Work:</span> Gain hands-on experience in well-equipped laboratories with state-of-the-art technology.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Project-Based Learning:</span> Work on industry-relevant projects to apply theoretical knowledge to practical scenarios.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Opportunities:</span> Participate in cutting-edge research and contribute to advancements in mechanical engineering.</li>
                 </ul>
 
 
@@ -96,29 +81,22 @@ const MechanicalEngg = () => {
                     Graduates of the M.Tech. in Mechanical Engineering program are well-positioned for a variety of career paths, including:
                 </p>
                 <ul className="text-zinc-600 list-disc mx-5">
-                    • Senior Mechanical Engineer
-
-                    • Research and Development Engineer
-
-                    • Project Manager
-
-                    • Consulting Engineer
-
-                    • Academician or Lecturer
-
-                    • Design Engineer
+                    <li className="text-sm md:text-base lg:text-lg my-1">Senior Mechanical Engineer</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1">Research and Development Engineer</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1">Project Manager</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1">Consulting Engineer</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1">Academician or Lecturer</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1">Design Engineer</li>
                 </ul>
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose SRCEM?</h1>
-                <ul className="text-zinc-600 list-disc mx-5">
                     <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                         Distinguished Faculty: Learn from a team of accomplished faculty members with extensive industry and research experience.
                     </p>
-                    • State-of-the-Art Facilities: Access cutting-edge laboratories and research facilities to support your learning and research.
-
-                    • State-of-the-Art Facilities: Access cutting-edge laboratories and research facilities to support your learning and research.
-
-                    • Comprehensive Support: Receive personalized guidance and support throughout your studies to ensure your success.
+                <ul className="text-zinc-600 list-disc mx-5">
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">State-of-the-Art Facilities:</span> Access cutting-edge laboratories and research facilities to support your learning and research.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">State-of-the-Art Facilities:</span> Access cutting-edge laboratories and research facilities to support your learning and research.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Support:</span> Receive personalized guidance and support throughout your studies to ensure your success.</li>
                 </ul>
 
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
