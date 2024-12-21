@@ -1,4 +1,5 @@
 import Banner from "./banner"
+import HomepageAbout from "./homepageAbout"
 import { IntroPage } from "./intro"
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <div className="w-full ">
       <IntroPage /> 
       <Banner />
+      <HomepageAbout />
     </div>
   )
 }
