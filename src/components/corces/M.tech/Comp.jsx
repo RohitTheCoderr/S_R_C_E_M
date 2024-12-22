@@ -21,7 +21,7 @@ const CompEngg = () => {
                     <span className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Duration: 2 Years Mode: </span>Full-Time Degree Awarded: Master of Technology (M.Tech.) in Computer Science
                 </p>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Program Objectives</h1>
@@ -88,7 +88,7 @@ const CompEngg = () => {
                 </ul>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">For more information about the M.Tech. in Computer Science program at Shri Ram College of Engineering & Management, please visit our website or contact our admissions office.</p>
 
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.</p>
 

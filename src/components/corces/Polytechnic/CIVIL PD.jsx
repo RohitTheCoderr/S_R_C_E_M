@@ -46,13 +46,13 @@ const PCivil = () => {
                     <li>Engineering Geology Lab</li>
                 </ul>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University: J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Approved University: J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     This diploma program is designed to equip students with practical skills required to work on diverse civil engineering projects, contributing to the growing infrastructure needs of the nation.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Objectives</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Objectives</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The primary objectives of the Civil Engineering Diploma program are to:
                 </p>

@@ -46,13 +46,13 @@ const Ece = () => {
                     Our experienced faculty, state-of-the-art facilities, and industry-relevant coursework prepare graduates for a wide range of career opportunities in electrical engineering, including roles in power generation, electronics, automation, and maintenance. Additionally, the program lays a strong foundation for further studies or specialized certifications in the field.
                 </p>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     We are excited to announce that Diploma in Electrical Engineering has been officially approved by the Haryana State Board of Technical Education. This approval affirms that the course meets the high standards set by the board and enhances its credibility and value. With this accreditation, you can be assured that the program is recognized and supported at a state level, further contributing to your professional development and career prospects.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Pursue a Diploma in Electrical Engineering at Shri Ram College of Engineering & Management?</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Why Pursue a Diploma in Electrical Engineering at Shri Ram College of Engineering & Management?</h1>
                 <ul className="list-disc text-zinc-600 mx-5">
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">In-Depth Curriculum:</span> Master core electrical engineering concepts, including circuit design, power systems, control systems, and electronics.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Hands-On Training:</span> Gain practical experience through laboratory work and real-world projects, applying theoretical knowledge to solve engineering problems.</li>

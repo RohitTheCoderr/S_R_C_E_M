@@ -33,7 +33,7 @@ const Dmlt = () => {
                     Choose the Diploma in Medical Laboratory Technology at Shri Ram College of Engineering & Management to embark on a rewarding career dedicated to advancing healthcare through precise diagnostic services.
                 </p>
                 <div className="flex flex-wrap gap-2 my-4">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">

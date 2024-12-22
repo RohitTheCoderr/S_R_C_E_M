@@ -43,7 +43,7 @@ const Comp = () => {
                     <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Objectives</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Objectives</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The objectives for computer science & engineering are formed to produce capable engineers who will contribute effectively to the growth of computer science & engineering. The objectives are as follows:-
                 </p>
