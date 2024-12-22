@@ -99,7 +99,7 @@ const BBAdm = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1">Stay Ahead with Cutting-Edge Tools</li>
                     <li className="text-sm md:text-base lg:text-lg my-1">Enhanced Career Opportunities</li>
                 </ol>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg mb-5">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University
