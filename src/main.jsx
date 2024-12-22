@@ -1,6 +1,6 @@
-import React from 'react';
+import react from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { createRoot } from 'react-dom/client';
+import {createRoot} from "react-dom/client"
 import App from './App.jsx';
 import './index.css';
 import BBA from './components/corces/BBA.jsx';
