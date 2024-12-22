@@ -7,6 +7,7 @@ import img5 from "../../../public/images/kotak.png";
 import img6 from "../../../public/images/NIIT.png";
 import img7 from "../../../public/images/bajaj.png";
 import img8 from "../../../public/images/finance bank.png";
+import React from "react"
 function Corporate() {
   return (
     <>

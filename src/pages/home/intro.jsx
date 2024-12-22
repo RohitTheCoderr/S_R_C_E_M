@@ -1,3 +1,4 @@
+import React from "react";
 import schoolimg1 from "../../../public/images/Homepage/college1.jpg";
 import schoolimgcover from "../../../public/images/Homepage/schoolimgcover.png";
 import forwardArrow from "../../../public/images/Homepage/forwardarrow.png";

@@ -21,8 +21,10 @@ import Events from './components/life here/events.jsx';
 import Founder from './components/about/founder.jsx';
 import Agrements from './components/training&placement/agrements.jsx';
 import Corporate from './components/training&placement/corporate.jsx';
-import HomePage from './pages/home/HomePage.jsx';
-
+import HomePage from "./pages/home/HomePage.jsx"
+import Discipline from './components/admission/Discipline.jsx'
+import Ragging from './components/admission/Ragging.jsx'
+import Commite from './components/admission/Commite.jsx'
 const router = createBrowserRouter([
   {
     path: '/',
@@ -45,9 +47,14 @@ const router = createBrowserRouter([
       { path: '/BVOC', element: <BVOC /> },
       { path: '/MBA', element: <MBA /> },
       { path: '/MCA', element: <MCA /> },
+
+      { path: '/Commite', element: <Commite/>},
+      { path: '/Discipline', element: <Discipline/>},
+      {path: '/Ragging', element: <Ragging/>},
       { path:"/agrement", element:<Agrements/>},
       { path:"/corporate" , element:<Corporate/>},
    
+
     ],
   },
 ]);
