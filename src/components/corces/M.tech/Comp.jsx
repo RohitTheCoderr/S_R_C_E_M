@@ -12,11 +12,14 @@ const CompEngg = () => {
             </div>
             <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">This advanced degree is tailored to equip students with cutting-edge knowledge and skills in computer science, preparing them for leadership roles and innovation-driven careers in the rapidly evolving tech industry.</p>
+                <div className="flex flex-wrap gap-4 justify-center my-10">
+                    <img src="cources/Computer Science & Engineering img3.jpg" alt="Computer Science & Engineering Image 2" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Computer Science & Engineering img1.jpg" alt="Computer Science & Engineering Image 1" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                    <img src="cources/Computer Science & Engineering img2.jpg" alt="Computer Science & Engineering Image 3" className="h-40 w-full md:w-1/3 lg:h-60 lg:w-1/4 rounded shadow object-cover" />
+                </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     <span className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Duration: 2 Years Mode: </span>Full-Time Degree Awarded: Master of Technology (M.Tech.) in Computer Science
                 </p>
-
-
                 <div className="flex flex-wrap gap-2 my-2">
                     <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
@@ -28,15 +31,10 @@ const CompEngg = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Problem-Solving Expertise:</span> Develop sophisticated problem-solving skills to address complex computing challenge</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Career Readiness:</span> Prepare students for high-level technical positions and leadership roles in the IT and software industries.</li>
                 </ul>
-
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Curriculum Highlights</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg  text-justify">The M.Tech. in Computer Science program offers a rich curriculum that integrates core courses, specialized electives, and practical research opportunities:</p>
-
-
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Personal Development</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg  text-justify">We place a strong emphasis on holistic development. Our program includes dedicated sessions on personality development conducted by professional development trainers. These sessions are designed to enhance leadership qualities, interpersonal skills, and overall professional demeanor.</p>
-
-
                 <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Core Courses:</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Algorithms:</span> Study complex algorithms and their applications in solving computational problems.</li>
@@ -45,7 +43,6 @@ const CompEngg = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Operating Systems:</span> Delve into the design and implementation of operating systems and their role in managing hardware and software resources.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Software Engineering:</span> Gain expertise in software development methodologies, project management, and quality assurance.</li>
                 </ul>
-
                 <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Electives and Specializations:</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Artificial Intelligence and Machine Learning:</span> Explore AI and ML techniques, including neural networks, natural language processing, and data mining.</li>
@@ -61,13 +58,13 @@ const CompEngg = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Seminars:</span> Present research findings and engage in discussions about emerging trends and technologies.</li>
                 </ul>
 
-            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Learning Methodology</h1>
-            <ul className="text-zinc-600 list-disc mx-5">
-                <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Interactive Lectures:</span> Participate in engaging lectures delivered by experienced faculty members.</li>
-                <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Hands-On Labs:</span> Gain practical experience in modern computing labs equipped with the latest technology.</li>
-                <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Project-Based Learning:</span> Work on industry-relevant projects and case studies to apply and deepen your knowledge.</li>
-                <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Opportunities:</span> Engage in cutting-edge research and contribute to technological innovations.</li>
-            </ul >
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Learning Methodology</h1>
+                <ul className="text-zinc-600 list-disc mx-5">
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Interactive Lectures:</span> Participate in engaging lectures delivered by experienced faculty members.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Hands-On Labs:</span> Gain practical experience in modern computing labs equipped with the latest technology.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Project-Based Learning:</span> Work on industry-relevant projects and case studies to apply and deepen your knowledge.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Opportunities:</span> Engage in cutting-edge research and contribute to technological innovations.</li>
+                </ul >
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Career Opportunities</h1>
 
@@ -84,11 +81,11 @@ const CompEngg = () => {
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Why Choose SRCEM?</h1>
 
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg  text-justify">Experienced Faculty: Learn from a team of distinguished faculty members with extensive industry and research experience.</p >
-        <ul className="text-zinc-600 list-disc mx-5">
-            <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">State-of-the-Art Facilities:</span> Benefit from modern computing labs and research facilities that support your academic and practical learning.</li>
-            <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Connections:</span> Leverage strong connections with leading technology companies for internships, projects, and career opportunities.</li>
-            <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Support:</span> Receive personalized guidance and support throughout your studies to achieve academic and professional success.</li>
-        </ul>
+                <ul className="text-zinc-600 list-disc mx-5">
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">State-of-the-Art Facilities:</span> Benefit from modern computing labs and research facilities that support your academic and practical learning.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Connections:</span> Leverage strong connections with leading technology companies for internships, projects, and career opportunities.</li>
+                    <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Comprehensive Support:</span> Receive personalized guidance and support throughout your studies to achieve academic and professional success.</li>
+                </ul>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">For more information about the M.Tech. in Computer Science program at Shri Ram College of Engineering & Management, please visit our website or contact our admissions office.</p>
 
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>

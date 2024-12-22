@@ -36,8 +36,8 @@ const Civil = () => {
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research and Development:</span> Enhance research capabilities and provide opportunities for contributing to advancements in civil engineering.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Professional Development:</span> Prepare graduates for senior technical positions, project management roles, and consulting opportunities.</li>
                 </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Curriculum Highlights</h1>
-            <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Curriculum Highlights</h1>
+            <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify">
                 The M.Tech. in Civil Engineering program offers a comprehensive curriculum that combines core courses, specialized electives, and practical research opportunities:
             </p>
             <ul className="text-zinc-600 list-disc mx-5">
@@ -47,20 +47,20 @@ const Civil = () => {
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Construction Management:</span> Gain insights into project management, construction processes, and quality control.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Environmental Engineering:</span> Understand the principles of environmental protection, waste management, and sustainable engineering practices.</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Electives and Specializations:</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Electives and Specializations:</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Earthquake Engineering:</span> Delve into the design and analysis of structures to withstand seismic forces.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Transportation Engineering:</span> Study transportation systems, traffic engineering, and infrastructure planning.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Building Information Modeling (BIM):</span> Learn about digital modeling techniques and their applications in building design and construction.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Sustainable Construction:</span> Explore sustainable building practices and green technologies in construction.</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Research and Project Work:</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Research and Project Work:</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Dissertation:</span> Conduct original research on a topic of interest in civil engineering, contributing new knowledge to the field.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Projects:</span> Collaborate with industry partners on practical projects to apply theoretical knowledge in realworld scenarios.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Seminars:</span> Present research findings and engage with peers and experts to discuss emerging trends and technologies.</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Opportunities</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Career Opportunities</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1">Structural Engineer</li>
                 <li className="text-sm md:text-base lg:text-lg my-1">Geotechnical Engineer</li>
@@ -69,7 +69,7 @@ const Civil = () => {
                 <li className="text-sm md:text-base lg:text-lg my-1">Environmental Consultant</li>
                 <li className="text-sm md:text-base lg:text-lg my-1">Research and Development Engineer</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose SRCEM?</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Why Choose SRCEM?</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Esteemed Faculty:</span> Learn from a team of highly qualified faculty members with extensive industry and research experience.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Facilities:</span> Access stateoftheart laboratories and research facilities to support your learning and innovation.</li>

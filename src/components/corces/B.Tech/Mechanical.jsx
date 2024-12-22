@@ -61,7 +61,6 @@ const Mechanical = () => {
                     <li>To acquire fundamental technical knowledge and skill in mathematics, science and engineering for recognizing and solving problems in the areas of design, development and manufacturing.</li>
                 </ul>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Career Options</h1>
-
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     At Shri Ram College of Engineering & Management, we recognize that Mechanical Engineering has extensive applications across all technology sectors. As a result, mechanical engineers have diverse employment opportunities in private, public, and government sectors. The rapid expansion of the industrial sector has significantly increased the demand for mechanical engineers.
                     <br />
@@ -106,7 +105,7 @@ const Mechanical = () => {
                     <li>Chassis Component Lab</li>
                     <li>Bio Diesel Lab</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+                <h1 className="text-[#088395] text-xl my-4 md:text-2xl font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.

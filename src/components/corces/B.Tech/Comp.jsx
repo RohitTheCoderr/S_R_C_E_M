@@ -40,7 +40,7 @@ const Comp = () => {
                     <li className="my-2">Computer Fundamental and Project Lab.</li>
                 </ul>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Objectives</h1>
@@ -55,8 +55,8 @@ const Comp = () => {
                     <li>Knowledge of ethical, social, and legal issues pertaining to computer science</li>
                     <li>The department of computer science & engineering offers 4 year undergraduate programmes leading to bachelor of technology affiliated to J.C. Bose University of Science and Technology.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Research and Development</h1>
-                <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Research and Development</h1>
+                <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify">
                     Students of computer science are exposed to the research culture through their projects with systematic literature review, methodology drafting, experimentation and assessment. Students also get an opportunity to undergo internship and work on various ongoing research topics with departmental faculty. Students of the department are involved in research through
                 </p>
                 <ul className="text-zinc-600 list-disc mx-5">
@@ -65,13 +65,13 @@ const Comp = () => {
                     <li>Paper publications</li>
                     <li>Presentation at conferences/ inter-institute project competitions</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Options</h1>
-                <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Career Options</h1>
+                <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify">
                     A career in Computer Science and Engineering (CSE) is widely regarded as one of the most lucrative and opportunity-rich fields, especially given India's esteemed position in the global information technology industry. The success of numerous talented computer engineers in IT companies underscores the potential for significant career advancement within this sector.
                     <br />
                     While programming is often associated with computer science graduates, their roles extend far beyond coding. These professionals are problem solvers, creators, designers, and analysts who collaborate with others to develop innovative computing solutions across various disciplines and industry sectors.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.

@@ -1,8 +1,10 @@
+import React from 'react';
 import { StrictMode } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
 import './index.css';
+import HomePage from './pages/home/HomePage.jsx';
 import BBA from './components/corces/BBA.jsx';
 import BBAdm from './components/corces/BBA-DM.jsx';
 import BCA from './components/corces/BCA.jsx';
@@ -17,11 +19,11 @@ import Civil from './components/corces/M.tech/civil.jsx';
 import MechanicalEngg from './components/corces/M.tech/Mechanical.jsx';
 import CompEngg from './components/corces/M.tech/Comp.jsx';
 import ElectronicsEngg from './components/corces/M.tech/Electronics.jsx';
-import Events from './components/life here/events.jsx';
-import Founder from './components/about/founder.jsx';
-import Agrements from './components/training&placement/agrements.jsx';
-import Corporate from './components/training&placement/corporate.jsx';
-import HomePage from './pages/home/HomePage.jsx';
+import PCivil from './components/corces/Polytechnic/CIVIL PD.jsx';
+import PMechanical from './components/corces/Polytechnic/Mechanical PD.jsx';
+import Ece from './components/corces/Polytechnic/ECE PD.jsx';
+import Dmlt from './components/corces/Polytechnic/DMLT PD.jsx';
+import Cse from './components/corces/Polytechnic/CSE PD.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,8 +31,6 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       { path: '/', element: <HomePage /> },
-      { path: '/events', element:  <Events /> },
-      { path:'/founder', element:<Founder/>},
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
@@ -38,16 +38,18 @@ const router = createBrowserRouter([
       { path: '/Mmechanical', element: <MechanicalEngg /> },
       { path: '/Mcomp', element: <CompEngg /> },
       { path: '/Melectronics', element: <ElectronicsEngg /> },
-      { path: '/Mcivil', element: <Civil  /> },
+      { path: '/Mcivil', element: <Civil /> },
+      { path: '/PCivil', element: <PCivil /> },
+      { path: '/PCse', element: <Cse /> },
+      { path: '/PDmlt', element: <Dmlt /> },
+      { path: '/PEce', element: <Ece /> },
+      { path: '/PMechanical', element: <PMechanical /> },
       { path: '/BBA', element: <BBA /> },
       { path: '/BBAdm', element: <BBAdm /> },
       { path: '/BCA', element: <BCA /> },
       { path: '/BVOC', element: <BVOC /> },
       { path: '/MBA', element: <MBA /> },
-      { path: '/MCA', element: <MCA /> },
-      { path:"/agrement", element:<Agrements/>},
-      { path:"/corporate" , element:<Corporate/>},
-   
+      { path: '/MCA', element: <MCA /> }
     ],
   },
 ]);

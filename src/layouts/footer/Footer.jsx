@@ -1,4 +1,4 @@
-
+import React from "react";
 import {
   FaPhone,
   FaEnvelope,
@@ -14,14 +14,8 @@ import { FaLocationDot } from "react-icons/fa6";
 const Footer = () => {
   return (
     <section className="bg-[#0b081c] py-8 scrollbar-hide">
-    {/* // <section id="footerSec" className="bg-[#071952] py-8"> */}
-      {/* Footer Main Container */}
-      <div  className="w-4/5 mx-auto">
-        {/* Contact Items */}
-        <div
-          className="flex flex-wrap justify-between border-b-2 border-gray-500 pb-4"
-        >
-          {/* Call Us */}
+      <div className="w-4/5 mx-auto">
+        <div className="flex flex-wrap justify-between border-b-2 border-gray-500 pb-4">
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaPhone className="text-[#37b7c3] mr-3" /> Call Us
@@ -36,8 +30,6 @@ const Footer = () => {
               </p>
             </div>
           </div>
-
-          {/* Address */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaLocationDot className="text-[#37b7c3] mr-3" /> Address
@@ -51,8 +43,6 @@ const Footer = () => {
               <p className="text-gray-400 text-sm">(Delhi NCR) Haryana</p>
             </div>
           </div>
-
-          {/* Mail Us */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaEnvelope className="text-[#37b7c3] mr-3" /> Mail Us
@@ -67,8 +57,6 @@ const Footer = () => {
               </p>
             </div>
           </div>
-
-          {/* Office */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaGlobe className="text-[#37b7c3] mr-3" /> Office
@@ -84,10 +72,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        {/* Footer Content */}
         <div className="flex flex-wrap justify-between mt-8">
-          {/* Logo and About */}
           <div className="w-64 py-4">
             <div className="mb-4 w-[7rem]">
               <img src="/images/common/image.png" alt="" className=" w-full rounded-full" />
@@ -103,8 +88,6 @@ const Footer = () => {
               <FaTwitter className="text-white hover:text-[#37b7c3] cursor-pointer text-2xl" />
             </div>
           </div>
-
-          {/* Get In Touch */}
           <div className="w-64 py-4">
             <h4 className="text-white text-lg font-semibold mb-2">
               GET IN TOUCH
@@ -124,8 +107,6 @@ const Footer = () => {
               SEND MESSAGE
             </button>
           </div>
-
-          {/* Business Hours */}
           <div className="w-64 py-4">
             <h4 className="text-white text-lg font-semibold mb-2">
               MEETING HOURS
@@ -145,16 +126,12 @@ const Footer = () => {
                 className="flex justify-between text-gray-400 text-sm"
               >
                 <span className="text-white">{day}</span>{" "}
-                {day === "Sunday" ? "Close" :  "9: 00 am - 7: 00 pm"}
+                {day === "Sunday" ? "Close" : "9: 00 am - 7: 00 pm"}
               </p>
             ))}
           </div>
         </div>
-
-        {/* Copyright */}
-        
         <div className="text-center flex justify-between px-4 rounded-lg text-sm md:text-[17px] text-white py-4 bg-[#030208] mt-4">
-        {/* <div className="text-center flex justify-between px-4 text-white py-4 bg-[#071952] mt-4"> */}
           <div>© 2024All Rights Reserved Terms of Use and Privacy Policy</div>
           <div>Website Developed By Our Team's name</div>
         </div>

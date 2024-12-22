@@ -1,3 +1,4 @@
+import React from "react";
 import scholarshipimg from "../../../public/images/Homepage/scholarship.svg"
 import teacherimg from "../../../public/images/Homepage/teacher.svg"
 import libraryimg from "../../../public/images/Homepage/library.svg"

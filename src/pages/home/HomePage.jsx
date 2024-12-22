@@ -1,3 +1,4 @@
+import React from "react"
 import Banner from "./banner"
 import HomepageAbout from "./homepageAbout"
 import { IntroPage } from "./intro"
