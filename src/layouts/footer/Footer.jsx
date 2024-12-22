@@ -97,7 +97,7 @@ const Footer = () => {
               /></Link>
             </div>
             <p className="text-white text-sm">
-              "At Shri Ram College of Engineering & Management, we recognize that shaping institutions is as challenging as shaping the future itself. It demands serious andsustained efforts, a relentless pursuit of excellence, hard work, and dedication. Our Management has successfully meet these challenges, demonstrating exceptional leadership and commitment..
+              "At Shri Ram College of Engineering & Management, we recognize that shaping institutions is as challenging as shaping the future itself. It demands serious and sustained efforts, a relentless pursuit of excellence, hard work, and dedication. Our Management has successfully meet these challenges, demonstrating exceptional leadership and commitment..
             </p>
             <div className="flex mt-4 space-x-4">
               <FaFacebookF className="text-white hover:text-[#37b7c3] cursor-pointer text-2xl" />
