@@ -25,6 +25,7 @@ import HomePage from "./pages/home/HomePage.jsx"
 import Discipline from './components/admission/Discipline.jsx'
 import Ragging from './components/admission/Ragging.jsx'
 import Commite from './components/admission/Commite.jsx'
+import Procedure from './components/admission/Procedure.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -51,6 +52,7 @@ const router = createBrowserRouter([
       { path: '/Commite', element: <Commite/>},
       { path: '/Discipline', element: <Discipline/>},
       {path: '/Ragging', element: <Ragging/>},
+      {path:'/Procedure', element:<Procedure/>},
       { path:"/agrement", element:<Agrements/>},
       { path:"/corporate" , element:<Corporate/>},
    
