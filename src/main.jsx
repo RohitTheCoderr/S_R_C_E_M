@@ -1,10 +1,9 @@
 import React from 'react';
 import { StrictMode } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import { createRoot } from 'react-dom/client';
+import { createRoot } from "react-dom/client"
 import App from './App.jsx';
 import './index.css';
-import HomePage from './pages/home/HomePage.jsx';
 import BBA from './components/corces/BBA.jsx';
 import BBAdm from './components/corces/BBA-DM.jsx';
 import BCA from './components/corces/BCA.jsx';
@@ -24,7 +23,12 @@ import PMechanical from './components/corces/Polytechnic/Mechanical PD.jsx';
 import Ece from './components/corces/Polytechnic/ECE PD.jsx';
 import Dmlt from './components/corces/Polytechnic/DMLT PD.jsx';
 import Cse from './components/corces/Polytechnic/CSE PD.jsx';
-
+import Agrements from './components/training&placement/agrements.jsx';
+import Corporate from './components/training&placement/corporate.jsx';
+import Discipline from './components/admission/Discipline.jsx'
+import Ragging from './components/admission/Ragging.jsx';
+import Commite from './components/admission/Commite.jsx';
+import HomePage from './pages/home/HomePage.jsx';
 const router = createBrowserRouter([
   {
     path: '/',
@@ -49,7 +53,14 @@ const router = createBrowserRouter([
       { path: '/BCA', element: <BCA /> },
       { path: '/BVOC', element: <BVOC /> },
       { path: '/MBA', element: <MBA /> },
-      { path: '/MCA', element: <MCA /> }
+      { path: '/MCA', element: <MCA /> },
+      { path: '/Commite', element: <Commite /> },
+      { path: '/Discipline', element: <Discipline /> },
+      { path: '/Ragging', element: <Ragging /> },
+      { path: "/agrement", element: <Agrements /> },
+      { path: "/corporate", element: <Corporate /> },
+
+
     ],
   },
 ]);
