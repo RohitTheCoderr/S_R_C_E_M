@@ -19,6 +19,9 @@ import MechanicalEngg from './components/corces/M.tech/Mechanical.jsx';
 import CompEngg from './components/corces/M.tech/Comp.jsx';
 import ElectronicsEngg from './components/corces/M.tech/Electronics.jsx';
 import Events from './components/life here/events.jsx';
+import Sports from './components/life here/Sports.jsx';
+import Srcem from './components/life here/Srcm.jsx';
+import Welfair from './components/life here/welfair.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,9 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <IntroPag /> },
       { path: '/events', element:  <Events /> },
+      {path: '/sports', element:<Sports />},
+      {path: '/srcm', element:<Srcem />},
+      {path:'/welfair', element:<Welfair />},
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
