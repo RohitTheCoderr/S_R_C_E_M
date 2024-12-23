@@ -35,10 +35,13 @@ const Navbar = () => {
               </div>
 
               {/* Nested Dropdown for Co-Founder Principal */}
-              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                <Link to={'/founder'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li></Link>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.122222222222222222222222222222222222-[#ebf4f6] shadow-lg w-[200px]">
+                <Link to={'/Founder'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li></Link>
+                <Link to={'/Principal'}>
+       <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li></Link>
               </ul>
+
+              
             </li>
 
             {/* Infrastructure Dropdown */}
@@ -50,12 +53,12 @@ const Navbar = () => {
 
               {/* Nested Dropdown for Infrastructure */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Smart Classroom</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Hostel</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Auditorium</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Library</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Transportation</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Medical</li>
+  <Link to='/Smart'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Smart Classroom</li></Link> 
+  <Link to='/Hostel'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Hostel</li></Link> 
+  <Link to='/Auditorium'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Auditorium</li></Link> 
+  <Link to='/Library'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Library</li></Link> 
+  <Link to='/Transport'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Transportation</li></Link> 
+  <Link to='/Medical'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Medical</li></Link> 
               </ul>
             </li>
 
@@ -68,22 +71,24 @@ const Navbar = () => {
 
               {/* Nested Dropdown for Lab */}
               <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Physics Lab</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechanical Lab</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electrical Lab</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Computer Lab</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Civil Lab</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Chemistry Lab</li>
-                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">BMLT/DMLT Lab</li>
+              <Link to='/Physics'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Physics Lab</li></Link>
+              <Link to='/Mechanics'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechanical Lab</li></Link>
+              <Link to='/Electrical'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electrical Lab</li></Link>
+              <Link to='/Computer'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Computer Lab</li></Link>
+              <Link to='/Civil'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Civil Lab</li></Link>
+              <Link to='/Chemistry'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Chemistry Lab</li></Link>
+              <Link to='/Bmlt'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">BMLT/DMLT Lab</li></Link>
               </ul>
             </li>
-
-            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+            
+            <Link to='/Mandatory'><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               Mandatory Disclosure
-            </li>
+            </li></Link>
+            <Link to ='/Mission'>
             <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
               Mission and Vision
             </li>
+            </Link>
           </ul>
         </li>
 
