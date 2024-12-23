@@ -1,3 +1,4 @@
+import React from "react"
 import marq from "../../../public/images/Homepage/marq.png"
 import marq1 from "../../../public/images/Homepage/marq1.png"
 import marq2 from "../../../public/images/Homepage/marq2.png"

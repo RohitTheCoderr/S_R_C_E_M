@@ -1,5 +1,6 @@
+
 import React from "react";
-import schoolimg1 from "../../../public/images/Homepage/college1.jpg";
+import schoolimg1 from "../../../public/images/Homepage/college3.jpg";
 import schoolimgcover from "../../../public/images/Homepage/schoolimgcover.png";
 
 
@@ -11,7 +12,7 @@ function IntroPage() {
         <img
           src={schoolimgcover}
           alt="schoolimgcover"
-          className="w-full h-full z-10 relative -top-[36rem] opacity-50"
+          className="w-full h-full z-10 relative -top-[36rem] opacity-30"
         />
         <p className="text-white z-20 lg:text-6xl md:text-4xl text-2xl font-mono flex justify-center relative -top-[64rem]">
           Find Your&nbsp;

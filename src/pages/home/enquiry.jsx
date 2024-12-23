@@ -1,3 +1,4 @@
+import React from "react"
 import enquirywallpaper from "../../../public/images/Homepage/enquirywallpaper1.jpg"
 
 const EnquirySection =()=>{
@@ -10,7 +11,7 @@ const EnquirySection =()=>{
                     <form className="z-10 absolute bg-black bg-opacity-35 h-auto w-auto xl:p-8 lg:p-6 md:p-4 p-2 grid  xl:gap-8 lg:gap-6 md:gap-3 gap-2 font-mono xl:ml-28 lg:ml-20 md:ml-16 ml-11 xl:mt-16 lg:mt-8 md:mt-6 mt-6 rounded-3xl">
                         <h1 className="text-[2rem] text-white font-extrabold  ">Enquiry Form</h1>
                         <input placeholder="Name" type="text" className="xl:h-12 lg:h-7 md:h-6 h-6 xl:w-[20rem] lg:w-[13rem] md:w-[13rem] w-[13rem]  outline-none xl:pl-3 lg:pl-3 md:pl-2 pl-2 rounded-md"></input>
-                        <input placeholder="Email"  type="email" className="xl:h-12 lg:h-7 md:h-6 h-6 xl:w-[20rem] lg:w-[13rem] md:w-[13rem] w-[10rem]  outline-none xl:pl-3 lg:pl-3 md:pl-2 pl-2 rounded-md"></input>
+                        <input placeholder="Phone"  type="number" className="xl:h-12 lg:h-7 md:h-6 h-6 xl:w-[20rem] lg:w-[13rem] md:w-[13rem] w-[10rem]  outline-none xl:pl-3 lg:pl-3 md:pl-2 pl-2 rounded-md"></input>
                         <select className="xl:h-12 lg:h-7 md:h-6 h-6 xl:w-[20rem] lg:w-[13rem] md:w-[13rem] w-[10rem]  outline-none xl:pl-2 lg:pl-3 md:pl-2 pl-2 text-gray-400 rounded-md ">
                             <option className="">Choose Course</option>
                             <option className="text-black">BBA</option>
