@@ -1,4 +1,7 @@
+import React from "react";
 import Banner from "./banner"
+import Courses from "./courses"
+import HomepageAbout from "./homepageAbout"
 import { IntroPage } from "./intro"
 
 const HomePage = () => {
@@ -6,6 +9,8 @@ const HomePage = () => {
     <div className="w-full ">
       <IntroPage /> 
       <Banner />
+      <HomepageAbout />
+      <Courses />
     </div>
   )
 }
