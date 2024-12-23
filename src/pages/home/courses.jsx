@@ -1,3 +1,4 @@
+import React from "react"
 import btech from "../../../public/images/Homepage/btech.webp"
 import bba from "../../../public/images/Homepage/bba.webp"
 import bbadigital from "../../../public/images/Homepage/bbadigital.webp"

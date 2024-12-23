@@ -1,5 +1,5 @@
 import stimg1 from "../../../public/images/Homepage/stpic5.jpg"
-
+import React from "react"
 const HomepageAbout =()=>{
     return(
         <div>
