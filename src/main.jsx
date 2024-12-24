@@ -24,18 +24,24 @@ import PMechanical from './components/corces/Polytechnic/Mechanical PD.jsx';
 import Ece from './components/corces/Polytechnic/ECE PD.jsx';
 import Dmlt from './components/corces/Polytechnic/DMLT PD.jsx';
 import Cse from './components/corces/Polytechnic/CSE PD.jsx';
+import Ragging from './components/admission/Ragging.jsx';
+import Procedure from './components/admission/Procedure.jsx';
+import Events from './components/life here/events.jsx';
+import Commite from './components/admission/Commite.jsx';
+import Discipline from './components/admission/Discipline.jsx';
 import Agrements from './components/training&placement/agrements.jsx';
 import Corporate from './components/training&placement/corporate.jsx';
-import Discipline from './components/admission/Discipline.jsx'
-import Ragging from './components/admission/Ragging.jsx';
-import Commite from './components/admission/Commite.jsx';
-import Procedure from './components/admission/Procedure.jsx';
+import Srcem from './components/life here/Srcm.jsx';
+import Sports from './components/life here/Sports.jsx';
+import Welfair from './components/life here/welfair.jsx';
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     children: [
       { path: '/', element: <HomePage /> },
+      { path: '/events', element:  <Events /> },
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
@@ -61,6 +67,9 @@ const router = createBrowserRouter([
       {path:'/Procedure', element:<Procedure/>},
       { path:"/agrement", element:<Agrements/>},
       { path:"/corporate" , element:<Corporate/>},
+      { path:"/srcem" , element:<Srcem/>},
+      { path:"/sports" , element:<Sports/>},
+      { path:"/welfair" , element:<Welfair/>},
    
 
     ],
