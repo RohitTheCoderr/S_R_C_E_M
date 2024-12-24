@@ -69,12 +69,12 @@ const Navbar = () => {
                                 <RiArrowDropDownLine className="text-[18px] ml-2" />
                             </div>
 
-                            {/* Nested Dropdown for Co-Founder Principal */}
-                            <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
-                                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li>
-                                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
-                            </ul>
-                        </li>
+              {/* Nested Dropdown for Co-Founder Principal */}
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <Link to={'/founder'}><li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Co-Founder</li></Link>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Principal Message</li>
+              </ul>
+            </li>
 
                         {/* Infrastructure Dropdown */}
                         <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 relative group hover:bg-[#37b7c3]">
@@ -83,16 +83,16 @@ const Navbar = () => {
                                 <RiArrowDropDownLine className="text-[18px] ml-2" />
                             </div>
 
-                            {/* Nested Dropdown for Infrastructure */}
-                            <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Smart Classroom</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Hostel</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Auditorium</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Library</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Transportation</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Medical</li>
-                            </ul>
-                        </li>
+              {/* Nested Dropdown for Infrastructure */}
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Smart Classroom</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Hostel</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Auditorium</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Library</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Transportation</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Medical</li>
+              </ul>
+            </li>
 
                         {/* Lab Dropdown */}
                         <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 relative group hover:bg-[#37b7c3]">
@@ -101,26 +101,26 @@ const Navbar = () => {
                                 <RiArrowDropDownLine className="text-[18px] ml-2" />
                             </div>
 
-                            {/* Nested Dropdown for Lab */}
-                            <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Physics Lab</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechanical Lab</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electrical Lab</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Computer Lab</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Civil Lab</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Chemistry Lab</li>
-                                <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">BMLT/DMLT Lab</li>
-                            </ul>
-                        </li>
+              {/* Nested Dropdown for Lab */}
+              <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-sm bg-[#ebf4f6] shadow-lg w-[200px]">
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Physics Lab</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechanical Lab</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Electrical Lab</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Computer Lab</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Civil Lab</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Chemistry Lab</li>
+                <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">BMLT/DMLT Lab</li>
+              </ul>
+            </li>
 
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
-                            Mandatory Disclosure
-                        </li>
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
-                            Mission and Vision
-                        </li>
-                    </ul>
-                </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              Mandatory Disclosure
+            </li>
+            <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">
+              Mission and Vision
+            </li>
+          </ul>
+        </li>
 
                 {/* Courses */}
                 <li className=" relative group/parent cursor-pointer ">

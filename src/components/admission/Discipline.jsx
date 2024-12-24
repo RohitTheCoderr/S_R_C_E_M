@@ -12,7 +12,7 @@ function Discipline() {
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center text-white py-22 sm:py-32">
-          <h1 className="text-3xl sm:text-5xl font-bold  text-sky-200">
+          <h1 className="text-3xl sm:text-5xl font-bold  text-[#ebf4f6]">
             General Discipline Rules
             <br />
             Shri Ram College of Engineering & Management
