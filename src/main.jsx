@@ -24,6 +24,9 @@ import Discipline from './components/admission/Discipline.jsx';
 import Ragging from './components/admission/Ragging.jsx';
 import Agrements from './components/training&placement/agrements.jsx';
 import Corporate from './components/training&placement/corporate.jsx';
+import Sports from './components/life here/Sports.jsx';
+import Srcem from './components/life here/Srcm.jsx';
+import Welfair from './components/life here/welfair.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +35,10 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <HomePage /> },
       { path: '/events', element:  <Events /> },
+      {path: '/sports', element:<Sports />},
+      {path: 'events', element:<Events />},
+      {path: 'srcem',element:<Srcem />},
+      {path: 'welfair',element:<Welfair />},
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
