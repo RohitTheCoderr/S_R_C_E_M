@@ -24,16 +24,15 @@ const Navbar = () => {
     }, []);
 
     return (
-        <div className="w-[30%] sm:w-[95%] md:w-[92%] lg:w-[85%] mt-[-4.2rem] sm:m-auto  h-auto relative z-50 ">
-            {/* Mobile Hamburger Button */}
-            <div className="relative z-10 mt-2 flex justify-between items-center px-2 sm:px-4 py-2 sm:hidden">
-                <button
-                    onClick={toggleMenu}
-                    className="text-[#071952] text-2xl focus:outline-none bg-gray-200 p-[0.59rem] rounded-full hover:bg-gray-300"
-                >
-                    {isMenuOpen ? <span><HiX /></span> : <span><HiMenu /></span>}
-                </button>
-            </div>
+        <div className="w-[100%] sm:w-[95%] md:w-[92%] lg:w-[85%] mt-[-4rem] sm:m-auto h-auto relative z-50">
+            <div className="relative z-10 mt-2 flex justify-end w- items-end px-2 sm:px-4 py-2 sm:hidden">
+        <button
+            onClick={toggleMenu}
+            className="text-[#071952] text-2xl focus:outline-none bg-gray-200 p-[0.59rem] rounded-full hover:bg-gray-300"
+        >
+            {isMenuOpen ? <span><HiX /></span> : <span><HiMenu /></span>}
+        </button>
+    </div>
             {/* Navbar Menu */}
             <ul
                 ref={menuRef}
@@ -225,11 +224,11 @@ const Navbar = () => {
                         <RiArrowDropDownLine className="text-[24px]" />
                     </div>
                     <ul className="absolute z-20 left-0 text-[#071952] text-start top-full hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                        
+
                         <Link to={'/Commite'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">adimission Commite</li></Link>
                         <Link to={'/Discipline'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">discipline</li></Link>
                         <Link to={'/Ragging'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Ragging</li></Link>
-                        
+
                         <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             procedure & eligibility
                         </li>
@@ -257,8 +256,8 @@ const Navbar = () => {
                         <Link to={"/sports"}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             Sports Activities
                         </li></Link>
-                        
-                        
+
+
                     </ul>
                 </li>
 
