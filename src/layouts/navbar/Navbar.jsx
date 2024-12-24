@@ -245,18 +245,20 @@ const Navbar = () => {
                         <RiArrowDropDownLine className="text-[24px]" />
                     </div>
                     <ul className="absolute z-20 left-0 text-[#071952] text-start top-full hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
+                        <Link to={"/srcem"}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             Shi Ram skill development center
-                        </li>
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
+                        </li></Link>
+                        <Link to={"/events"}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             Events
-                        </li>
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
+                        </li></Link>
+                        <Link to={"/welfair"}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             welfare Activities
-                        </li>
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
+                        </li></Link>
+                        <Link to={"/sports"}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             Sports Activities
-                        </li>
+                        </li></Link>
+                        
+                        
                     </ul>
                 </li>
 
