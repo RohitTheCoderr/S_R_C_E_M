@@ -11,7 +11,7 @@ const Civil = () => {
                 </div>
             </div>
             <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Program Overview</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     Our M.Tech. course is designed to provide advanced expertise in civil engineering, preparing
                     students for leadership roles and specialized careers in this critical field of engineering.
@@ -26,18 +26,18 @@ const Civil = () => {
                 </p>
 
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Objectives</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Program Objectives</h1>
                 <ul className="text-zinc-600 list-disc mx-5">
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Technical Skills:</span> Equip students with advanced knowledge and skills in civil engineering to tackle complex engineering challenges.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Innovative Solutions:</span> Foster a culture of innovation, encouraging students to develop cuttingedge solutions for realworld problems.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research and Development:</span> Enhance research capabilities and provide opportunities for contributing to advancements in civil engineering.</li>
                     <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Professional Development:</span> Prepare graduates for senior technical positions, project management roles, and consulting opportunities.</li>
                 </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Curriculum Highlights</h1>
-            <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Curriculum Highlights</h1>
+            <p className="text-zinc-600 text-sm md:text-base lg:text-lg text-justify">
                 The M.Tech. in Civil Engineering program offers a comprehensive curriculum that combines core courses, specialized electives, and practical research opportunities:
             </p>
             <ul className="text-zinc-600 list-disc mx-5">
@@ -47,20 +47,20 @@ const Civil = () => {
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Construction Management:</span> Gain insights into project management, construction processes, and quality control.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Environmental Engineering:</span> Understand the principles of environmental protection, waste management, and sustainable engineering practices.</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Electives and Specializations:</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Electives and Specializations:</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Earthquake Engineering:</span> Delve into the design and analysis of structures to withstand seismic forces.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Transportation Engineering:</span> Study transportation systems, traffic engineering, and infrastructure planning.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Building Information Modeling (BIM):</span> Learn about digital modeling techniques and their applications in building design and construction.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Sustainable Construction:</span> Explore sustainable building practices and green technologies in construction.</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Research and Project Work:</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Research and Project Work:</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Dissertation:</span> Conduct original research on a topic of interest in civil engineering, contributing new knowledge to the field.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Industry Projects:</span> Collaborate with industry partners on practical projects to apply theoretical knowledge in realworld scenarios.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Research Seminars:</span> Present research findings and engage with peers and experts to discuss emerging trends and technologies.</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Opportunities</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Career Opportunities</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1">Structural Engineer</li>
                 <li className="text-sm md:text-base lg:text-lg my-1">Geotechnical Engineer</li>
@@ -69,7 +69,7 @@ const Civil = () => {
                 <li className="text-sm md:text-base lg:text-lg my-1">Environmental Consultant</li>
                 <li className="text-sm md:text-base lg:text-lg my-1">Research and Development Engineer</li>
             </ul>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Why Choose SRCEM?</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Why Choose SRCEM?</h1>
             <ul className="text-zinc-600 list-disc mx-5">
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Esteemed Faculty:</span> Learn from a team of highly qualified faculty members with extensive industry and research experience.</li>
                 <li className="text-sm md:text-base lg:text-lg my-1"><span className="font-bold">Advanced Facilities:</span> Access stateoftheart laboratories and research facilities to support your learning and innovation.</li>
@@ -80,7 +80,7 @@ const Civil = () => {
                 For more information about the M.Tech. in Civil Engineering program at Shri Ram College of Engineering & Management, please visit our [website]() or contact our admissions office.
                 Advance your career in civil engineering with the M.Tech. program at SRCEM, where academic excellence and practical expertise combine to shape the future of engineering.
             </p>
-            <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+            <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Note:-</h1>
             <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
             <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                 It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.

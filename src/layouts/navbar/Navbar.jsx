@@ -171,11 +171,11 @@ const Navbar = () => {
 
                             {/* Nested Dropdown for Infrastructure */}
                             <ul className="absolute left-full top-0 hidden group-hover:block group-hover:border-t-[0.19rem] border-t-[#071952] text-[10px] sm:text-[11px] md:text-[12px] lg:text-sm bg-[#ebf4f6] shadow-lg w-[120px] sm:w-[120px] md:w-[160px] lg:w-[200px]">
-                                <Link to={'/'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil polytechnic diploma</li></Link>
-                                <Link to={'/'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">CSE polytechnic diploma</li></Link>
-                                <Link to={'/'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">DMLT polytechnic diploma</li></Link>
-                                <Link to={'/'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">ECE polytechnic diploma</li></Link>
-                                <Link to={'/'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechinical polytechnic diploma</li></Link>
+                                <Link to={'/PCivil'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">civil polytechnic diploma</li></Link>
+                                <Link to={'/PCse'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">CSE polytechnic diploma</li></Link>
+                                <Link to={'/PDmlt'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">DMLT polytechnic diploma</li></Link>
+                                <Link to={'/PEce'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">ECE polytechnic diploma</li></Link>
+                                <Link to={'/PMechanical'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Mechinical polytechnic diploma</li></Link>
                             </ul>
                         </li>
 

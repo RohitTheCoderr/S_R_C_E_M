@@ -1,6 +1,6 @@
+import React, { useRef, useState } from "react";
 import Navbar from "../navbar/Navbar";
 import { Link, NavLink } from "react-router-dom";
-import React, { useRef, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 const Header = ({ img }) => {
 

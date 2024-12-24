@@ -60,7 +60,7 @@ const CivilEngg = () => {
                     <li>Surveying</li>
                     <li>Construction Engineering</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Labs</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Labs</h1>
                 <ul className="text-zinc-600 list-disc mx-5 font-semibold">
                     <li>Transportation Engineering Lab</li>
                     <li>Auto-cad Lab</li>
@@ -72,13 +72,13 @@ const CivilEngg = () => {
                     <li>Irrigation Drawing Lab</li>
                 </ul>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     A profound understanding of structural analysis is crucial for designing complex structures, such as the International Space Station, where precise and innovative engineering solutions are required.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Objectives</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Objectives</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     The objectives for Civil Engineering are formed to produce capable engineers who will contribute effectively to the growth of a country. The objectives are as follows:-
                 </p>
@@ -87,7 +87,7 @@ const CivilEngg = () => {
                     <li>Graduates will possess strong written and oral communication skills.</li>
                     <li>Graduates will be familiar with current and emerging civil engineering and global issues, and have an understanding of ethical and societal responsibilities.</li>
                 </ul>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Career Options</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Career Options</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     In India, the demand for civil engineers is substantial and is anticipated to increase as the country prepares to enhance its infrastructure amidst growing economic and political influence on the global stage. This profession offers numerous opportunities within various government departments, as civil engineers play a critical role in major construction projects undertaken by central and state government agencies.
                     <br />
@@ -95,7 +95,7 @@ const CivilEngg = () => {
                     <br />
                     •Graduates will have the necessary qualifications for employment in civil engineering and related professions, for entry into advanced studies, and for assuming eventual leadership roles in their profession.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Note:-</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl my-4 font-medium font-mono">Note:-</h1>
                 <img src="cources/swayam icon.png" alt="Swayam Icon" className="h-24 md:h-32 lg:h-40 mx-auto my-4" />
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
                     It is essential note that completing the Swayam course is a mandatory requirement for obtaining your degree from J.C. Bose University of Science and Technology. The Swayam course is designed to enhance your academic experience and ensure you acquire essential skills relevant to your field of study. It is imperative that you register for and complete the course as stipulated in the curriculum guidelines. Failure to fulfill this requirement will affect your eligibility for graduation.

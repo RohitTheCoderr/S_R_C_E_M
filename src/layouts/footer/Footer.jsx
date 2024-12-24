@@ -59,8 +59,6 @@ const Footer = () => {
               </p>
             </div>
           </div>
-
-          {/* Address */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaLocationDot className="text-[#37b7c3] mr-3" /> Address
@@ -74,8 +72,6 @@ const Footer = () => {
               <p className="text-gray-400 text-sm">(Delhi NCR) Haryana</p>
             </div>
           </div>
-
-          {/* Mail Us */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaEnvelope className="text-[#37b7c3] mr-3" /> Mail Us
@@ -90,8 +86,6 @@ const Footer = () => {
               </p>
             </div>
           </div>
-
-          {/* Office */}
           <div className="w-52 py-4">
             <h3 className="flex items-center uppercase text-white text-lg">
               <FaGlobe className="text-[#37b7c3] mr-3" /> Office
