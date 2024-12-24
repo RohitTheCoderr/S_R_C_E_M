@@ -33,10 +33,10 @@ const Footer = () => {
             <div className="w-8 h-1 bg-[#37b7c3] my-4"></div>
             <div>
               <p className="text-gray-400 text-sm">
-                <span className="text-white">Phone: </span> +91-9355249401,02
+                <span className="text-white">Phone: </span> +91-9355249401, 02
               </p>
               <p className="text-gray-400 text-sm">
-                <span className="text-white">Phone: </span> +91-9355249403,04
+                <span className="text-white">Phone: </span> +91-9355249403, 04
               </p>
             </div>
           </div>

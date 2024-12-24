@@ -234,9 +234,9 @@ const Navbar = () => {
                         <Link to={'/Discipline'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">discipline</li></Link>
                         <Link to={'/Ragging'}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6]">Ragging</li></Link>
 
-                        <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
+                        <Link to={"/Procedure"}><li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             procedure & eligibility
-                        </li>
+                        </li></Link>
                         <li className="px-1 sm:px-2 lg:px-4 py-1 lg:py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                             criteria
                         </li>
