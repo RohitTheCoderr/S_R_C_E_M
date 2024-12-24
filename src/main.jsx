@@ -34,7 +34,7 @@ import Corporate from './components/training&placement/corporate.jsx';
 import Srcem from './components/life here/Srcm.jsx';
 import Sports from './components/life here/Sports.jsx';
 import Welfair from './components/life here/welfair.jsx';
-import IntroPag from '@src/pages/home/HomePage.jsx';
+import IntroPag from './pages/home/homepageAbout.jsx';
 import Founder from './components/about/Founder.jsx';
 import Mission from './components/about/Mission.jsx';
 import Principal from './components/about/Principal.jsx';
@@ -47,7 +47,7 @@ import Medical from './components/about/Medical.jsx';
 import Physics from './components/about/Physics.jsx';
 import Mechanics from './components/about/Mechanics.jsx';
 import Electrical from './components/about/Electrical.jsx';
-import Civil from './components/about/Civil.jsx';
+import Civil_Lab from './components/about/Civil_Lab.jsx';
 import Computer from './components/about/Computer.jsx';
 import Chemistry from './components/about/Chemistry.jsx';
 import Bmlt from './components/about/Bmlt.jsx';
@@ -103,7 +103,7 @@ const router = createBrowserRouter([
       { path: '/Mechanics', element: <Mechanics/> },
       { path: '/Electrical', element: <Electrical/> },
       { path: '/Computer', element: <Computer /> },
-      { path: '/Civil', element: <Civil /> },
+      { path: '/Civil_Lab', element: <Civil_Lab /> },
       { path: '/Chemistry', element: <Chemistry /> },
       { path: '/Bmlt', element: <Bmlt/>},
       { path: '/Mandatory', element: <Mandatory /> },
