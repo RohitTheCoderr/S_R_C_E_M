@@ -121,9 +121,13 @@ const Events = () => {
       </div>
 
       <div className="bg-zinc-100 text-center px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-        <h2 className="text-3xl sm:text-4xl font-semibold text-zinc-800 mb-8">Why Choose B.VOC MLT and DMLT at Shri Ram College?</h2>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-zinc-800 mb-8">Exciting College Events Ahead!</h2>
         <p className="text-lg text-zinc-600 mb-6">
-          Our college offers a wide range of engaging events like the College Festival, Tech Conference, and Sports Day, where students showcase their talents and learn from industry leaders. Participate in hands-on workshops, project exhibitions, and competitions in fields such as robotics and AI. SRCEM is committed to providing a holistic educational experience, supported by industrial visits and collaboration with global tech giants like Microsoft. Join us and be part of a dynamic community that celebrates innovation, creativity, and academic excellence!
+        **Heading:**  
+"Exciting College Events Ahead!"
+
+**Description:**  
+"Stay tuned for a series of thrilling events, competitions, and workshops hosted by our college. From cultural festivals to academic showcases, there's something for everyone. Be a part of the vibrant campus life and create unforgettable memories with us!"
         </p>
       </div>
     </div>
