@@ -53,8 +53,6 @@ import Chemistry from './components/about/Chemistry.jsx';
 import Bmlt from './components/about/Bmlt.jsx';
 import Mandatory from './components/about/Mandatory.jsx';
 
-
-
 const router = createBrowserRouter([
   {
     path: '/',
@@ -62,6 +60,10 @@ const router = createBrowserRouter([
     children: [
       { path: '/', element: <HomePage /> },
       { path: '/events', element:  <Events /> },
+      {path: '/sports', element:<Sports />},
+      {path: 'events', element:<Events />},
+      {path: 'srcem',element:<Srcem />},
+      {path: 'welfair',element:<Welfair />},
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },

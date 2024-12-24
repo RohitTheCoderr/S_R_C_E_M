@@ -7,8 +7,8 @@ const Srcem = () => {
       <div className="relative w-full h-80 bg-cover bg-center " style={{ backgroundImage: 'url(https://img.freepik.com/premium-photo/luxurious-new-building-with-curb-appeal_1127-4448.jpg?semt=ais_hybrid)' }}>
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 text-center text-white py-20 sm:py-28">
-          <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">Shi Ram skill development center</h1>
-          <p className="text-lg sm:text-xl mt-4">Don't miss out on these exciting events happening at our college in 2024!</p>
+          <h1 className="text-3xl sm:text-5xl font-bold text-[#ebf4f6]">Accelerate Your Career Journey!</h1>
+          <p className="text-lg sm:text-xl mt-4">Enhance your professional skills and prepare for success with our comprehensive career development programs.</p>
         </div>
       </div>
 
@@ -121,9 +121,13 @@ const Srcem = () => {
       </div>
 
       <div className="bg-zinc-100 text-center px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-        <h2 className="text-3xl sm:text-4xl font-semibold text-zinc-800 mb-8">Why Choose B.VOC MLT and DMLT at Shri Ram College?</h2>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-zinc-800 mb-8">Shaping Future Leaders!</h2>
         <p className="text-lg text-zinc-600 mb-6">
-          Our college offers a wide range of engaging events like the College Festival, Tech Conference, and Sports Day, where students showcase their talents and learn from industry leaders. Participate in hands-on workshops, project exhibitions, and competitions in fields such as robotics and AI. SRCEM is committed to providing a holistic educational experience, supported by industrial visits and collaboration with global tech giants like Microsoft. Join us and be part of a dynamic community that celebrates innovation, creativity, and academic excellence!
+        **Heading:**  
+"Shaping Future Leaders!"
+
+**Description:**  
+"Unlock your potential with our career development initiatives! From workshops and internships to mentorship programs, we provide the resources and guidance you need to succeed in your career. Empower yourself for a bright future and take the first step toward your professional goals!"
         </p>
       </div>
     </div>
