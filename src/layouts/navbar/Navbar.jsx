@@ -219,34 +219,34 @@ const Navbar = () => {
                 Corporate Tie UPS
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/MOU">
              
               <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                 MOU
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/jobfair">
              
               <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                 Job-Fair 2024
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/Tpomessage">
             
               <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                 TPO message
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/placementrecord">
              
               <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
                 placement record
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/placement">
              
               <li className="px-4 py-2 hover:bg-[#37b7c3] hover:text-[#ebf4f6] ">
-                placement{" "}
+                placement
               </li>
             </Link>
           </ul>

@@ -20,7 +20,11 @@ import CompEngg from './components/corces/M.tech/Comp.jsx';
 import ElectronicsEngg from './components/corces/M.tech/Electronics.jsx';
 import Agrements from './components/training&placement/agrements.jsx'
 import Corporate from './components/training&placement/corporate.jsx'
-
+import Jobfair from './components/training&placement/jobfair.jsx'
+import Tpomessage from './components/training&placement/Tpomessage.jsx';
+import MOU from './components/training&placement/MOU.jsx';
+import Placementrecord from './components/training&placement/placementrecord.jsx';
+import Placement from './components/training&placement/placement.jsx';
 
 const router = createBrowserRouter([
   {
@@ -52,7 +56,27 @@ const router = createBrowserRouter([
     {
      path:"/corporate" ,
      element:<Corporate/>
-    }
+    },
+    {
+      path:"/jobfair" ,
+      element:<Jobfair/>
+     },
+     {
+      path:"/Tpomessage" ,
+      element:<Tpomessage/>
+     },
+     {
+      path:"/MOU" ,
+      element:<MOU/>
+     },
+     {
+      path:"/placementrecord" ,
+      element:<Placementrecord/>
+     },
+     {
+      path:"/placement" ,
+      element:<Placement/>
+     },
   ]
 }
 ])
