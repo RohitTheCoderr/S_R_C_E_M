@@ -8,7 +8,7 @@ const Founders = () => {
     <div>
       <div className="px-4 py-2 md:py-4 md:px-8 lg:py-10 lg:px-40 flex flex-wrap items-center justify-center xl:mt-10 lg:mt-8 md:mt-6 mt-4">
         <h1 className="xl:text-7xl lg:text-4xl md:text-2xl text-xl xl:m-8 lg:m-6 md:m-4 m-4 font-mono text-[#071952]">
-          Our Founders
+          OUR FOUNDERS
         </h1>
         <div className="h-1 w-full bg-[#088395]"></div>
         <div className="w-full flex flex-wrap justify-around xl:gap-y-12 lg:gap-y-8 md:gap-y-6 gap-y-4 xl:mt-12 lg:mt-6 md:mt-4 mt-4 ">

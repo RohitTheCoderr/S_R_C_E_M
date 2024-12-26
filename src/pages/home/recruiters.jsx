@@ -14,7 +14,7 @@ const RecruiterSection =()=>{
         <div>
             <div className="font-mono h-[18rem] w-full  px-4 py-2 md:py-4 md:px-8 lg:py-10 lg:px-40 flex flex-wrap justify-around">
                 <div className="xl:w-[20rem]">
-                    <h1 className="xl:text-[3rem] text-[#071952] underline underline-offset-8">Our Trusted Partners</h1>
+                    <h1 className="xl:text-[3rem] text-[#071952] underline underline-offset-8">OUR TRUSTED PARTNERS</h1>
                 </div>
                 <div className="grid">
                     <div className="xl:h-[12rem] xl:w-[40rem] grid grid-cols-2 grid-rows-4 gap-4 xl:mt-2 lg:mt-8 sm:grid-cols-4 sm:grid-rows-2 mt-4">
