@@ -12,7 +12,7 @@ const HomepageAbout =()=>{
                     <p className="xl:text-[1.1rem] lg:text-[0.8 rem] md:text-[.8rem] text-[0.8rem] font-mono lg:m-8 md:m-4 m-2 text-[#071952]">We are SHRI RAM COLLEGE OF ENGINEERING & MANAGEMENT one of the best engineering & Management college in Delhi-NCR. At Shri Ram College of Engineering & Management, we recognize that shaping institutions is as challenging asshaping the future itself. It demands serious and sustained efforts, a relentless pursuit of excellence, hard work, and dedication. With a state-of-the-art campus and a faculty of distinguished professionals, we are committed to providing top-notch education.</p>
                 </div>
                 <div className="md:h-full w-full md:w-1/2 lg:w-1/2  md:mt-14 mt-0 rounded shadow object-cover">
-                    <img src={stimg1} className="xl:h-[35rem] lg:h-[25rem] md:h-[25rem]" />
+                    <img src={stimg1} className="xl:h-[35rem] lg:h-[25rem] md:h-[25rem] rounded-sm" />
                 </div>
             </div>
         </div>

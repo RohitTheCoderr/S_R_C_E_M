@@ -16,10 +16,10 @@ function IntroPage() {
         />
         <p className="text-white z-20 lg:text-6xl md:text-4xl text-2xl font-mono flex justify-center relative -top-[64rem]  ">
           Find Your&nbsp;
-          <span className="bg-[#088395] rounded-md px-2 border-b-2 border-[#071952]">Future</span>
+          <span className="bg-[#088395] rounded-sm px-2 ">Future</span>
           &nbsp;Today!
         </p>
-        <span className="text-white  z-20 lg:text-4xl md:text-3xl text-2xl font-semibold flex justify-center relative -top-[62rem] bg-opacity-40 bg-black xl:p-4">
+        <span className=" text-center text-white  z-20 lg:text-4xl md:text-3xl text-2xl font-semibold flex justify-center relative -top-[62rem] bg-opacity-40 bg-black xl:p-4 ">
           SHRI RAM COLLEGE OF ENGINEERING & MANAGEMENT
         </span>
         {/* <div className="bg-gray-300 text-[#071952] lg:h-16 md:h-13 h-10 lg:w-[30rem] md:w-[24rem] w-[16rem] z-30 relative m-auto -top-[59rem] rounded-xl flex text-center ">
