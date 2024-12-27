@@ -3,17 +3,19 @@ import React from "react";
 const Hostel = () => {
   return (
     <>
-      <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-        <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl  font-medium font-mono text-left ">
-          HOSTEL
-        </h1>
+      <div className=" w-[90%] m-auto mt-[2rem] font-sans">
+        <div className="flex gap-5 mb-2 items-center justify-center">
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+          <h1 className="text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase">  HOSTEL</h1>
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+        </div>
         <br />
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gra-600 text-sm md:text-base lg:text-lg text-justify">
           Welcome to the Auditorium at Shri Ram College of Engineering &
           Management A Premier Venue for Innovation, Collaboration, and
           Excellence.
         </p>
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           At Shri Ram College of Engineering & Management, our hostel facilities
           are designed to provide students with an exceptional living
           environment that supports both academic and personal growth. Each
@@ -26,22 +28,22 @@ const Hostel = () => {
         </p>
        
         
-        <div className="flex flex-col mt-12 md:flex-row md:flex-wrap items-center justify-center gap-4">
+        <div className="flex flex-col my-8 md:flex-row md:flex-wrap items-center justify-center gap-4">
           <img
-            src="public\images\hostel-4.jpg"
-            className="h-auto w-3/4 md:w-1/3 lg:w-1/4 border-2 rounded-md "
+            src="images/hostel-4.jpg"
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md "
           ></img>
           <img
-            src="public\images\hostel2.jpg"
-            className="h-auto w-3/4 md:w-1/3  lg:w-1/4 border-2 rounded-md  "
+            src="images/hostel2.jpg"
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md  "
           ></img>
           <img
-            src="public\images\hostel3.jpg"
-            className="h-auto w-3/4 md:w-1/3 lg:w-1/4 border-2 rounded-md "
+            src="images/hostel3.jpg"
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md "
           ></img>
         </div>
         <br />
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           Our commitment to student well-being extends beyond the classroom,
           with a range of amenities that enhance daily living. Students can
           savor healthy and delicious meals prepared in our hygienic dining

@@ -3,17 +3,20 @@ import React from "react";
 const Library = () => {
   return (
     <>
-      <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-        <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl  font-medium font-mono text-left ">
-          Library
-        </h1>
+      <div className=" w-[90%] m-auto my-[2rem] font-sans">
+
+        <div className="flex gap-5 mb-5 items-center justify-center">
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+          <h1 className="text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase">Library</h1>
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+        </div>
         <br />
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg text-justify">
           Welcome to the Library at Shri Ram College of Engineering &
           Management, where advanced facilities and a commitment to scholarly
           excellence converge to support your academic journey.
         </p>
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           Our library is a cornerstone of intellectual development, offering a
           meticulously curated collection of resources that span books, academic
           journals, research databases, and digital media. Designed to foster a
@@ -23,20 +26,18 @@ const Library = () => {
         </p>
         <br />
         <br />
-        <div className="flex flex-col mt-12 md:flex-row md:flex-wrap items-center justify-center gap-4">
+        <div className="p-2 flex w-full m-auto my-8 flex-wrap items-center justify-center gap-6">
           <img
             src="public\images\download (9).jpg"
-            className="h-auto w-3/4 md:w-1/3 lg:w-1/4 border-2 rounded-md  "
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md   "
           ></img>
           <img
             src="public\images\download (10).jpg"
-            className="h-auto w-3/4 md:w-1/3  lg:w-1/4 border-2 rounded-md  "
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md   "
           ></img>
-         
+
         </div>
-        <br />
-        <br />
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           Information and facts written in print media has been the most
           comfortable and reliable way of gathering knowledge since the
           inception of humanity. A large number of texts are available for every
@@ -90,72 +91,71 @@ const Library = () => {
           reading in relevance to the topics of their choice.
         </p>
         <br />
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg my-4 text-justify">
           Digital Library
         </p>
-       
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
-        The Digital Library at Shri Ram College of Engineering & Management,
-        where cutting-edge technology meets unparalleled access to academic
-        resources. Our Digital Library is a gateway to a vast repository of
-        electronic books, scholarly journals, research papers, and multimedia
-        content, all meticulously curated to support your educational and
-        research endeavors. Designed for ease of use and accessibility, our
-        digital resources are available anytime, anywhere, providing you with
-        the flexibility to explore and engage with knowledge on your own terms.
-        <br />
-        <br />
-        At Shri Ram, we recognize the transformative power of digital technology
-        in enhancing learning experiences. Our Digital Library offers advanced
-        search functionalities, intuitive navigation, and a wealth of academic
-        materials that cater to a wide range of disciplines. Whether you're
-        conducting in-depth research, accessing the latest industry
-        publications, or exploring new academic interests, our digital platform
-        ensures you have instant access to the tools and information you need.
-        With a focus on innovation and accessibility, our Digital Library is
-        dedicated to supporting your academic success and fostering a culture of
-        continuous learning. Join us in embracing the future of knowledge
-        management and discover how our digital resources can enrich your
-        educational journey at Shri Ram College of Engineering & Management.
+
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
+          The Digital Library at Shri Ram College of Engineering & Management,
+          where cutting-edge technology meets unparalleled access to academic
+          resources. Our Digital Library is a gateway to a vast repository of
+          electronic books, scholarly journals, research papers, and multimedia
+          content, all meticulously curated to support your educational and
+          research endeavors. Designed for ease of use and accessibility, our
+          digital resources are available anytime, anywhere, providing you with
+          the flexibility to explore and engage with knowledge on your own terms.
+          <br />
+          <br />
+          At Shri Ram, we recognize the transformative power of digital technology
+          in enhancing learning experiences. Our Digital Library offers advanced
+          search functionalities, intuitive navigation, and a wealth of academic
+          materials that cater to a wide range of disciplines. Whether you're
+          conducting in-depth research, accessing the latest industry
+          publications, or exploring new academic interests, our digital platform
+          ensures you have instant access to the tools and information you need.
+          With a focus on innovation and accessibility, our Digital Library is
+          dedicated to supporting your academic success and fostering a culture of
+          continuous learning. Join us in embracing the future of knowledge
+          management and discover how our digital resources can enrich your
+          educational journey at Shri Ram College of Engineering & Management.
         </p>
-        <br/><br/>
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
-        SECTIONS OF THE LIBRARY
-        </p>
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
-        The Library is having following sections:
 
-1. Acquisition & Technical Section<br/><br/>
+        <div className="flex flex-wrap justify-start sm:justify-around">
+          <div className="w-[20rem] md:w-[25rem]  ">
+            <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg my-4 text-justify">
+              SECTIONS OF THE LIBRARY
+            </p>
+            <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
+              The Library has the following sections:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Acquisition & Technical Section</li>
+              <li>Circulation Section</li>
+              <li>General Book Section (Stack Area)</li>
+              <li>Book Bank Section</li>
+              <li>Periodical Section</li>
+              <li>Reference Section</li>
+              <li>Internet / E-Resource Section</li>
+              <li>Reading Room</li>
+            </ul>
+          </div>
+          <div className="w-[20rem] md:w-[25rem] ">
+            <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg my-4 ">
+              SERVICES/FACILITIES PROVIDED BY THE LIBRARY
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Circulation (Issue/Return) Service</li>
+              <li>Reference Service</li>
+              <li>Internet & Access to e-resources</li>
+              <li>Reading Facility</li>
+              <li>Book Bank facility for students</li>
+            </ul>
+          </div>
+        </div>
 
-2. Circulation Section<br/><br/>
 
-3. General Book Section (Stack Area)<br/><br/>
 
-4. Book Bank Section<br/><br/>
 
-5. Periodical Section<br/><br/>
-
-6. Reference Section<br/><br/>
-
-7. Internet / E-Resource Section<br/><br/>
-
-8. Reading Room
-        </p>
-        <br/><br/>
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
-        SERVICES/FACILITIES PROVIDED BY THE LIBRARY
-        </p>
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
-        1. Circulation (Issue/Return) Service<br/><br/>
-
-2. Reference Service<br/><br/>
-
-3. Internet & Access to e-resources<br/><br/>
-
-4. Reading Facility<br/><br/>
-
-5. Book Bank facility for students
-        </p>
       </div>
     </>
   );
