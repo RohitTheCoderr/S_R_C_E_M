@@ -1,6 +1,6 @@
 import React from "react";
 
-const Civil = () => {
+const Civil_Lab = () => {
   return (
     <>
       <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
@@ -64,4 +64,4 @@ const Civil = () => {
     </>
   );
 };
-export default Civil;
+export default Civil_Lab;
