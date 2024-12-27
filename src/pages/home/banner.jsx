@@ -62,7 +62,7 @@ const Card = ({ id, title, description, image }) => (
 
 const Banner = () => {
   return (
-    <div className="relative  w-[90%] m-auto mt-[-4rem] z-50">
+    <div className="relative  w-[90%] m-auto mt-[2rem] md:mt-[-4rem] z-50">
       <div className=" flex flex-wrap gap-8 justify-around ">
         {cardData.map((card) => (
           <Card key={card.id} {...card} />

@@ -14,9 +14,9 @@ const HomePage = () => {
       <Banner />
       <HomepageAbout />
       <Courses />
-      <EnquirySection />
       <Founders />
       <RecruiterSection />
+      <EnquirySection />
     </div>
   )
 }
