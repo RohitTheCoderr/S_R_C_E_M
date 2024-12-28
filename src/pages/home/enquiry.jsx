@@ -1,5 +1,4 @@
 import React from "react"
-import enquirywallpaper from "../../../public/images/Homepage/enquirywallpaper1.jpg"
 
 const EnquirySection = () => {
     return (

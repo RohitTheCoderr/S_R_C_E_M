@@ -4,7 +4,7 @@ const HomepageAbout = () => {
         <div className=" w-[90%] m-auto font-sans my-[3rem] ">
             <div className=" w-full flex gap-5 items-center justify-center">
                 <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase">about us</h1>
+                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase text-center">about us</h1>
                 <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
             </div>
             <div className="mt-[2rem] flex flex-wrap-reverse gap-1 sm:gap-2 md:gap-4 lg:gap-8 items-center justify-center">

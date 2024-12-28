@@ -1,36 +1,32 @@
 import React from "react";
-import scholarshipimg from "../../../public/images/Homepage/scholarship.svg";
-import teacherimg from "../../../public/images/Homepage/teacher.svg";
-import libraryimg from "../../../public/images/Homepage/library.svg";
-import moneyimg from "../../../public/images/Homepage/money.svg";
 
 const cardData = [
   {
     id: "01",
     title: "Scholarship Facility",
     description: "Explore our scholarship options available at the college to help you achieve your academic goals!",
-    image: scholarshipimg,
+    image: "images/Homepage/scholarship.svg",
    
   },
   {
     id: "02",
     title: "Skilled Lecturers",
     description: "State-of-the-art laboratory with latest equipment to pool the bridge between industry and curriculum",
-    image: teacherimg,
+    image: "images/Homepage/teacher.svg",
   
   },
   {
     id: "03",
     title: "Beti Bachao & Padhao",
     description: "Special scholarship for girls to realize the vision of 'Beti Bachao, Beti Padhao' by Honorable PM Mr. Narendra Modi.",
-    image: libraryimg,
+    image: "images/Homepage/library.svg",
   
   },
   {
     id: "04",
     title: "Affordable Price",
     description: "Well-stocked library with more than 30,239 volumes of textbooks/journals/e-journals and magazines.",
-    image: moneyimg,
+    image: "images/Homepage/money.svg",
     
   },
 ];

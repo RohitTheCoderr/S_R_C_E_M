@@ -52,6 +52,7 @@ import Computer from './components/about/Computer.jsx';
 import Chemistry from './components/about/Chemistry.jsx';
 import Bmlt from './components/about/Bmlt.jsx';
 import Mandatory from './components/about/Mandatory.jsx';
+import Contact from './pages/contact/Contact.jsx';
 
 const router = createBrowserRouter([
   {
@@ -110,6 +111,7 @@ const router = createBrowserRouter([
       { path: '/Bmlt', element: <Bmlt/>},
       { path: '/Mandatory', element: <Mandatory /> },
       { path: '/Mission', element: <Mission /> },
+      { path: '/contact', element: <Contact /> },
       
     ],
   },
