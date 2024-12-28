@@ -3,12 +3,13 @@ import React from "react";
 const Medical = () => {
   return (
     <>
-      <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
-        <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl  font-medium font-mono text-left ">
-          Medical
-        </h1>
-        <br />
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
+     <div className="w-[90%] my-[2rem] m-auto font-sans">
+        <div className="flex gap-5 mb-5 items-center justify-center">
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+          <h1 className="text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase">medical</h1>
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+        </div>
+        <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg my-4 text-justify">
           Health is one the most crucial aspects and is the focal point of
           concern for SRCEM. The institute has arranged separate facilities for
           boys and girls with dedicated doctors ready to serve round the clock.
@@ -19,7 +20,7 @@ const Medical = () => {
           problems are dealt with immediately by the medical and support staff.
         </p>
         <br />
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           Regular injury prevention and remedial measures are also shared with
           the staff and students from time to time to keep them ready. Regular
           meetings of doctors are arranged with the management to keep the
@@ -29,20 +30,19 @@ const Medical = () => {
         </p>
         <br />
         <br />
-        <div className="flex flex-col mt-12 md:flex-row md:flex-wrap items-center justify-center gap-4">
+        <div className="p-2 flex w-full m-auto my-8 flex-wrap items-center justify-center gap-6">
           <img
             src="public\images\DSC_1949.jpg"
-            className="h-auto w-3/4 md:w-1/3 lg:w-1/4 border-2 rounded-md  "
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md "
           ></img>
 
           <img
             src="public\images\DSC_1952.jpg"
-            className="h-auto w-3/4 md:w-1/3 lg:w-1/4 border-2 rounded-md "
+            className="h-auto md:h-[15rem] w-full md:w-[25rem] border-2 border-black rounded-md"
           ></img>
         </div>
-        <br />
-        <br />
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+       
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           Vaccinations and yearly medical check-ups are also conducted in the
           centre to ensure that students stay fit and fine or their studies and
           sports activities. In association with the Indian Red-cross society,
@@ -55,11 +55,11 @@ const Medical = () => {
           it as their integral duty.
         </p>
         <br />
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg my-4 text-justify">
           Medical Facility
         </p>
         
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           The Medical facilities here at Shri Ram College of Engineering &
           Management, Palwal is well equipped. It has separate inpatient
           facility for male and female students. The health centre provides
@@ -75,11 +75,11 @@ const Medical = () => {
           facility.
         </p>
         <br />
-        <p className="text-zinc-800 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-600 font-semibold text-sm md:text-base lg:text-lg my-4 text-justify">
           Red Cross Unit
         </p>
     
-        <p className="text-zinc-600 text-sm md:text-base lg:text-lg my-4 text-justify">
+        <p className="text-gray-500 text-sm md:text-base lg:text-lg my-4 text-justify">
           The unit keeps close lesen with Indian re cross society and jointly
           organize various programme, workshops and blood donation camps.
         </p>

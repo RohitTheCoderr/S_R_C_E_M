@@ -3,16 +3,18 @@ import React from "react";
 const Principal = () => {
   return (
     <>
-      <div className="px-4 py-2 md:py-4 md:px-8 lg:py-8 lg:px-16">
+      <div className="w-[90%] sm:w-[90%] m-auto my-[2rem]">
+        <div className="flex gap-5 items-center justify-center">
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+          <h1 className="text-2xl text-center sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase">  From The Desk Of Director</h1>
+          <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
+        </div>
         <div className="flex flex-col mt-12 md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-8">
           <img
-            src="public\images\download (3).jpg"
-            className="h-auto w-full md:w-2/3 lg:h-96 lg:w-2/3 border-2 rounded-md shadow-lg shadow-black self-center"
+            src="images\download (3).jpg"
+            className="h-[20rem] w-auto md:w-2/3 lg:h-96 lg:w-2/3 border-2 rounded-md shadow-lg shadow-black self-center"
           ></img>
           <div className="text-center md:text-left">
-            <h1 className="text-[#088395] text-2xl md:text-3xl lg:text-4xl  font-medium font-mono text-left ">
-              From The Desk Of Director
-            </h1>
             <br />
             <h1 className="text-black text-2xl md:text-3xl lg:text-4xl  font-medium font-mono text-left ">
               Prof (D.R) S.K Gupta
@@ -26,7 +28,6 @@ const Principal = () => {
               keep themselves developing in the life so that they can be the
               change agents.
               <br />
-              <br />
               Technology leaders, policymakers and capable of giving direction
               to the society and nation. A technical and management education
               oasis located in lush green and sprawling campus providing
@@ -37,16 +38,22 @@ const Principal = () => {
             </p>
           </div>
         </div>{" "}
-       
-       
-        <img
-          src="public\images\download (3).png"
-          className="w-auto max-w-full h-auto md:w-1/4 lg:w-1/5 ml-[25%] md:ml-auto rounded-md"
-        ></img>
-        <p className="text-[#088395] text-2xl md:text-3xl lg:text-4xl  font-medium font-mono text-right ">
+
+
+
+
+        <div className="w-full flex justify-end "><img
+          src="images\download (3).png"
+          className="w-auto h-[4rem]  rounded-md"
+          alt="Co-Founder Image"
+        /></div>
+        <p className="text-[#088395] text-sm sm:text-lg  font-medium text-right">
           From The Desk Of Director
         </p>
-      </div>{" "}
+
+      </div > {" "}
+
+
     </>
   );
 };
