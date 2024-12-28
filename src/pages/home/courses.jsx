@@ -18,62 +18,64 @@ const Courses =()=>{
                 <h1 className="xl:text-7xl lg:text-4xl md:text-2xl text-xl xl:m-8 lg:m-6 md:m-4 m-4 font-mono text-[#071952]">Courses</h1>
                 <div className="h-1 w-full bg-[#088395] "></div>
                 <div className="flex flex-wrap justify-around xl:gap-y-12 lg:gap-y-8 md:gap-y-6 gap-y-4 xl:mt-12 lg:mt-6 md:mt-4 mt-4 ">
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={btech} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={btech} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">B.Tech Programme</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">3 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (3 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={bba} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={bba} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">BBA</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">3 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (3 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={bca} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={bca} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">BCA</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">3 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (3 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={mtech} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={mtech} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">M.Tech Programme</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">2 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (2 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={mba} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={mba} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">MBA</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">2 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (2 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={mca} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={mca} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">MCA</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">2 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (2 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={polytechinc} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={polytechinc} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Polytechnic Diploma</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">2 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (2 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={bbadigital} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={bbadigital} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">BBA Digital Marketing</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">3 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (3 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
-                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700">
-                        <img src={bvoc} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem]"/>
+                    <div className="xl:h-[24rem] lg:h-[16rem] md:h-[16rem] h-[16rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] shadow-md shadow-slate-700 rounded-xl bg-gray-100">
+                        <img src={bvoc} className="xl:h-[12rem] lg:h-[8rem] md:h-[8rem] h-[8rem] xl:w-[22rem] lg:w-[14rem] md:w-[14rem] w-[14rem] rounded-xl"/>
                         <h1 className="xl:text-[1.5rem] lg:text-[1.2rem] md:text-[1rem] text-[0.8rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">B.VOC</h1>
-                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">3 Years</h1>
-                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-3xl shadow-md shadow-black">View More</button>
+                        <h1 className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 text-[#071952] font-mono font-bold">Duration- (3 Years)</h1>
+                        <button className="xl:text-[1.3rem] lg:text-[1.1rem] md:text-[0.9rem] text-[0.7rem] xl:m-3 lg:m-2 md:m-1 m-1 bg-[#071952] font-mono font-bold text-white xl:py-[0.2rem] lg:py-[0.1rem] md:py[0.1rem] py-[0.1rem] xl:px-[1.5rem] lg:px-[1rem] md:px-[0.8rem] px-[0.8rem]  rounded-lg shadow-md shadow-black">View More</button>
                     </div>
                 </div>
+                
                 </div>
+                
         </div>
     )
 }

@@ -66,7 +66,7 @@ const Welfair = () => {
         <div className="w-full sm:w-1/2 px-6 text-center md:text-left ">
           <h2 className="text-3xl sm:text-4xl font-semibold text-[#088395] mb-6">Share the Love, Share the Food</h2>
           <p className="text-lg text-zinc-600 mb-6">
-            Compete in various sports and enjoy the fun activities with your friends and family! The day will feature track races, football, cricket, and even a tug of war.
+          Support the less fortunate by contributing to our food donation drive. Your kindness will help provide meals to those in need. Join us in spreading warmth and compassion within our community and beyond.
           </p>
           <div className="space-y-2">
             <p className="text-md text-zinc-500">Date: <span className="font-semibold">2024-07-20</span></p>
