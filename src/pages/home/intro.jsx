@@ -17,7 +17,7 @@ function IntroPage() {
           &nbsp;Today!
         </p>
         <div className="bg-black py-0 sm:py-1 lg:px-4 lg:py-2 bg-opacity-40 w-full overflow-hidden">
-          <p className="scrolling-text whitespace-nowrap overflow-x-auto">
+          <p className="scrolling-text whitespace-nowrap overflow-x">
             <span className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-semibold block text-center lg:text-left">
               SHRI RAM COLLEGE OF ENGINEERING & MANAGEMENT
             </span>
