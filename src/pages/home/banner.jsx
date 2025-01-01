@@ -33,13 +33,13 @@ const cardData = [
 
 const Card = ({ id, title, description, image }) => (
   <div
-    className={"bg-gradient-to-br from-[#071952] to-[#37b7c3] h-64 w-64 rounded-3xl p-3 hover:shadow-2xl hover:scale-105 transform transition-all duration-300 ease-in-out"}
+    className={"bg-gradient-to-br group from-[#071952] to-[#37b7c3] h-64 w-64 rounded-3xl p-3 hover:shadow-2xl hover:scale-105 transform transition-all duration-300 ease-in-out"}
   >
     <div className="flex justify-between items-center">
       <img
         src={image}
         alt={title}
-        className="h-12 w-12 lg:h-20 lg:w-20 md:h-16 md:w-16 rounded-full bg-white p-1 shadow-md"
+        className="h-12 w-12 lg:h-20 lg:w-20 md:h-16 md:w-16 rounded-full bg-white p-1 shadow-md group-hover:rotate-[360deg] transform transition-all duration-300 "
       />
       <h1 className="text-5xl lg:text-6xl font-bold text-white">
         {id}

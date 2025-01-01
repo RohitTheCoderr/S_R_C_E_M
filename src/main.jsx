@@ -1,10 +1,9 @@
-import React from 'react';
+import React, { lazy, Suspense } from 'react';
 import { StrictMode } from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { createRoot } from "react-dom/client"
 import App from './App.jsx';
 import './index.css';
-import HomePage from './pages/home/HomePage.jsx';
 import BBA from './components/corces/BBA.jsx';
 import BBAdm from './components/corces/BBA-DM.jsx';
 import BCA from './components/corces/BCA.jsx';
@@ -53,18 +52,26 @@ import Chemistry from './components/about/Chemistry.jsx';
 import Bmlt from './components/about/Bmlt.jsx';
 import Mandatory from './components/about/Mandatory.jsx';
 import Contact from './pages/contact/Contact.jsx';
+const HomePage = lazy(() => import("./pages/home/HomePage.jsx"));
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
     children: [
-      { path: '/', element: <HomePage /> },
-      { path: '/events', element:  <Events /> },
-      {path: '/sports', element:<Sports />},
-      {path: 'events', element:<Events />},
-      {path: 'srcem',element:<Srcem />},
-      {path: 'welfair',element:<Welfair />},
+      {
+        path: "/",
+        element: (
+          <Suspense fallback={<h1 className='h-screen w-screen flex justify-center items-center font-sans font-semibold text-2xl'>Loading.....</h1>}>
+            <HomePage />
+          </Suspense>
+        ),
+      },
+      { path: '/events', element: <Events /> },
+      { path: '/sports', element: <Sports /> },
+      { path: 'events', element: <Events /> },
+      { path: 'srcem', element: <Srcem /> },
+      { path: 'welfair', element: <Welfair /> },
       { path: '/Mechanical', element: <Mechanical /> },
       { path: '/Comp', element: <Comp /> },
       { path: '/Electronics', element: <Electronics /> },
@@ -84,35 +91,35 @@ const router = createBrowserRouter([
       { path: '/BVOC', element: <BVOC /> },
       { path: '/MBA', element: <MBA /> },
       { path: '/MCA', element: <MCA /> },
-      { path: '/Commite', element: <Commite/>},
-      { path: '/Discipline', element: <Discipline/>},
-      {path: '/Ragging', element: <Ragging/>},
-      {path:'/Procedure', element:<Procedure/>},
-      { path:"/agrement", element:<Agrements/>},
-      { path:"/corporate" , element:<Corporate/>},
-      { path:"/srcem" , element:<Srcem/>},
-      { path:"/sports" , element:<Sports/>},
-      { path:"/welfair" , element:<Welfair/>},
+      { path: '/Commite', element: <Commite /> },
+      { path: '/Discipline', element: <Discipline /> },
+      { path: '/Ragging', element: <Ragging /> },
+      { path: '/Procedure', element: <Procedure /> },
+      { path: "/agrement", element: <Agrements /> },
+      { path: "/corporate", element: <Corporate /> },
+      { path: "/srcem", element: <Srcem /> },
+      { path: "/sports", element: <Sports /> },
+      { path: "/welfair", element: <Welfair /> },
       { path: '/', element: <IntroPag /> },
-      { path:'/Founder', element:<Founder/>},
+      { path: '/Founder', element: <Founder /> },
       { path: '/Principal', element: <Principal /> },
       { path: '/Smart', element: <Smart /> },
       { path: '/Hostel', element: <Hostel /> },
       { path: '/Auditorium', element: <Auditorium /> },
-      { path: '/Library', element: <Library/>},
-      {path: '/Transport', element:<Transport/> },
+      { path: '/Library', element: <Library /> },
+      { path: '/Transport', element: <Transport /> },
       { path: '/Medical', element: <Medical /> },
-      { path: '/Physics', element: <Physics  /> },
-      { path: '/Mechanics', element: <Mechanics/> },
-      { path: '/Electrical', element: <Electrical/> },
+      { path: '/Physics', element: <Physics /> },
+      { path: '/Mechanics', element: <Mechanics /> },
+      { path: '/Electrical', element: <Electrical /> },
       { path: '/Computer', element: <Computer /> },
       { path: '/Civil_Lab', element: <Civil_Lab /> },
       { path: '/Chemistry', element: <Chemistry /> },
-      { path: '/Bmlt', element: <Bmlt/>},
+      { path: '/Bmlt', element: <Bmlt /> },
       { path: '/Mandatory', element: <Mandatory /> },
       { path: '/Mission', element: <Mission /> },
       { path: '/contact', element: <Contact /> },
-      
+
     ],
   },
 ]);

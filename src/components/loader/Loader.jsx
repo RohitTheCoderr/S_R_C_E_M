@@ -6,7 +6,7 @@ import { Bars,Blocks,Triangle ,Comment,MagnifyingGlass,DNA} from 'react-loader-s
 export default function Loader() {
     const { loading } = useLoaderStore()
     return loading ?
-        <div className="h-screen w-screen fixed flex justify-center items-center backdrop-blur-sm">
+        <div className="h-screen w-screen bg-black fixed flex justify-center items-center backdrop-blur-sm">
 
             {/* <CubeSpinner /> */}
             {/* <ClassicSpinner/> */}
@@ -19,11 +19,11 @@ export default function Loader() {
           
             {/* <Blocks height="80" width="80" color="#4fa94d" ariaLabel="blocks-loading" wrapperStyle={{}} wrapperClass="blocks-wrapper" visible={true}/> */}
 
-            {/* <Triangle  visible={true} height="80"  width="80"  color="#4fa94d"  ariaLabel="triangle-loading" wrapperStyle={{}} rapperClass=""  /> */}
+            <Triangle  visible={true} height="80"  width="80"  color="#4fa94d"  ariaLabel="triangle-loading" wrapperStyle={{}} rapperClass=""  />
 
             {/* <Comment visible={true}  height="80"  width="80"  ariaLabel="comment-loading   wrapperStyle   wrapperClass="comment-wrapper"  color="#fff   backgroundColor="#F4442E"/> */}
 
-            <DNA visible={true} height="120"  width="120"  ariaLabel="dna-loading"  wrapperStyle={{}}  wrapperClass="dna-wrapper"/>
+            {/* <DNA visible={true} height="120"  width="120"  ariaLabel="dna-loading"  wrapperStyle={{}}  wrapperClass="dna-wrapper"/> */}
 
             {/* <MagnifyingGlass visible={true} height="80" width="80" ariaLabel="magnifying-glass-loading" wrapperStyle={{}} wrapperClass="magnifying-glass-wrapper" glassColor="#c0efff" color="#e15b64"/> */}
 
