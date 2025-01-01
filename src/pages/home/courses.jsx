@@ -17,13 +17,13 @@ const Courses = () => {
     ];
 
     return (
-        <div className=" w-[90%] m-auto flex flex-wrap items-center justify-center my-[2rem]">
+        <div className=" w-[90%] m-auto flex flex-wrap items-center justify-center my-[1rem]">
             <div className="flex gap-5 items-center">
                 <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-[#071952] font-sans font-semibold uppercase">COURSES</h1>
                 <div className="h-[3px] w-[4rem] bg-[#088395] "></div>
             </div>
-            <div className="flex flex-wrap gap-8 justify-center xl:mt-12 lg:mt-6 md:mt-4 mt-4">
+            <div className="flex flex-wrap gap-8 justify-center xl:mt-8 lg:mt-6 md:mt-4 mt-4">
                 {courses.map((course, index) => (
                     <CourseCard
                         key={index}

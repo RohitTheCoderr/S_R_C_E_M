@@ -38,7 +38,7 @@ const Navbar = () => {
             <ul
                 ref={menuRef}
                 className={`${isMenuOpen ? "block relative" : "hidden"
-                    } bg-slate-50 text-start sm:flex flex-col px-2 sm:flex-row sm:items-center flex sm:justify-between md:justify-around lg:justify-center h-auto sm:h-[3.5rem] mt-[-0.5px] sm:mt-1 md:gap-3 lg:gap-5 text-[10px] sm:text-[12px] md:text-[15px] lg:text-[16px] font-medium `}
+                    } bg-transparent text-start sm:flex flex-col px-2 sm:flex-row sm:items-center flex sm:justify-between md:justify-around lg:justify-center h-auto sm:h-[3.5rem] mt-[-0.5px] sm:mt-1 md:gap-3 lg:gap-5 text-[10px] sm:text-[12px] md:text-[15px] lg:text-[16px] font-medium `}
             >
                 {/* Home */}
                 <NavLink

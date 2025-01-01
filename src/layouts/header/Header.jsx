@@ -16,8 +16,8 @@ const Header = ({ img }) => {
   };
   return (
     <>
-      <div className="h-[7rem] sm:h-[8rem] py-5 shadow-lg bg-slate-50">
-        <div className="w-full text-center sm:flex justify-between items-center px-2 sm:px-4 lg:px-10">
+      <div className="h-[7rem] sm:h-[8rem] xl:h-[6rem] py-5 shadow-lg bg-slate-50">
+        <div className="w-full text-center sm:flex justify-between items-center px-2 sm:px-4 lg:px-10 xl:absolute">
           <div className=" relative  sm:pt-0 h-auto w-[15rem] flex justify-center items-center cursor-pointer">
             <Link to="/"><img
               src={img || "/images/SRCEM logo.png"}
@@ -55,7 +55,7 @@ const Header = ({ img }) => {
             )}
           </div>
         </div>
-        <Navbar />
+        <Navbar/>
       </div>
     </>
   );

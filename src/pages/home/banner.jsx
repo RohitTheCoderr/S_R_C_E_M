@@ -33,7 +33,7 @@ const cardData = [
 
 const Card = ({ id, title, description, image }) => (
   <div
-    className={"bg-gradient-to-br group from-[#071952] to-[#37b7c3] h-64 w-64 rounded-3xl p-3 hover:shadow-2xl hover:scale-105 transform transition-all duration-300 ease-in-out"}
+    className={"bg-gradient-to-br group from-[#071952] to-[#37b7c3] sm:h-64 sm:w-64 rounded-3xl p-3 hover:shadow-2xl hover:scale-105 transform transition-all duration-300 ease-in-out"}
   >
     <div className="flex justify-between items-center">
       <img
@@ -59,7 +59,7 @@ const Card = ({ id, title, description, image }) => (
 const Banner = () => {
   return (
     <div className="relative  w-[90%] m-auto mt-[2rem] md:mt-[-4rem] z-50">
-      <div className=" flex flex-wrap gap-8 justify-around ">
+      <div className=" flex flex-wrap gap-4 sm:gap-8 justify-around ">
         {cardData.map((card) => (
           <Card key={card.id} {...card} />
         ))}

@@ -16,13 +16,14 @@ function IntroPage() {
           <span className="bg-[#088395] rounded-md px-2 shadow-md shadow-black">Future</span>
           &nbsp;Today!
         </p>
-        <div className=" bg-black px-4 py-2  bg-opacity-40 w-full">
-          <p className="scrolling-text ">
-          <span className="text-xl md:text-3xl lg:text-4xl font-semibold  ">
-            SHRI RAM COLLEGE OF ENGINEERING & MANAGEMENT
-          </span>
+        <div className="bg-black py-0 sm:py-1 lg:px-4 lg:py-2 bg-opacity-40 w-full overflow-hidden">
+          <p className="scrolling-text whitespace-nowrap overflow-x-auto">
+            <span className="text-lg sm:text-xl md:text-3xl lg:text-4xl font-semibold block text-center lg:text-left">
+              SHRI RAM COLLEGE OF ENGINEERING & MANAGEMENT
+            </span>
           </p>
-          </div>
+        </div>
+
       </div>
     </div>
 
