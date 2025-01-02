@@ -1,49 +1,75 @@
-import React from "react"
-import scholarshipimg from "../../../public/images/Homepage/scholarship.svg"
-import teacherimg from "../../../public/images/Homepage/teacher.svg"
-import libraryimg from "../../../public/images/Homepage/library.svg"
-import moneyimg from "../../../public/images/Homepage/money.svg"
-const Banner = ()=>{
-    return(
-        <div className="relative mt-[-4rem] z-50">
-            <div className=" lg:px-24 md:px-12 px-6  rounded-2xl flex flex-wrap lg:mx-16 md:mx-8 mx-4 justify-evenly lg:my-0 md:my-20 my-16  ">
-                <div className="bg-[#088395] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1 shadow-md shadow-black lg:my-2 md:my-2 my-4 border-b-8 border-[#071952]">
-                    <div className="flex justify-between">
-                        <img src={scholarshipimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10 mix-blend-plus-lighter "/>
-                        <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">01</h1>
-                    </div>
-                    <h2 className="mt-3 lg:text-2xl font-semibold text-white">Scholarship Facility</h2>
-                    <p className="mt-3 lg:text-[16px] font-semibold text-[#9ecdd7]">Explore our scholarship options avaliable at the college to help you achieve your academic goals!.</p>
-                </div>
-                <div className="bg-[#088395] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4 border-b-8 border-[#071952] ">
-                    <div className="flex justify-between">
-                        <img src={teacherimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10 mix-blend-plus-lighter  "/>
-                        <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">02</h1>
-                    </div>
-                    <h2 className="mt-3 lg:text-2xl font-semibold text-white">Skilled Lecturers</h2>
-                    <p className="mt-3 lg:text-[16px] font-semibold text-[#9ecdd7]">State-of-the-art laboratory with latest equipment to pool the bridge between industry and curriculum</p>
-                </div>
-                <div className="bg-[#088395] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4 border-b-8 border-[#071952]">
-                    <div className="flex justify-between">
-                        <img src={libraryimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10  mix-blend-plus-lighter"/>
-                        <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">03</h1>
-                    </div>
-                    <h2 className="mt-3 lg:text-2xl font-semibold text-white">Beti Bachao&Padhao</h2>
-                    <p className="mt-3 lg:text-[16px] font-semibold text-[#9ecdd7]">Special scholarship for girls to success the vision &quot;Beti Bachao, Beti Padhao&quot; of Honorable PM Mr. Narender Modi.</p>
-                </div>
-                <div className="bg-[#088395] h-64 w-64 rounded-3xl lg:p-3 md:p-2 p-1  shadow-md shadow-black lg:my-2 md:my-2 my-4 border-b-8 border-[#071952]">
-                    <div className="flex justify-between">
-                        <img src={moneyimg} alt="scholarshipimg" className="lg:h-16 lg:w-16 md:h-13 md:w-13 h-10 mix-blend-plus-lighter "/>
-                        <h1 className="lg:text-6xl md:text-4xl text-2xl text-white  ">04</h1>
-                    </div>
-                    <h2 className="mt-3 lg:text-2xl font-semibold text-white">Affordable Price</h2>
-                    <p className="mt-3 lg:text-[16px] font-semibold text-[#9ecdd7]">Well stocked library with more than 30,239 volumes of text books/jourals/e-journals and magazines</p>
-                </div>
-                
-            </div>
-            
-        </div>
-    )
-}
+import React from "react";
+import scholarshipimg from "../../../public/images/Homepage/scholarship.svg";
+import teacherimg from "../../../public/images/Homepage/teacher.svg";
+import libraryimg from "../../../public/images/Homepage/library.svg";
+import moneyimg from "../../../public/images/Homepage/money.svg";
+
+const cardData = [
+  {
+    id: "01",
+    title: "Scholarship Facility",
+    description: "Explore our scholarship options available at the college to help you achieve your academic goals!",
+    image: scholarshipimg,
+   
+  },
+  {
+    id: "02",
+    title: "Skilled Lecturers",
+    description: "State-of-the-art laboratory with latest equipment to pool the bridge between industry and curriculum",
+    image: teacherimg,
+  
+  },
+  {
+    id: "03",
+    title: "Beti Bachao & Padhao",
+    description: "Special scholarship for girls to realize the vision of 'Beti Bachao, Beti Padhao' by Honorable PM Mr. Narendra Modi.",
+    image: libraryimg,
+  
+  },
+  {
+    id: "04",
+    title: "Affordable Price",
+    description: "Well-stocked library with more than 30,239 volumes of textbooks/journals/e-journals and magazines.",
+    image: moneyimg,
+    
+  },
+];
+
+const Card = ({ id, title, description, image }) => (
+  <div
+    className={"bg-gradient-to-br from-[#071952] to-[#37b7c3] h-64 w-64 rounded-3xl p-3 hover:shadow-2xl hover:scale-105 transform transition-all duration-300 ease-in-out"}
+  >
+    <div className="flex justify-between items-center">
+      <img
+        src={image}
+        alt={title}
+        className="h-12 w-12 lg:h-20 lg:w-20 md:h-16 md:w-16 rounded-full bg-white p-1 shadow-md"
+      />
+      <h1 className="text-5xl lg:text-6xl font-bold text-white">
+        {id}
+      </h1>
+    </div>
+    <div className="mt-4">
+      <h2 className="text-xl lg:text-2xl font-bold text-white truncate">
+        {title}
+      </h2>
+      <p className="mt-2 text-sm text-[#d6eff9] leading-normal">
+        {description}
+      </p>
+    </div>
+  </div>
+);
+
+const Banner = () => {
+  return (
+    <div className="relative  w-[90%] m-auto mt-[2rem] md:mt-[-4rem] z-50">
+      <div className=" flex flex-wrap gap-8 justify-around ">
+        {cardData.map((card) => (
+          <Card key={card.id} {...card} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
 export default Banner;

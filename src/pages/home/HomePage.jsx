@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import Banner from "./banner"
 import Courses from "./courses"
 import EnquirySection from "./enquiry"
@@ -10,15 +10,15 @@ import RecruiterSection from "./recruiters"
 const HomePage = () => {
   return (
     <div className="w-full ">
-      <IntroPage /> 
+      <IntroPage />
       <Banner />
       <HomepageAbout />
       <Courses />
-      <EnquirySection />
       <Founders />
       <RecruiterSection />
+      <EnquirySection />
     </div>
   )
 }
 
-export default HomePage
+export default HomePage;

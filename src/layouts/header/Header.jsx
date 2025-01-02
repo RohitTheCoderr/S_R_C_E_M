@@ -1,6 +1,6 @@
+import React, { useRef, useState } from "react";
 import Navbar from "../navbar/Navbar";
 import { Link, NavLink } from "react-router-dom";
-import React, { useRef, useState } from "react";
 import { FaSearch } from "react-icons/fa";
 const Header = ({ img }) => {
 
@@ -18,7 +18,7 @@ const Header = ({ img }) => {
     <>
       <div className="h-[7rem] sm:h-[8rem] py-5 shadow-lg bg-slate-50">
         <div className="w-full text-center sm:flex justify-between items-center px-2 sm:px-4 lg:px-10">
-          <div className=" relative  sm:pt-0 h-auto w-[15rem] flex justify-center items-center cursor-pointer">
+          <div className="relative  sm:pt-0 h-auto w-[15rem] flex justify-center items-center cursor-pointer">
             <Link to="/"><img
               src={img || "/images/SRCEM logo.png"}
               alt="Logo"

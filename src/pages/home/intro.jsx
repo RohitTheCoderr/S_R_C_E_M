@@ -1,41 +1,28 @@
-
 import React from "react";
-import schoolimg1 from "../../../public/images/Homepage/college3.jpg";
-import schoolimgcover from "../../../public/images/Homepage/schoolimgcover.png";
-
 
 function IntroPage() {
   return (
-    <div>
-      <div className="h-[36rem] relative bg-gray-600">
-        <img src={schoolimg1} alt="schoolimg1" className="w-full h-full z-0" />
-        <img
-          src={schoolimgcover}
-          alt="schoolimgcover"
-          className="w-full h-full z-10 relative -top-[36rem] opacity-30"
-        />
-        <p className="text-white z-20 lg:text-6xl md:text-4xl text-2xl font-mono flex justify-center relative -top-[64rem]">
-          Find Your&nbsp;
-          <span className="bg-[#088395] rounded-md px-2 border-b-2 border-[#071952]">Future</span>
-          &nbsp;Today!
+    <div className="w-screen relative bg-gray-600 font-sans">
+    {/* Background Image */}
+    <img src="images/Homepage/schoolimg1.png" alt="Background" className="w-full h-full object-cover" />
+    
+    {/* Overlay */}
+    <div className="absolute inset-0 bg-black bg-opacity-30"></div>
+    
+    {/* Content */}
+    <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white space-y-8">
+        <p className="mt-2 text-xl md:text-4xl lg:text-6xl">
+            Find Your&nbsp;
+            <span className="bg-[#088395] rounded-md px-2 shadow-md shadow-black">Future</span>
+            &nbsp;Today!
         </p>
-        <span className="text-white  z-20 lg:text-4xl md:text-3xl text-2xl font-semibold flex justify-center relative -top-[62rem] bg-opacity-40 bg-black">
-          SHRIRAM COLLEGE OF ENGINEERING & MANAGEMENT
+        <span className="text-xl md:text-3xl lg:text-4xl font-semibold bg-black bg-opacity-40 px-4 py-2 w-screen">
+            SHRI RAM COLLEGE OF ENGINEERING & MANAGEMENT
         </span>
-        {/* <div className="bg-gray-300 text-[#071952] lg:h-16 md:h-13 h-10 lg:w-[30rem] md:w-[24rem] w-[16rem] z-30 relative m-auto -top-[59rem] rounded-xl flex text-center ">
-          <h3 className="m-auto text-center lg:text-[1.6rem] md:text-[1.2rem] text-[0.9rem] font-semibold font-mono left-6 flex xl:py-3 lg:py-2 md:py-2 py-2">
-            Contact For Your Enrollment &nbsp;
-            <div className="bg-[#088395] lg:h-12 md:h-10 h-6 lg:w-12 md:w-10 w-6 rounded-full flex items-center relative xl:bottom-1">
-              <img
-                src={forwardArrow}
-                className="lg:h-7 md:h-5 h-3 lg:w-7 md:w-5 w-3 m-auto items-center "
-              />
-            </div>
-          </h3>
-        </div> */}
-      </div>
-      
     </div>
+</div>
+
+      
   );
 }
 

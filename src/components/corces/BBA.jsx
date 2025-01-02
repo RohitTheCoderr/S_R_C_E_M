@@ -31,14 +31,14 @@ const BBA = () => {
                     prepare them for a dynamic, globalized environment. A key component of the BBA program is its focus on personality
                     development, facilitated through regular lectures by professional development trainers.
                 </p>
-                <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Program Overview</h1>
+                <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Program Overview</h1>
                 <p className="text-zinc-600 text-sm md:text-base lg:text-lg">
                     Our BBA program equips students with critical management techniques, effective communication skills, and strategic
                     decision-making abilities. The curriculum is thoughtfully structured to cover a wide range of business functions, ensuring
                     a comprehensive understanding of how different business components interact and contribute to organizational success.
                 </p>
                 <div className="flex flex-wrap gap-2 my-2">
-                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
+                    <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-4 font-mono">Approved University : J.C. Bose University of Science and Technology</h1>
                     <img src="cources/JC bose icon.png" alt="JC bose icon" className="h-24 md:h-32 lg:h-10" />
                 </div>
                 <h1 className="text-[#088395] text-xl md:text-2xl font-medium my-3 font-mono">Curriculum Highlights</h1>
