@@ -1,6 +1,7 @@
 import React from "react";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { BsTelephoneFill } from "react-icons/bs";
+import { FaMobileAlt } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 import { FaLocationDot, FaLocationPin, FaLocationPinLock } from "react-icons/fa6";
 import {MessageFormValidation} from "../../services/lib/FormikYup/index"
@@ -41,7 +42,7 @@ function Contact() {
                             <div className="h-auto w-[80%] m-auto sm:w-[70%] md:w-[30rem] sm:px-2 ">
                                 <h1 className=" text-[1rem] sm:text-[1.5rem] md:text-2xl lg:text-2xl text-[#071952] pt-5  font-semibold uppercase">Campus</h1>
                                 <div className="w-auto flex jusctify-center my-4 gap-4 ">
-                                    <BsTelephoneFill className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
+                                    <FaMobileAlt className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
                                     <span className="text-white text-[14px] sm:text-[18px] ">01275-298198/199 +91-9355249401,02,03,04</span>
                                 </div>
 
@@ -58,7 +59,7 @@ function Contact() {
                             <div className="h-auto w-[80%] m-auto sm:w-[70%] md:w-[30rem] sm:px-2">
                                 <h1 className=" text-[1rem] sm:text-[1.5rem] md:text-2xl lg:text-2xl text-[#071952] pt-5  font-semibold uppercase">Head Office</h1>
                                 <div className=" w-auto flex jusctify-center my-4 gap-4 ">
-                                    <BsTelephoneFill className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
+                                    <FaMobileAlt className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
                                     <span className="text-white text-[14px] sm:text-[18px] ">0129-2220808,+91-9355249401</span>
                                 </div>
 
