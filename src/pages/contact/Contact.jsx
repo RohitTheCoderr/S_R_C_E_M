@@ -2,7 +2,7 @@ import React from "react";
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { BsTelephoneFill } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot, FaLocationPin, FaLocationPinLock } from "react-icons/fa6";
 import {MessageFormValidation} from "../../services/lib/FormikYup/index"
 import axios from 'axios';
 import { toast } from 'react-toastify';
@@ -36,45 +36,45 @@ function Contact() {
 
                 <div className="h-auto w-full z-30 relative pt-8 ">
                     <div className="h-auto w-auto m-auto flex justify-around flex-wrap-reverse gap-4 ">
-                        <div className="h-auto bg-white/5 backdrop-blur-lg py-2">
-                            <div><h1 className="text-white text-[1rem] sm:text-xl md:text-2xl lg:text-[2rem] xl:text-[2.2rem]  tracking-[0.18rem] sm:tracking-[0.25rem] lg:tracking-[0.3rem] xl:tracking-[0.4rem] font-semibold text-center underline capitalize">Contact information</h1></div>
+                        <div className="h-auto bg-white/5 backdrop-blur-lg rounded-lg py-2">
+                            <div><h1 className="text-white text-[1rem] sm:text-xl md:text-2xl lg:text-[2rem] xl:text-[2.2rem] tracking-[0.18rem] sm:tracking-[0.25rem] lg:tracking-[0.3rem] xl:tracking-[0.4rem] font-semibold text-center underline capitalize">Contact information</h1></div>
                             <div className="h-auto w-[80%] m-auto sm:w-[70%] md:w-[30rem] sm:px-2 ">
-                                <h1 className=" text-[1rem] sm:text-[1.5rem] md:text-2xl lg:text-2xl text-[#088395] pt-5  font-semibold uppercase">Campus</h1>
-                                <div className="w-auto flex jusctify-center my-4">
+                                <h1 className=" text-[1rem] sm:text-[1.5rem] md:text-2xl lg:text-2xl text-[#071952] pt-5  font-semibold uppercase">Campus</h1>
+                                <div className="w-auto flex jusctify-center my-4 gap-4 ">
                                     <BsTelephoneFill className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
-                                    <span className="text-white text-[14px] sm:text-[18px] pl-4">01275-298198/199 +91-9355249401,02,03,04</span>
+                                    <span className="text-white text-[14px] sm:text-[18px] ">01275-298198/199 +91-9355249401,02,03,04</span>
                                 </div>
 
-                                <div className="w-auto flex jusctify-center my-4">
+                                <div className="w-auto flex jusctify-center my-4 gap-4 ">
                                     <AiOutlineMail className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
-                                    <span className="text-white text-[14px] sm:text-[18px] pl-4">info@srcem.ac.in</span>
+                                    <span className="text-white text-[14px] sm:text-[18px] ">info@srcem.ac.in</span>
                                 </div>
 
-                                <div className="w-auto flex jusctify-center my-4">
-                                    <FaLocationDot className="text-[18px] sm:text-xl text-white" />
-                                    <span className="text-white text-[14px] sm:text-[18px]  pl-4">70KM. Stone, Main Delhi-Mathura Road,NH-19 (Formerly Known as NH-2), Palwal, Faridabad, HR (India)</span>
+                                <div className="w-auto h-auto flex jusctify-center gap-4 my-4">
+                                    <span><FaLocationDot className=" text-[18px] sm:text-2xl text-white" /></span>
+                                    <span className="text-white text-[14px] sm:text-[18px] ">70KM. Stone, Main Delhi-Mathura Road,NH-19 (Formerly Known as NH-2), Palwal, Faridabad, HR (India)</span>
                                 </div>
                             </div>
                             <div className="h-auto w-[80%] m-auto sm:w-[70%] md:w-[30rem] sm:px-2">
-                                <h1 className=" text-[1rem] sm:text-[1.5rem] md:text-2xl lg:text-2xl text-[#088395] pt-5  font-semibold uppercase">Head Office</h1>
-                                <div className=" w-auto flex jusctify-center my-4">
+                                <h1 className=" text-[1rem] sm:text-[1.5rem] md:text-2xl lg:text-2xl text-[#071952] pt-5  font-semibold uppercase">Head Office</h1>
+                                <div className=" w-auto flex jusctify-center my-4 gap-4 ">
                                     <BsTelephoneFill className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
-                                    <span className="text-white text-[14px] sm:text-[18px] pl-4">0129-2220808,+91-9355249401</span>
+                                    <span className="text-white text-[14px] sm:text-[18px] ">0129-2220808,+91-9355249401</span>
                                 </div>
 
-                                <div className=" w-auto flex jusctify-center my-4">
+                                <div className=" w-auto flex jusctify-center my-4 gap-4 ">
                                     <AiOutlineMail className="text-[15px] sm:text-[19px] md:text-[22px] lg:text-[24px] xl:text-[26px] text-white" />
-                                    <span className="text-white text-[14px] sm:text-[18px] pl-4">admission@srcem.ac.in</span>
+                                    <span className="text-white text-[14px] sm:text-[18px] ">admission@srcem.ac.in</span>
                                 </div>
 
-                                <div className=" w-auto flex jusctify-center my-4">
-                                    <FaLocationDot className="text-[18px] sm:text-xl text-white" />
-                                    <span className="text-white text-[14px] sm:text-[18px]  pl-4">SCF-30P,Part-1 Market,Sector-16A,Faridabad-121002(Delhi-NCR) Haryana </span>
+                                <div className=" w-auto flex jusctify-center my-4 gap-4 ">
+                                <span><FaLocationDot className=" text-[18px] sm:text-2xl text-white" /></span>
+                                    <span className="text-white text-[14px] sm:text-[18px] ">SCF-30P,Part-1 Market,Sector-16A,Faridabad-121002(Delhi-NCR) Haryana </span>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="h-auto w-[28rem] flex flex-col items-center bg-white/5 backdrop-blur-lg py-2 ">
+                        <div className="h-auto w-[28rem] flex flex-col items-center bg-white/5 backdrop-blur-lg rounded-lg py-2 ">
                             <h1 className="text-white text-[1rem] sm:text-xl md:text-2xl lg:text-[2rem] xl:text-[2.2rem]  tracking-[0.18rem] sm:tracking-[0.25rem] lg:tracking-[0.3rem] xl:tracking-[0.4rem] font-semibold underline capitalize">get in touch</h1>
                             <Formik
                                 initialValues={MessageFormValidation.initialValues}
